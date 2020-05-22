@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<meta name="robots" content="noindex, nofollow">
+<title>{$lang.title}</title>
+<link rel="shortcut icon" href="../favicon.ico" />
+<link rel="icon" href="../animated_favicon.gif" type="image/gif" />
+
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/layoutit.css" />
+<link rel="stylesheet" type="text/css" href="css/layer.css" />
+<link rel="stylesheet" type="text/css" href="css/dsc_visual.css" />
+<link rel="stylesheet" type="text/css" href="css/color.css" />
+<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="css/purebox.css" />
+<link rel="stylesheet" type="text/css" href="../js/spectrum-master/spectrum.css" />
+<link rel="stylesheet" type="text/css" href="../js/perfect-scrollbar/perfect-scrollbar.min.css" />
+{insert_scripts files="../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.nyroModal.js,../js/plupload.full.min.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.form.js,../js/lib_ecmobanFunc.js,../js/visualization.js,../js/jquery.cookie.js,../js/spectrum-master/spectrum.js,../js/jquery-ui/jquery-ui.min.js,common.js,layer.js"}
+<script type="text/javascript">
+/*这里把JS用到的所有语言都赋值到这里*/
+{foreach from=$lang.js_languages key=key item=item}
+var {$key} = "{$item}";
+{/foreach}
+</script>
+</head>
+<body class="visible">
+	<div class="design-nav-wrap fixed">
+        <div class="btns">
+            <a href="javascript:void(0);" class="btn btn_blue" ectype="downloadModal">{$lang.confirmation_release}</a>
+            <a href="javascript:void(0);" class="btn" ectype="back" {if $is_temp eq 0}style="display:none"{/if}>{$lang.restore}</a>
+            <a href="javascript:void(0);" class="btn" ectype="preview">{$lang.preview}</a>
+            <a href="javascript:void(0);" class="btn" ectype="restore">{$lang.restore_default}</a>
+        </div>
+    </div>
+	<div class="article-index" ectype="visualShell">
+        {if $pc_page}
+        {$pc_page}
+        {else}
+        <div class="demo ui-sortable">
+
+        </div>
+        {/if}
+    </div>
+    <input type="hidden" name="suffix" value="">
+    <div id="preview-layout"></div>
+    {insert_scripts files="jquery.purebox.js,../js/jquery.picTip.js"}
+    <script type="text/javascript">
+    $.divselect("#cat_id","#cat_id_val",function(obj){
+        var val = obj.attr("data-value");
+        var level = obj.parents(".imitate_select").attr("data-level");
+        var cat_name = obj.html();
+        $("input[name='articat_id']").val(val);
+        $("input[name='cat_name']").val(cat_name);
+        get_childCat(val,level,obj);
+    });
+    
+	//获取下级分类
+    function get_childCat(val,level,obj){
+        Ajax.call('get_ajax_content.php?is_ajax=1&act=get_childcat', "cat_id="+val+"&level="+level, function(data){
+			obj.parents('.fl').find('.imitate_select').each(function(){
+				var old_level = $(this).attr('data-level');
+				if(old_level > data.level || old_level == data.level){
+					$(this).remove();
+				}
+			});
+			obj.parents('.fl').append(data.content);
+        } , 'POST', 'JSON');
+    }
+    
+	//添加分类
+    $(document).on("click","*[ectype='add_cat']",function(){
+        var html = '',
+            cat_name = $("input[name='cat_name']").val(),
+            cat_id = $("input[name='articat_id']").val();
+			
+		//判断是否选择文章分类
+		if(cat_id > 0 && cat_name){
+			var Identi = 0;
+			var i = 0;
+			$("#addpictable").find("tbody").find('tr').each(function(){
+				var check_cat = $(this).find('input[name="cat_idsign[]"]').val();
+				if(check_cat == cat_id){
+					Identi = 1;
+				};
+				i ++;
+			})
+			if(Identi == 0){
+				html = "<tr><td>" + cat_name + "<input type='hidden' name='cat_idsign[]' value='"+cat_id+"'></td><td><div ectype='atr_id_list'></div></td><td class='tc'><input type='text' value='50' name='sort[" + cat_id + "]' class='form-control small'></td><td class='tc'><a href='javascript:void(0);' class='btn30 sc-btn blue_btn mr10' ectype='getcat_atr' data-id='" + cat_id + "'>选择文章</a><a href='javascript:;' class='btn30 sc-btn blue_btn' ectype='cat_del'>删除</a></td></tr>";
+				
+				if($("#addpictable").find(".notic").length>0){
+					$("#addpictable").find(".notic").remove();
+				}
+				
+				$("#addpictable").find("tbody").prepend(html);
+			}else{
+				alert(not_repeat_select_cat);
+			}
+		}else{
+			alert(select_cat);
+		}
+    });
+	
+    //删除文章分类
+    $(document).on("click","*[ectype='cat_del']",function(){
+        var tbody = $(this).parents("tbody"),
+			tr_length = tbody.find("tr").length;
+		
+		$(this).parents('tr').remove();
+
+		if(tr_length == 1){
+			tbody.html("<tr class='notic'><td colspan='4'>"+td_article_cat_notic+"</td></tr>");
+		}
+    });
+    
+	//选择分类下的文章
+    $(document).on("click","*[ectype='getcat_atr']",function(){
+        var _this = $(this);
+        var cat_id = _this.attr('data-id');
+        var old_article = _this.parents('tr').find('[ectype="atr_id_list"]').find("[ectype='article_id']").val();
+        var def_article = _this.parents('tr').find('[ectype="atr_id_list"]').find("[ectype='def_article_id']").val();
+        if(typeof old_article == 'undefined'){
+            old_article = '';
+        }
+        Ajax.call('get_ajax_content.php?is_ajax=1&act=getcat_atr', "cat_id=" + cat_id + "&old_article=" + old_article + "&def_article=" + def_article, function(data){
+			var content = data.content;
+			pb({
+				id:"getcat_atr",
+				title:select_article,
+				width:950,
+				content:content,
+				ok_title:"{$lang.button_submit_alt}",
+				cl_title:"{$lang.cancel}",
+				drag:true,
+				foot:true,
+				onOk:function(){
+					var article_ids = $("#getcat_atr").find("input[name='select_article_ids']").val();
+                    var def_article =  $("#getcat_atr").find("input[name='def_article']").val();
+					_this.parents('tr').find('[ectype="atr_id_list"]').html(article_ids + "<input ectype='article_id' name='article_id[" + cat_id + "]' value='" + article_ids + "' type='hidden'><input ectype='def_article_id' name='def_article_id[" + cat_id + "]' value='" + def_article + "' type='hidden'>");
+				}
+			});
+        } , 'POST', 'JSON');
+    })
+    //选择文章
+	function addatr(article_id , obj){
+		var obj = $(obj);
+		var arr = '';
+		var article_ids = $("input[name='select_article_ids']").val();
+		var good_number = "5";
+		var verinumber = true;
+		 var  def_article = $("input[name='def_article']").val();
+		if(obj.hasClass("on")){
+			obj.removeClass("on");
+			obj.html('<i class="iconfont icon-dsc-plus"></i>'+js_select);
+			arr = article_ids.split(',');
+			for(var i =0;i<arr.length;i++){
+				if(arr[i] == article_id){
+					arr.splice(i,1);
+				}
+			}
+			//取消的文章是主推文章的话 重置主推文章
+			if(article_id == def_article){
+				$("input[name='def_article']").val('');
+			   obj.parents('tr').find('img').attr("src","images/no.gif");
+			}
+			obj.parents('tr').find('img').hide();
+		}else{
+			if(good_number > 0){
+				arr = article_ids.split(',');
+				if(arr.length >= good_number){
+					alert(visual_article_one + good_number + visual_article_two);
+					verinumber = false;
+				}
+			}
+			if(verinumber){
+				$(obj).addClass('on');
+				$(obj).html('<i class="iconfont icon-gou"></i>'+js_selected);
+				if(article_ids){
+					arr = article_ids + ','+article_id;
+				}else{
+					arr = article_id;
+				}
+                obj.parents('tr').find('img').show();
+			}
+		}
+		if(verinumber){
+			$("input[name='select_article_ids']").val(arr);
+		}    
+	}
+	
+	//添加分类
+    $(document).on("click","*[ectype='get_cat_article']",function(type){
+        get_cat_article(0);
+    });
+	
+    function get_cat_article(type,click_type){
+        var cat_id = $("#on_cat_id").val(),
+            article_ids = $("input[name='select_article_ids']").val(),
+            def_article = $("input[name='def_article']").val(),
+            inid = 'atr_list';
+            
+		if(type == 1 && click_type == 1){
+			cat_id = 0;
+		}
+		
+	    $.jqueryAjax("get_ajax_content.php", 'act=getcat_atr&cat_id=' + cat_id + "&page=1&old_article=" + article_ids + "&type=" + type + "&def_article=" + def_article, function(data){
+			$("[ectype='"+inid+"']").html(data.content);
+			$("[ectype='"+inid+"'],[ectype='"+inid+"'] .ps_table").perfectScrollbar("destroy");
+			$("[ectype='"+inid+"'],[ectype='"+inid+"'] .ps_table").perfectScrollbar();
+		});
+    }
+	
+    function checkd_article(obj){
+		var obj = $(obj);
+		var is_selected =$("input[name='arti_selected']").is(':checked');
+		var type = 0;
+		if(is_selected == true){
+			type = 1;
+		}
+		get_cat_article(type);
+	}
+		
+	//设置主推文章
+	$(document).on("click","*[ectype='def_article']",function(){
+		var _this = $(this);
+		var article_id = _this.attr('data-id');
+		var def_article = $('input[name="def_article"]').val();
+		if(def_article != article_id){
+			$(this).parents('tbody').find('tr img').each(function(){
+				var id = $(this).attr('data-id');
+				if(id != article_id){
+					$(this).attr('src','images/no.gif');
+				}
+			});
+			_this.attr('src','images/yes.gif');
+			$('input[name="def_article"]').val(article_id);
+		}
+	});
+	
+	//恢复默认设置
+	$(document).on("click","*[ectype='restore']",function(){
+        if(confirm(visual_article_confirm_one)){
+            $.jqueryAjax("visualnews.php", 'act=restore', function(data){
+				alert(visual_article_confirm_two);
+				location.reload();
+			});
+        }
+    });
+</script>
+</body>
+</html>
