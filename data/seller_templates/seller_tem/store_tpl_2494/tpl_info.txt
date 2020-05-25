@@ -1,0 +1,8 @@
+------tpl_info------------
+tpl name：加布里埃尔设计商家店铺模板NO.5
+tpl url：
+description：深色，唯美，壁纸店铺模板
+version：v1.0
+author：加布里埃尔
+author url：
+------tpl_info------------

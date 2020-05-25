@@ -1,0 +1,8 @@
+------tpl_info------------
+tpl name：欧莱雅模板
+tpl url：../data/seller_templates/seller_tem_1/backup_tpl_65454/screenshot.
+description：欧莱雅模板
+version：v1.0
+author：加布里埃尔
+author url：
+------tpl_info------------

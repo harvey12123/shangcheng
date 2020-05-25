@@ -1,0 +1,29 @@
+执行日期：2020-05-15 14:18:43
+==================== cron log ====================
+执行日期：2020-05-15 14:18:43
+array (
+  0 => 
+  array (
+    'order_id' => '29',
+    'order_sn' => '2020040912464310000',
+    'order_status' => '5',
+    'shipping_time' => '1586378547',
+    'auto_delivery_time' => '15',
+  ),
+  1 => 
+  array (
+    'order_id' => '30',
+    'order_sn' => '2020040913310201231',
+    'order_status' => '5',
+    'shipping_time' => '1586381434',
+    'auto_delivery_time' => '15',
+  ),
+  2 => 
+  array (
+    'order_id' => '31',
+    'order_sn' => '2020040913310199083',
+    'order_status' => '5',
+    'shipping_time' => '1586381550',
+    'auto_delivery_time' => '15',
+  ),
+)

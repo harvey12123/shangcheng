@@ -1,0 +1,8 @@
+------tpl_info------------
+tpl name：新模板二
+tpl url：D:/wamp64/www/zz/data/home_Templates/wlmoban_dsc2017/backup_tpl_2/screenshot.png
+description：第二套首页可视化楼层模板
+version：2.3.2
+author：harvey
+author_uri：
+------tpl_info------------

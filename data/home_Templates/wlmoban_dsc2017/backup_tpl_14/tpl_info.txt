@@ -1,0 +1,8 @@
+------tpl_info------------
+tpl name£º
+tpl url£º
+description£º
+version£º
+author£º
+author_uri£º
+------tpl_info------------
