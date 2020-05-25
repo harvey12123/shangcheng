@@ -1,5 +1,5 @@
 <div class="user-trends-title">
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_1/images/bitao_6.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_1/images/bitao_6.jpg" /></a>
 </div>
 <div class="module">
 <ul class="jbannerTab">
@@ -9,7 +9,7 @@
 </ul>
 <div class="jbannerImg">
 <div class="jImgNodeArea">
-<ul><li><img src="themes/ecmoban_dsc/store_tpl_1/images/hdp_1.jpg" usemap="#Map_trends_1" border="0" />
+<ul><li><img src="themes/wlmoban_dsc/store_tpl_1/images/hdp_1.jpg" usemap="#Map_trends_1" border="0" />
 <map name="Map_trends_1" id="Map_trends_1">
 <area shape="rect" coords="793,452,982,810" href="#6" />
 <area shape="rect" coords="580,452,769,810" href="#5" />
@@ -20,7 +20,7 @@
 </map>
 </li>
 </ul>
-<ul><li><img src="themes/ecmoban_dsc/store_tpl_1/images/hdp_2.jpg" usemap="#Map_trends_2" border="0" />
+<ul><li><img src="themes/wlmoban_dsc/store_tpl_1/images/hdp_2.jpg" usemap="#Map_trends_2" border="0" />
 <map name="Map_trends_2" id="Map_trends_2">
 <area shape="rect" coords="788,453,979,810" href="#" />
 <area shape="rect" coords="586,452,777,809" href="#" />
@@ -32,7 +32,7 @@
 </map>
 </li>
 </ul>
-<ul><li><img src="themes/ecmoban_dsc/store_tpl_1/images/hdp_3.jpg" usemap="#Map_trends_3" border="0" />
+<ul><li><img src="themes/wlmoban_dsc/store_tpl_1/images/hdp_3.jpg" usemap="#Map_trends_3" border="0" />
 <map name="Map_trends_3" id="Map_trends_3">
 <area shape="rect" coords="787,455,979,805" href="#" />
 <area shape="rect" coords="589,456,781,806" href="#" />

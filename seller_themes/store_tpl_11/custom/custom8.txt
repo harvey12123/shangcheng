@@ -5,7 +5,7 @@
 <div class="countd">
 <ul>
 <li class="s-goods-box">
-<div class="s-goodsimg"><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/chuxiao_product.jpg" /></a></div>
+<div class="s-goodsimg"><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/chuxiao_product.jpg" /></a></div>
 <div class="s-goodsinfo">
 <div class="s-price">
 <strong><span class="jdNum"><span class="jdNum">588.00</span></span></strong>
@@ -25,14 +25,14 @@
 </div>
 </div>
 <div class="s-goodsxi">
-<a href="#" class="same share" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/chakan.jpg" /></a>
-<a href="#" class="same sc"><img src="themes/ecmoban_dsc/store_tpl_11/images/fenxiang.jpg" /></a>
-<a href="#" class="same gwc" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/gouwuce.jpg" /></a>
+<a href="#" class="same share" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/chakan.jpg" /></a>
+<a href="#" class="same sc"><img src="themes/wlmoban_dsc/store_tpl_11/images/fenxiang.jpg" /></a>
+<a href="#" class="same gwc" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/gouwuce.jpg" /></a>
 </div>
 </div>
 </li>
 <li class="s-goods-box">
-<div class="s-goodsimg"><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/chuxiao_product_2.jpg" /></a></div>
+<div class="s-goodsimg"><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/chuxiao_product_2.jpg" /></a></div>
 <div class="s-goodsinfo">
 <div class="s-price">
 <strong><span class="jdNum"><span class="jdNum">588.00</span></span></strong>
@@ -52,9 +52,9 @@
 </div>
 </div>
 <div class="s-goodsxi">
-<a href="#" class="same share" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/chakan.jpg" /></a>
-<a href="#" class="same sc"><img src="themes/ecmoban_dsc/store_tpl_11/images/fenxiang.jpg" /></a>
-<a href="#" class="same gwc" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/gouwuce.jpg" /></a>
+<a href="#" class="same share" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/chakan.jpg" /></a>
+<a href="#" class="same sc"><img src="themes/wlmoban_dsc/store_tpl_11/images/fenxiang.jpg" /></a>
+<a href="#" class="same gwc" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/gouwuce.jpg" /></a>
 </div>
 </div>
 </li>

@@ -58,7 +58,7 @@ class up_v2_6_3
 		$sql = 'SELECT position_id FROM ' . $GLOBALS['ecs']->table('touch_ad_position') . ' WHERE position_name = \'秒杀-banner广告位\'';
 
 		if (!$GLOBALS['db']->getOne($sql)) {
-			$sql = 'INSERT INTO ' . $GLOBALS['ecs']->table('touch_ad_position') . (' (`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`, `is_public`, `theme`, `tc_id`, `tc_type`, `ad_type`) VALUES (NULL, \'0\', \'秒杀-banner广告位\', \'360\', \'168\', \'\', \'{foreach ' . $ads . ' as ' . $ad . '}<div class="swiper-slide">' . $ad . '</div>{/foreach}\', \'0\', \'ecmoban_dsc2017\', \'0\', \'banner\', \'seckill\');');
+			$sql = 'INSERT INTO ' . $GLOBALS['ecs']->table('touch_ad_position') . (' (`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`, `is_public`, `theme`, `tc_id`, `tc_type`, `ad_type`) VALUES (NULL, \'0\', \'秒杀-banner广告位\', \'360\', \'168\', \'\', \'{foreach ' . $ads . ' as ' . $ad . '}<div class="swiper-slide">' . $ad . '</div>{/foreach}\', \'0\', \'wlmoban_dsc2017\', \'0\', \'banner\', \'seckill\');');
 			$GLOBALS['db']->query($sql);
 		}
 	}

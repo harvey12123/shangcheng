@@ -241,7 +241,7 @@
         <!--亲友帮-->
         <view hidden="{{hiddenFriends}}" class="order">
           <block wx:if="{{goodsCont.bargain_list==''}}">
-            <view class="ectouch-notcont" style="margin:50rpx 100rpx;">
+            <view class="wenlv-notcont" style="margin:50rpx 100rpx;">
               <view class="img">
                 <image src="../../images/no_content.png" mode="aspectFit" />
               </view>
@@ -275,7 +275,7 @@
         <!--排行榜-->
         <view hidden="{{hiddenRank}}" class="address">
           <block wx:if="{{goodsCont.bargain_ranking==''}}">
-            <view class="ectouch-notcont" style="margin:50rpx 100rpx;">
+            <view class="wenlv-notcont" style="margin:50rpx 100rpx;">
               <view class="img">
                 <image src="../../images/no_content.png" mode="aspectFit" />
               </view>
@@ -353,7 +353,7 @@
             </view>
           </view>
           <view wx:else>
-            <view class="ectouch-notcont">
+            <view class="wenlv-notcont">
               <view class="img">
                 <image src="../../images/no_content.png" mode="aspectFit" />
               </view>
@@ -374,7 +374,7 @@
             </block>
           </view>
           <view wx:else>
-            <view class="ectouch-notcont">
+            <view class="wenlv-notcont">
               <view class="img">
                 <image src="../../images/no_content.png" mode="aspectFit" />
               </view>

@@ -1160,7 +1160,7 @@ if ($this->_foreach['gl']['total'] > 0):
 <?php if ($this->_var['temp'] == 'insertVipEdit'): ?>
 <div class="userVip-info" ectype="user_info">
     <div class="avatar">
-        <a href="user.php?act=profile"><img src="../themes/ecmoban_dsc2017/images/avatar.png"></a>
+        <a href="user.php?act=profile"><img src="../themes/wlmoban_dsc2017/images/avatar.png"></a>
     </div>
     <div class="login-info">
         <span><?php echo $this->_var['lang']['hi_welcome_dsc']; ?></span>

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ECSHOP 时间JS语言文件
+ * wlshop 时间JS语言文件
  * ============================================================================
  * * 版权所有 2017-2020 中国联通，并保留所有权利。
  * 网站地址: http://www.jabrielcloud.com；
@@ -25,7 +25,7 @@ $_LANG['More_options'] = "更多选项";
 $_LANG['big_pic'] = "大图";
 $_LANG['Small_pic'] = "小图";
 $_LANG['Main_brand'] = "主营品牌";
-$_LANG['ecmoban_Produced'] = "中国联通出品";
+$_LANG['wlmoban_Produced'] = "中国联通出品";
 $_LANG['Store_score'] = "店铺评分";
 $_LANG['Deliver_goods'] = "发货";
 $_LANG['Product_related_products'] = "件相关产品";

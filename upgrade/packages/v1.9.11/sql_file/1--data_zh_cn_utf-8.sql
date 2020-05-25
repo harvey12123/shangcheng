@@ -1,4 +1,4 @@
-INSERT INTO `dsc_shop_config` ( `parent_id` , `code` , `type` , `value` , `sort_order` ) VALUES ( 2, 'merchants_prefix', 'text', 'ecmoban_', '1' );
+INSERT INTO `dsc_shop_config` ( `parent_id` , `code` , `type` , `value` , `sort_order` ) VALUES ( 2, 'merchants_prefix', 'text', 'wlmoban_', '1' );
 
 INSERT INTO `dsc_shop_config` (`parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES ('7', 'show_rank_price', 'select', '1,0', '', '0', '1');
 

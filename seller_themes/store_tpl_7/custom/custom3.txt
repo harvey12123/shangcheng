@@ -5,11 +5,11 @@
 <div class="user_box">
 <div class="jbannerImg">
 <div style="overflow:hidden; position:relative; width:1200px" class="tempWrap"><div class="jImgNodeArea" style="width: 6000px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: 0px;">
-<ul style="float: left; width: 1200px;"><li><img src="themes/ecmoban_dsc/store_tpl_7/images/banner_adv_1.jpg" /></li></ul>
-<ul style="float: left; width: 1200px;"><li><img src="themes/ecmoban_dsc/store_tpl_7/images/banner_adv_2.jpg" /></li></ul>
-<ul style="float: left; width: 1200px;"><li><img src="themes/ecmoban_dsc/store_tpl_7/images/banner_adv_3.jpg" /></li></ul>
-<ul style="float: left; width: 1200px;"><li><img src="themes/ecmoban_dsc/store_tpl_7/images/banner_adv_4.jpg" /></li></ul>
-<ul style="float: left; width: 1200px;"><li><img src="themes/ecmoban_dsc/store_tpl_7/images/banner_adv_5.jpg" /></li></ul>
+<ul style="float: left; width: 1200px;"><li><img src="themes/wlmoban_dsc/store_tpl_7/images/banner_adv_1.jpg" /></li></ul>
+<ul style="float: left; width: 1200px;"><li><img src="themes/wlmoban_dsc/store_tpl_7/images/banner_adv_2.jpg" /></li></ul>
+<ul style="float: left; width: 1200px;"><li><img src="themes/wlmoban_dsc/store_tpl_7/images/banner_adv_3.jpg" /></li></ul>
+<ul style="float: left; width: 1200px;"><li><img src="themes/wlmoban_dsc/store_tpl_7/images/banner_adv_4.jpg" /></li></ul>
+<ul style="float: left; width: 1200px;"><li><img src="themes/wlmoban_dsc/store_tpl_7/images/banner_adv_5.jpg" /></li></ul>
 </div></div>
 </div>
 <ul class="jbannerTab">

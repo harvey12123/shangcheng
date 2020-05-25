@@ -209,7 +209,7 @@ class up_v1_9_6
 		$db->query($sql);
 		$sql = 'INSERT INTO ' . $ecs->table('ad_position') . (' (`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_model`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES (NULL, \'0\', \'regist_banner\', \'526\', \'327\', \'注册页面左侧banner图\', \'注册页面左侧banner图\', \'{foreach from=' . $ads . ' item=ad}
 ' . $ad . '
-{/foreach}\', \'0\', \'ecmoban_dsc\');');
+{/foreach}\', \'0\', \'wlmoban_dsc\');');
 		$db->query($sql);
 		$sql = 'SELECT position_id FROM ' . $ecs->table('ad_position') . ' WHERE position_name = \'regist_banner\'';
 		$position_id = $db->getOne($sql, true);

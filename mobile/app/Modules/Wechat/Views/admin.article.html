@@ -39,7 +39,7 @@
                     <div class="row">
 	                    {foreach $list as $key=>$val}
                         {if empty($val['article_id'])}
-	                    <div class="col-sm-6 col-md-4 col-lg-2 ectouch-mb">
+	                    <div class="col-sm-6 col-md-4 col-lg-2 wenlv-mb">
 	                        <div class="article">
 	                            <h4>{$val['title']}</h4>
 	                            <p>{date('Y年m月d日', $val['add_time'])}</p>
@@ -49,12 +49,12 @@
 	                        </div>
 	                        <div class="bg-info">
                                 <ul class="nav nav-pills nav-justified" role="tablist">
-                                <li role="presentation"><a href="{url('article_edit', array('id'=>$val['id']))}" title="编辑" class="ectouch-fs18"><span class="glyphicon glyphicon-pencil"></span></a></li>
+                                <li role="presentation"><a href="{url('article_edit', array('id'=>$val['id']))}" title="编辑" class="wenlv-fs18"><span class="glyphicon glyphicon-pencil"></span></a></li>
                                 <li role="presentation">
                                 {if $val['is_prize'] == 1}
-                                <a href="javascript:;" title="禁止删除" class="ectouch-fs18">
+                                <a href="javascript:;" title="禁止删除" class="wenlv-fs18">
                                 {else}
-                                <a href="javascript:if(confirm('{$lang['confirm_delete']}')){window.location.href='{url('article_del', array('id'=>$val['id']))}'};" title="删除" class="ectouch-fs18">
+                                <a href="javascript:if(confirm('{$lang['confirm_delete']}')){window.location.href='{url('article_del', array('id'=>$val['id']))}'};" title="删除" class="wenlv-fs18">
                                 {/if}
                                 <span class="glyphicon glyphicon-trash"></span></a></li>
                                 </ul>
@@ -80,7 +80,7 @@
                     <div class="row">
                         {foreach $list as $key=>$val}
                         {if $val['article_id']}
-                        <div class="col-sm-6 col-md-4 col-lg-2 ectouch-mb">
+                        <div class="col-sm-6 col-md-4 col-lg-2 wenlv-mb">
                             {foreach $val['articles'] as $k=>$v}
                             {if $k == 0}
                             <div class="article">
@@ -96,8 +96,8 @@
                             {/foreach}
                             <div class="bg-info">
                                 <ul class="nav nav-pills nav-justified" role="tablist">
-                                <li role="presentation"><a href="{url('article_edit_news', array('id'=>$val['id']))}" title="编辑" class="ectouch-fs18"><span class="glyphicon glyphicon-pencil"></span></a></li>
-                                <li role="presentation"><a href="javascript:if(confirm('{$lang['confirm_delete']}')){window.location.href='{url('article_del', array('id'=>$val['id']))}'};" title="删除" class="ectouch-fs18"><span class="glyphicon glyphicon-trash"></span></a></li>
+                                <li role="presentation"><a href="{url('article_edit_news', array('id'=>$val['id']))}" title="编辑" class="wenlv-fs18"><span class="glyphicon glyphicon-pencil"></span></a></li>
+                                <li role="presentation"><a href="javascript:if(confirm('{$lang['confirm_delete']}')){window.location.href='{url('article_del', array('id'=>$val['id']))}'};" title="删除" class="wenlv-fs18"><span class="glyphicon glyphicon-trash"></span></a></li>
                                 </ul>
                             </div>
                         </div>

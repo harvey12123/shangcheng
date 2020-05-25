@@ -2,7 +2,7 @@
 
 class dscmall extends \App\Libraries\Integrate
 {
-	private $is_ecshop = 1;
+	private $is_wlshop = 1;
 
 	public function __construct($cfg)
 	{
@@ -17,7 +17,7 @@ class dscmall extends \App\Libraries\Integrate
 		$this->field_bday = 'birthday';
 		$this->field_reg_date = 'reg_time';
 		$this->need_sync = false;
-		$this->is_ecshop = 1;
+		$this->is_wlshop = 1;
 	}
 
 	public function check_user($username, $password = NULL)

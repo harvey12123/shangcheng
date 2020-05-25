@@ -60,7 +60,7 @@ class MobileModuleSeeder extends Seeder
                 'ad_width' => '360',
                 'ad_height' => '168',
                 'position_style' => '{foreach $ads as $ad}<div class="swiper-slide">{$ad}</div>{/foreach}' . "\n" . '',
-                'theme' => 'ecmoban_dsc2017',
+                'theme' => 'wlmoban_dsc2017',
                 'tc_type' => 'banner',
                 'ad_type' => 'seckill'
             ];

@@ -3,7 +3,7 @@
 <div class="user_item_box">
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_23.jpg" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_23.jpg" /></a>
 <div class="jBuy">
 <div class="jDesc">
 <div class="jTitle"><a href="#" target="_blank">DHY雅思凯 草本护肤 蜗牛多效修护 美白补水 蚕丝面膜 蜗牛面贴（8片盒装）</a></div>
@@ -22,7 +22,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_24.jpg" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_24.jpg" /></a>
 <div class="jBuy">
 <div class="jDesc">
 <div class="jTitle"><a href="#" target="_blank">DHY雅思凯 草本护肤 蜗牛多效修护 美白补水 蚕丝面膜 蜗牛面贴（8片盒装）</a></div>
@@ -41,7 +41,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_25.jpg" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_25.jpg" /></a>
 <div class="jBuy">
 <div class="jDesc">
 <div class="jTitle"><a href="#" target="_blank">DHY雅思凯 草本护肤 蜗牛多效修护 美白补水 蚕丝面膜 蜗牛面贴（8片盒装）</a></div>
@@ -60,7 +60,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_26.jpg" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_26.jpg" /></a>
 <div class="jBuy">
 <div class="jDesc">
 <div class="jTitle"><a href="#" target="_blank">DHY雅思凯 草本护肤 蜗牛多效修护 美白补水 蚕丝面膜 蜗牛面贴（8片盒装）</a></div>

@@ -9,7 +9,7 @@ include ROOT_PATH . 'demo/templates/header.php';
 echo "\r\n<div style=\"margin:10px;padding:20px;border: 1px solid #BBDDE5; background: #F4FAFB; \">\r\n\r\n  <p style=\"font-size: 14px; text-align: center\">";
 printf($lang['done'], VERSION);
 echo "</p>\r\n  <div align=\"center\">\r\n  <ul style=\"text-align:left; width: 260px\">\r\n    <li><a href=\"../\">";
-echo $lang['go_to_view_my_ecshop'];
+echo $lang['go_to_view_my_wlshop'];
 echo "</a></li>\r\n    <li><a href=\"../admin\">";
 echo $lang['go_to_view_control_panel'];
 echo "</a></li>\r\n  </ul>\r\n  </div>\r\n\r\n</div>\r\n\r\n";

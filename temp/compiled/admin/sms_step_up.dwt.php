@@ -51,8 +51,8 @@
 					$(".dsc_appkey").hide();
 					$(".dsc_appsecret").hide();
 				}else if($(element).val() == 1){
-					$(".sms_ecmoban_password").hide();
-					$(".sms_ecmoban_user").hide();
+					$(".sms_wlmoban_password").hide();
+					$(".sms_wlmoban_user").hide();
 					
 					$(".access_key_id").hide();
 					$(".access_key_secret").hide();
@@ -63,8 +63,8 @@
 					$(".ali_appkey").hide();
 					$(".ali_secretkey").hide();
 					
-					$(".sms_ecmoban_password").hide();
-					$(".sms_ecmoban_user").hide();
+					$(".sms_wlmoban_password").hide();
+					$(".sms_wlmoban_user").hide();
 					
 					$(".dsc_appkey").hide();
 					$(".dsc_appsecret").hide();
@@ -72,8 +72,8 @@
 					$(".ali_appkey").hide();
 					$(".ali_secretkey").hide();
 					
-					$(".sms_ecmoban_password").hide();
-					$(".sms_ecmoban_user").hide();
+					$(".sms_wlmoban_password").hide();
+					$(".sms_wlmoban_user").hide();
 					
 					$(".access_key_id").hide();
 					$(".access_key_secret").hide();
@@ -85,8 +85,8 @@
 			var T = $(this);
 			var val = T.val();
 			if(val == 1){
-				$(".sms_ecmoban_password").hide();
-				$(".sms_ecmoban_user").hide();
+				$(".sms_wlmoban_password").hide();
+				$(".sms_wlmoban_user").hide();
 				$(".access_key_id").hide();
 				$(".access_key_secret").hide();
 				$(".dsc_appkey").hide();
@@ -95,8 +95,8 @@
 				$(".ali_appkey").show();
 				$(".ali_secretkey").show();
 			}else if(val == 2){
-				$(".sms_ecmoban_password").hide();
-				$(".sms_ecmoban_user").hide();
+				$(".sms_wlmoban_password").hide();
+				$(".sms_wlmoban_user").hide();
 				$(".ali_appkey").hide();
 				$(".ali_secretkey").hide();
 				$(".dsc_appkey").hide();
@@ -105,8 +105,8 @@
 				$(".access_key_id").show();
 				$(".access_key_secret").show();
 			}else if(val == 3){
-				$(".sms_ecmoban_password").hide();
-				$(".sms_ecmoban_user").hide();
+				$(".sms_wlmoban_password").hide();
+				$(".sms_wlmoban_user").hide();
 				$(".ali_appkey").hide();
 				$(".ali_secretkey").hide();
 				$(".access_key_id").hide();
@@ -122,8 +122,8 @@
 				$(".dsc_appkey").hide();
 				$(".dsc_appsecret").hide();
 				
-				$(".sms_ecmoban_password").show();
-				$(".sms_ecmoban_user").show();
+				$(".sms_wlmoban_password").show();
+				$(".sms_wlmoban_user").show();
 			}
 		});
 	});

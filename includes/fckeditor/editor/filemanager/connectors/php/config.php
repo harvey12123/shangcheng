@@ -15,7 +15,7 @@ $root_path = preg_replace('/includes(.*)/i', '', PHP_SELF);
 require ROOT_PATH . 'data/config.php';
 require ROOT_PATH . 'includes/lib_base.php';
 require ROOT_PATH . 'includes/cls_mysql.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/cls_session.php';
 require ROOT_PATH . 'includes/lib_common.php';
 require ROOT_PATH . 'includes/lib_oss.php';

@@ -1,11 +1,11 @@
-<div class="layout-area no-margin" style="background:#a8ca40 url(themes/ecmoban_dsc/store_tpl_13/images/header_bg.jpg) center top no-repeat;">
+<div class="layout-area no-margin" style="background:#a8ca40 url(themes/wlmoban_dsc/store_tpl_13/images/header_bg.jpg) center top no-repeat;">
 <div class="layout">
 <div class="layout-one w990">
 <div class="fn-clear no-margin">
 <div class="mc">
 <div class="header_top">
-<div class="logo"><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/logo.png" /></a></div>
-<div class="header_gz"><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/gz.gif" /></a></div>
+<div class="logo"><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/logo.png" /></a></div>
+<div class="header_gz"><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/gz.gif" /></a></div>
 <div class="searchArea">
 <div class="jSearchArea">
 <strong>ххцекякВё╨</strong>

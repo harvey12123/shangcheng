@@ -81,4 +81,4 @@ if(!IS_CLI) {
 // 加载核心Think类
 require CORE_PATH.'Think'.EXT;
 // 核心Think类别名
-class_alias('Think\Think', 'ECTouch');
+class_alias('Think\Think', 'wenlv');

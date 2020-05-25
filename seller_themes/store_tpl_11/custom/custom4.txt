@@ -8,7 +8,7 @@
 <ul class="jCurrent">
 <li>
 <div class="s-goodsimg">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/product_1.jpg" width="200" height="200" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/product_1.jpg" width="200" height="200" /></a>
 </div>
 <div class="s-goodsinfo">
 <a href="#" target="_blank" class="s-name">创意led吸顶灯具客厅灯卧室灯长方形现代简约大厅灯饰 盗梦空间53*53 36W黑框 单色暖白光</a>
@@ -20,7 +20,7 @@
 </li>
 <li>
 <div class="s-goodsimg">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/product_2.jpg" width="200" height="200" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/product_2.jpg" width="200" height="200" /></a>
 </div>
 <div class="s-goodsinfo">
 <a href="#" target="_blank" class="s-name">创意led吸顶灯具客厅灯卧室灯长方形现代简约大厅灯饰 盗梦空间53*53 36W黑框 单色暖白光</a>
@@ -32,7 +32,7 @@
 </li>
 <li>
 <div class="s-goodsimg">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/product_3.jpg" width="200" height="200" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/product_3.jpg" width="200" height="200" /></a>
 </div>
 <div class="s-goodsinfo">
 <a href="#" target="_blank" class="s-name">创意led吸顶灯具客厅灯卧室灯长方形现代简约大厅灯饰 盗梦空间53*53 36W黑框 单色暖白光</a>
@@ -44,7 +44,7 @@
 </li>
 <li>
 <div class="s-goodsimg">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_11/images/product_4.jpg" width="200" height="200" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_11/images/product_4.jpg" width="200" height="200" /></a>
 </div>
 <div class="s-goodsinfo">
 <a href="#" target="_blank" class="s-name">创意led吸顶灯具客厅灯卧室灯长方形现代简约大厅灯饰 盗梦空间53*53 36W黑框 单色暖白光</a>

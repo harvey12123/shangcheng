@@ -97,16 +97,16 @@ function getgpc($k, $var = 'G')
 $charset = 'utf-8';
 $tools_version = 'v1.0';
 $mysql_version = '';
-$ecshop_version = '';
+$wlshop_version = '';
 $mysql_charset = '';
-$ecshop_charset = '';
+$wlshop_charset = '';
 $convert_charset = array('utf-8' => 'gbk', 'gbk' => 'utf-8');
 $convert_tables_file = 'data/convert_tables.php';
 $rpp = 500;
 define('ROOT_PATH', str_replace('\\', '/', substr(__FILE__, 0, -20)));
 define('IN_ECS', true);
 require ROOT_PATH . 'data/config.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/cls_mysql.php';
 require ROOT_PATH . 'includes/lib_common.php';
 
@@ -117,15 +117,15 @@ else {
 	$ec_charset = '';
 }
 
-$ecshop_version = str_replace('v', '', VERSION);
-$ecshop_charset = $ec_charset;
+$wlshop_version = str_replace('v', '', VERSION);
+$wlshop_charset = $ec_charset;
 $db = new cls_mysql($db_host, $db_user, $db_pass, $db_name, '', 0, 1);
 $mysql_version = $db->version;
 $mysql_charset = get_mysql_charset();
 $step = getgpc('step');
 $step = empty($step) ? 1 : $step;
 
-if ($ecshop_version < '2.6.0') {
+if ($wlshop_version < '2.6.0') {
 	$step = 'halt';
 }
 
@@ -158,19 +158,19 @@ instheader();
 
 if ($step == 1) {
 	$ext_msg = '<a href="?step=start"><font size="3" color="red"><b>&gt;&gt;&nbsp;如果您已确认上面的使用说明,请点这里进行导入</b></font></a><br /><br /><a href="index.php"><font size="2"><b>&gt;&gt;&nbsp;如果您需要执行升级程序，请点这里进行升级</b></font></a>';
-	echo '<h4>本转换程序只能针ECShop2.6.0或者以上版本程序的数据导入<br /></h4>
+	echo '<h4>本转换程序只能针wlshop2.6.0或者以上版本程序的数据导入<br /></h4>
 导入之前<b>务必备份数据库资料</b>，避免导入失败给您带来损失与不便<br /><br />
 
 <p>导入程序使用说明：</p>
 <ol>
-    <li>只支持从UCenter数据库到ECShop数据库的导入</li>
+    <li>只支持从UCenter数据库到wlshop数据库的导入</li>
     <li>只导入会员的用户名、邮箱、密码，这些基本信息。不会破坏原有会员数据</li>
 </ol>
 
 <p>您当前程序与数据库的信息：</p>
 <ul>
-    <li>程序版本：' . $ecshop_version . '</li>
-    <li>程序编码：' . $ecshop_charset . '</li>
+    <li>程序版本：' . $wlshop_version . '</li>
+    <li>程序编码：' . $wlshop_charset . '</li>
     <li>MySQL版本：' . $mysql_version . '</li>
     <li>MySQL编码：' . $mysql_charset . '</li>
 </ul>

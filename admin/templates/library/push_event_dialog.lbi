@@ -3,7 +3,7 @@
 	<div class="flexilist">
         <div class="common-content">
             <div class="mian-info">
-                <form action="ecjia_push_event.php" method="post" name="theForm" enctype="multipart/form-data" id="push_event_dialog_form" >
+                <form action="wljia_push_event.php" method="post" name="theForm" enctype="multipart/form-data" id="push_event_dialog_form" >
                     <div class="switch_info" id="conent_area">
                         <div class="item">
                             <div class="label">{$lang.require_field}{$lang.label_client_app}</div>

@@ -83,7 +83,7 @@ class up_v2_0_1
 		$sql = 'INSERT INTO ' . $GLOBALS['ecs']->table('ad_position') . (' ( `user_id`, `position_name`, `ad_width`, `ad_height`, `position_model`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES
 ( 0, \'顶级分类页（默认）品牌旗舰\', 200, 200, \'category_top_default_brand[num_id]_[cat_id]\', \'num_id-数量序号，cat_id-分类ID\', \'{foreach from=' . $ads . ' item=ad}
 ' . $ad . '
-{/foreach}\', 0, \'ecmoban_dsc2017\');');
+{/foreach}\', 0, \'wlmoban_dsc2017\');');
 		$db->query($sql);
 		$sql = 'INSERT INTO ' . $GLOBALS['ecs']->table('shop_config') . ' (`parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES
 ( 3, \'marticle_index\', \'text\', \'\', \'\', \'1,2,3,4\', 1);';

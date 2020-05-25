@@ -23,7 +23,7 @@
                 <?php endif; ?>
                 <?php if ($this->_var['list']['dis_type'] == 4): ?>
                 <a href="single_sun.php?act=discuss_show&did=<?php echo $this->_var['list']['dis_id']; ?>&dis_type=4" target="_blank"><?php echo $this->_var['list']['dis_title']; ?></a>
-                <img src="themes/ecmoban_dsc2017/images/image_s.jpg">
+                <img src="themes/wlmoban_dsc2017/images/image_s.jpg">
                 <?php else: ?>
                 <a href="single_sun.php?act=discuss_show&did=<?php echo $this->_var['list']['dis_id']; ?>" target="_blank"><?php echo $this->_var['list']['dis_title']; ?></a>
                 <?php endif; ?>

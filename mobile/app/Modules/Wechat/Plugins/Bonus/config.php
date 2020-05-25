@@ -3,6 +3,6 @@ return [
     'name' => '关注送红包',
     'command' => 'bonus',
     'keywords' => 'bonus,关注送红包', 
-    'author' =>'ECTouch Team',
+    'author' =>'wenlv Team',
     'website' => 'http://www.jabrielcloud.com',
 ];

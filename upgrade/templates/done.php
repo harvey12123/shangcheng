@@ -25,7 +25,7 @@ printf($lang['done'], VERSION);
 echo '</h1>
             <ul>
                 <li><a href="../">';
-echo $lang['go_to_view_my_ecshop'];
+echo $lang['go_to_view_my_wlshop'];
 echo '</a></li>
                 <li><a href="../admin">';
 echo $lang['go_to_view_control_panel'];

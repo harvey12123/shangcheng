@@ -18,7 +18,7 @@
             <!--{/if}-->
             <div class="explanation" id="explanation">
                 <div class="ex_tit"><i class="sc_icon"></i><h4>{$lang.operating_hints}</h4><span id="explanationZoom" title="{$lang.fold_tips}"></span></div>
-                <!--{if ($code neq 'ucenter' and $code neq 'ecjia') or empty($cfg.uc_id)}-->
+                <!--{if ($code neq 'ucenter' and $code neq 'wljia') or empty($cfg.uc_id)}-->
                 <ul>
                     <li>{$lang.db_notice}</li>
                 </ul>
@@ -26,33 +26,33 @@
             </div>
             <div class="flexilist">
                 <div class="mian-info">
-                <!--{if $code eq 'ucenter' or $code eq 'ecjia'}-->
+                <!--{if $code eq 'ucenter' or $code eq 'wljia'}-->
                 <!--{if !empty($cfg.uc_id) and !empty($cfg.uc_key)}-->
                 <form action="integrate.php" method="post" name="theForm">
                     <div class="switch_info" style="display:block;">
                         <div class="item">
-                            <div class="label">{if  $code eq 'ecjia'}ECJia {/if}{$lang.ucenter_lab_id}</div>
+                            <div class="label">{if  $code eq 'wljia'}wljia {/if}{$lang.ucenter_lab_id}</div>
                             <div class="label_value">
                                 <input type="text"  name="cfg[uc_id]" value="{$cfg.uc_id}" class="text" autocomplete="off"/>
                                 <div class="notic m20" {if $help_open}style="display:block" {else} style="display:none" {/if} id="noticeGoodsSN">{$lang.ucenter_notice_id}</div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="label">{if  $code eq 'ecjia'}ECJia {/if}{$lang.ucenter_lab_key}</div>
+                            <div class="label">{if  $code eq 'wljia'}wljia {/if}{$lang.ucenter_lab_key}</div>
                             <div class="label_value">
                                 <input type="text"  name="cfg[uc_key]" value="{$cfg.uc_key}" class="text" autocomplete="off"/>
                                 <div class="notic m20" {if $help_open}style="display:block" {else} style="display:none" {/if} id="noticeGoodsSN">{$lang.ucenter_notice_key}</div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="label">{if  $code eq 'ecjia'}ECJia {/if}{$lang.ucenter_lab_url}</div>
+                            <div class="label">{if  $code eq 'wljia'}wljia {/if}{$lang.ucenter_lab_url}</div>
                             <div class="label_value">
                                 <input type="text"  name="cfg[uc_url]" value="{$cfg.uc_url}" class="text" autocomplete="off"/>
                                 <div class="notic m20" {if $help_open}style="display:block" {else} style="display:none" {/if} id="noticeGoodsSN">{$lang.ucenter_notice_url}</div>
                             </div>
                         </div>
                          <div class="item">
-                            <div class="label">{if  $code eq 'ecjia'}ECJia {/if}{$lang.ucenter_lab_ip}</div>
+                            <div class="label">{if  $code eq 'wljia'}wljia {/if}{$lang.ucenter_lab_ip}</div>
                             <div class="label_value">
                                 <input type="text"  name="cfg[uc_ip]" value="{$cfg.uc_ip}" class="text" autocomplete="off"/>
                                 <div class="notic m20" {if $help_open}style="display:block" {else} style="display:none" {/if} id="noticeGoodsSN">{$lang.ucenter_notice_ip}</div>

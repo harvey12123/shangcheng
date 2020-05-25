@@ -9,19 +9,19 @@
         	<div class="tabs_info">
             	<ul>
                     <li {if $appid eq '1'}class="curr"{/if}>
-                    	<a href="ecjia_push_record.php?act=list&appid=1">EC+多商户 iPhone{if $appid neq '1'}<em class="li_color">({$msg_record_count.count1|default:0})</em>{/if}</a>
+                    	<a href="wljia_push_record.php?act=list&appid=1">EC+多商户 iPhone{if $appid neq '1'}<em class="li_color">({$msg_record_count.count1|default:0})</em>{/if}</a>
                     </li>
                     <li {if $appid eq '2'}class="curr"{/if}>
-                        <a href="ecjia_push_record.php?act=list&appid=2">EC+多商户 Android{if $appid neq '2'}<em class="li_color">({$msg_record_count.count2|default:0})</em>{/if}</a>
+                        <a href="wljia_push_record.php?act=list&appid=2">EC+多商户 Android{if $appid neq '2'}<em class="li_color">({$msg_record_count.count2|default:0})</em>{/if}</a>
                     </li>
                     <li {if $appid eq '3'}class="curr"{/if}>
-                        <a href="ecjia_push_record.php?act=list&appid=3">EC+多商户 iPad{if $appid neq '3'}<em class="li_color">({$msg_record_count.count3|default:0})</em>{/if}</a>
+                        <a href="wljia_push_record.php?act=list&appid=3">EC+多商户 iPad{if $appid neq '3'}<em class="li_color">({$msg_record_count.count3|default:0})</em>{/if}</a>
                     </li>
                     <li {if $appid eq '4'}class="curr"{/if}>
-                        <a href="ecjia_push_record.php?act=list&appid=4">EC+掌柜 iPhone{if $appid neq '4'}<em class="li_color">({$msg_record_count.count4|default:0})</em>{/if}</a>
+                        <a href="wljia_push_record.php?act=list&appid=4">EC+掌柜 iPhone{if $appid neq '4'}<em class="li_color">({$msg_record_count.count4|default:0})</em>{/if}</a>
                     </li>
                     <li {if $appid eq '5'}class="curr"{/if}>
-                        <a href="ecjia_push_record.php?act=list&appid=5">EC+掌柜 Android{if $appid neq '5'}<em class="li_color">({$msg_record_count.count5|default:0})</em>{/if}</a>
+                        <a href="wljia_push_record.php?act=list&appid=5">EC+掌柜 Android{if $appid neq '5'}<em class="li_color">({$msg_record_count.count5|default:0})</em>{/if}</a>
                     </li>
                 </ul>
             </div>			
@@ -82,8 +82,8 @@
                                     <td class="sky_id"><div class="tDiv">{$push_list.date}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_push_record.php?act=edit&id={$push_list.message_id}" class="btn_edit">再次推送</a>
-                                            <a href="ecjia_push_record.php?act=edit&id={$push_list.message_id}" class="btn_see">消息复用</a>
+                                            <a href="wljia_push_record.php?act=edit&id={$push_list.message_id}" class="btn_edit">再次推送</a>
+                                            <a href="wljia_push_record.php?act=edit&id={$push_list.message_id}" class="btn_see">消息复用</a>
                                             <a href="javascript:;" onclick="listTable.remove({$push_list.message_id}, '确定要删除吗')" class="btn_trash"><i class="icon icon-trash"></i>删除消息</a>
                                         </div>
                                     </td>

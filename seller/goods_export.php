@@ -214,7 +214,7 @@ if ($_REQUEST['act'] == 'goods_export') {
 	$smarty->assign('filter_brand_list', search_brand_list());
 	$smarty->assign('goods_type_list', goods_type_list(0, 0, 'array'));
 	$goods_fields = my_array_merge($_LANG['custom'], get_attributes());
-	$data_format_array = array('ecshop' => $_LANG['export_ecshop'], 'taobao' => $_LANG['export_taobao'], 'custom' => $_LANG['export_custom']);
+	$data_format_array = array('wlshop' => $_LANG['export_wlshop'], 'taobao' => $_LANG['export_taobao'], 'custom' => $_LANG['export_custom']);
 	$smarty->assign('data_format', $data_format_array);
 	$smarty->assign('goods_fields', $goods_fields);
 	assign_query_info();
@@ -349,7 +349,7 @@ else if ($_REQUEST['act'] == 'act_export_taobao V4.3') {
 else if ($_REQUEST['act'] == 'import_taobao') {
 	$smarty->display('import_taobao.htm');
 }
-else if ($_REQUEST['act'] == 'act_export_ecshop') {
+else if ($_REQUEST['act'] == 'act_export_wlshop') {
 	admin_priv('goods_export');
 	include_once 'includes/cls_phpzip.php';
 	$zip = new PHPZip();
@@ -399,7 +399,7 @@ else if ($_REQUEST['act'] == 'act_export_ecshop') {
 		$goods_value['is_on_sale'] = 1;
 		$goods_value['is_alone_sale'] = 1;
 		$goods_value['is_real'] = 1;
-		$content = '"' . implode('","', $_LANG['ecshop']) . '"
+		$content = '"' . implode('","', $_LANG['wlshop']) . '"
 ';
 
 		while ($row = $db->fetchRow($res)) {

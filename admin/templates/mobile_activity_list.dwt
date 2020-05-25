@@ -75,9 +75,9 @@
                                     </td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_mobile_activity.php?act=edit&id={$mobile_activity.activity_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
-                                            <a href="ecjia_mobile_activity.php?act=activity_prize&id={$mobile_activity.activity_id}" class="btn_see">活动奖池</a>
-                                            <a href="ecjia_activity_record.php?act=list&id={$mobile_activity.activity_id}" class="btn_see">活动记录</a>
+                                            <a href="wljia_mobile_activity.php?act=edit&id={$mobile_activity.activity_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
+                                            <a href="wljia_mobile_activity.php?act=activity_prize&id={$mobile_activity.activity_id}" class="btn_see">活动奖池</a>
+                                            <a href="wljia_activity_record.php?act=list&id={$mobile_activity.activity_id}" class="btn_see">活动记录</a>
                                             <a href="javascript:;" onclick="listTable.remove({$mobile_activity.activity_id}, '确定要删除吗')" class="btn_trash"><i class="icon icon-trash"></i>{$lang.drop}</a>
                                         </div>
                                     </td>

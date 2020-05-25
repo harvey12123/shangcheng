@@ -482,7 +482,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$i = isset($modules) ? count($modules) : 0;
 	$modules[$i]['code'] = basename(__FILE__, '.php');
 	$modules[$i]['desc'] = 'shopex48_desc';
-	$modules[$i]['author'] = 'ECSHOP R&D TEAM';
+	$modules[$i]['author'] = 'wlshop R&D TEAM';
 	return NULL;
 }
 

@@ -48,7 +48,7 @@ class ecs_login
 			}
 		}
 
-		$headers[] = 'User-Agent: ECTouch.cn';
+		$headers[] = 'User-Agent: wenlv.cn';
 		curl_setopt($ci, CURLOPT_HTTPHEADER, $headers);
 		curl_setopt($ci, CURLOPT_URL, $url);
 		$response = curl_exec($ci);

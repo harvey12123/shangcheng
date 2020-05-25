@@ -7,7 +7,7 @@
 <ul>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -16,11 +16,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -29,11 +29,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -42,11 +42,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_2.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -55,11 +55,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -68,11 +68,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -81,11 +81,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -94,11 +94,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/ecmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="235" width="235" src="themes/wlmoban_dsc/store_tpl_10/images/product_3.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶  福建武夷山新茶 大红袍乌龙茶叶【中国风】 买一送一单罐装50克</a></div>
 <div class="jPrice">
@@ -107,7 +107,7 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 </ul>
 </div>

@@ -179,7 +179,7 @@ if (file_exists($dir . '/pc_html.php') && defined('THEME_EXTENSION')) {
 	$smarty->assign('categories_pro', $categories_pro);
 	$smarty->assign('warehouse_id', $region_id);
 	$smarty->assign('area_id', $area_id);
-	$replace_data = array('http://localhost/ecmoban_dsc2.0.5_20170518/', 'http://localhost/ecmoban_dsc2.2.6_20170727/', 'http://localhost/ecmoban_dsc2.3/');
+	$replace_data = array('http://localhost/wlmoban_dsc2.0.5_20170518/', 'http://localhost/wlmoban_dsc2.2.6_20170727/', 'http://localhost/wlmoban_dsc2.3/');
 
 	if ($GLOBALS['_CFG']['open_oss'] == 1) {
 		$bucket_info = get_bucket_info();

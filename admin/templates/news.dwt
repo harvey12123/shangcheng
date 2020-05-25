@@ -17,7 +17,7 @@
 <link rel="stylesheet" type="text/css" href="css/purebox.css" />
 <link rel="stylesheet" type="text/css" href="../js/spectrum-master/spectrum.css" />
 <link rel="stylesheet" type="text/css" href="../js/perfect-scrollbar/perfect-scrollbar.min.css" />
-{insert_scripts files="../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.nyroModal.js,../js/plupload.full.min.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.form.js,../js/lib_ecmobanFunc.js,../js/visualization.js,../js/jquery.cookie.js,../js/spectrum-master/spectrum.js,../js/jquery-ui/jquery-ui.min.js,common.js,layer.js"}
+{insert_scripts files="../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.nyroModal.js,../js/plupload.full.min.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.form.js,../js/lib_wlmobanFunc.js,../js/visualization.js,../js/jquery.cookie.js,../js/spectrum-master/spectrum.js,../js/jquery-ui/jquery-ui.min.js,common.js,layer.js"}
 <script type="text/javascript">
 /*这里把JS用到的所有语言都赋值到这里*/
 {foreach from=$lang.js_languages key=key item=item}

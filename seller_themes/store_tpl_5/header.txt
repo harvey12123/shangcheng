@@ -2,7 +2,7 @@
 <div class="fn-clear userdefined no-margin">
 <div class="mc">
 <div class="userDefinedArea">
-<img src="themes/ecmoban_dsc/store_tpl_5/images/logo.jpg" usemap="#headerMap" border="0" />
+<img src="themes/wlmoban_dsc/store_tpl_5/images/logo.jpg" usemap="#headerMap" border="0" />
 <map name="headerMap" id="headerMap">
 <area shape="rect" coords="4,4,201,111" href="#" />
 <area shape="rect" coords="560,67,678,115" href="#" />

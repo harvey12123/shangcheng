@@ -16,7 +16,7 @@ class AdminController extends BackendController
             'clips',
             'payment',
             'transaction',
-            'ecmoban'
+            'wlmoban'
         ];
         $this->load_helper($files);
 

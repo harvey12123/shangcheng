@@ -3,7 +3,7 @@
 <div class="layout-one w990">
 <div class="fn-clear user-jGoodsSort1">
 <div class="mc">
-<div class="wd-hd" style="background:url(themes/ecmoban_dsc/store_tpl_2/images/category.jpg) no-repeat;">
+<div class="wd-hd" style="background:url(themes/wlmoban_dsc/store_tpl_2/images/category.jpg) no-repeat;">
 <div class="ext-hd">
 <a href="#" class="wd-all">查看所有分类>></a>
 <a href="#">按销量</a>

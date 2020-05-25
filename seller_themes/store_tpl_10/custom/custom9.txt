@@ -6,7 +6,7 @@
 <ul>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_5.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_5.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -15,11 +15,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_6.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_6.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -28,11 +28,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_7.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_7.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -41,11 +41,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_8.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_8.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -54,11 +54,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_9.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_9.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -67,11 +67,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_10.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_10.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -80,11 +80,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_11.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_11.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -93,11 +93,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_12.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_12.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -106,11 +106,11 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 <li>
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/ecmoban_dsc/store_tpl_10/images/product_13.jpg"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="320" width="320" src="themes/wlmoban_dsc/store_tpl_10/images/product_13.jpg"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 安溪铁观音  易记礼盒装 250克/*2罐 共500克</a></div>
 <div class="jdPrice">
@@ -119,7 +119,7 @@
 </div>
 </div>
 </div>
-<div class="jBtnArea"><a style="background:url(themes/ecmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
+<div class="jBtnArea"><a style="background:url(themes/wlmoban_dsc/store_tpl_10/images/btn_cp_ljqg_2.jpg) no-repeat;" target="_blank" href="#">放入购物车</a></div>
 </li>
 </ul>
 </div>

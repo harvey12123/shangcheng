@@ -15,11 +15,11 @@ function get_search_log()
 		$filter['end_dateDay'] = $_REQUEST['end_dateDay'];
 	}
 
-	$sql = 'SELECT COUNT(*) FROM ' . $GLOBALS['ecs']->table('keywords') . (' WHERE  searchengine=\'ecshop\' ' . $where);
+	$sql = 'SELECT COUNT(*) FROM ' . $GLOBALS['ecs']->table('keywords') . (' WHERE  searchengine=\'wlshop\' ' . $where);
 	$filter['record_count'] = $GLOBALS['db']->getOne($sql);
 	$logdb = array();
 	$filter = page_and_size($filter);
-	$sql = 'SELECT * FROM ' . $GLOBALS['ecs']->table('keywords') . (' WHERE  searchengine=\'ecshop\' ' . $where) . ' ORDER BY date DESC, count DESC' . ('  LIMIT ' . $filter['start'] . ',' . $filter['page_size']);
+	$sql = 'SELECT * FROM ' . $GLOBALS['ecs']->table('keywords') . (' WHERE  searchengine=\'wlshop\' ' . $where) . ' ORDER BY date DESC, count DESC' . ('  LIMIT ' . $filter['start'] . ',' . $filter['page_size']);
 	$query = $GLOBALS['db']->query($sql);
 
 	while ($rt = $GLOBALS['db']->fetch_array($query)) {

@@ -7,7 +7,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_1.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_1.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -22,7 +22,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_2.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_2.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -37,7 +37,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_3.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_3.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -52,7 +52,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_4.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_4.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -67,7 +67,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_5.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_5.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -82,7 +82,7 @@
 <li class="guanggao">
 <div class="ggtu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/produce_adv_6.gif" style="width:466px; height:222px;">
+<img src="themes/wlmoban_dsc/store_tpl_2/images/produce_adv_6.gif" style="width:466px; height:222px;">
 <div class="kong"></div>
 </a>
 </div>
@@ -90,7 +90,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_7.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_7.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -105,7 +105,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_8.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_8.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -120,7 +120,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_9.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_9.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -135,7 +135,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_10.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_10.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>
@@ -150,7 +150,7 @@
 <li>
 <div class="tu">
 <a href="#" target="_blank" class="userjGoodsRecommend2_aimg">
-<img src="themes/ecmoban_dsc/store_tpl_2/images/product_adv_11.jpg" />
+<img src="themes/wlmoban_dsc/store_tpl_2/images/product_adv_11.jpg" />
 <span class="wenzi">
 <span class="ce">
 <span class="jieshao">依慧达EvitaPeroni发饰 百搭发圈头绳 丹麦进口手工盘发器头饰韩版丝柔弹力皮筋 依恋-酒红色 4337-280</span>

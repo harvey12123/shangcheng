@@ -465,7 +465,7 @@ function write_charset_config($lang, $charset)
 	$config_file = ROOT_PATH . 'data/config.php';
 	$s = file_get_contents($config_file);
 	$s = insertconfig($s, '/\\?\\>/', '');
-	$s = insertconfig($s, '/define\\(\'EC_TEMPLATE\',\\s*\'.*?\'\\);/i', 'define(\'EC_TEMPLATE\', \'ecmoban_dsc2017\');');
+	$s = insertconfig($s, '/define\\(\'EC_TEMPLATE\',\\s*\'.*?\'\\);/i', 'define(\'EC_TEMPLATE\', \'wlmoban_dsc2017\');');
 	$s = insertconfig($s, '/define\\(\'EC_LANGUAGE\',\\s*\'.*?\'\\);/i', 'define(\'EC_LANGUAGE\', \'' . $lang . '\');');
 	$s = insertconfig($s, '/define\\(\'EC_CHARSET\',\\s*\'.*?\'\\);/i', 'define(\'EC_CHARSET\', \'' . $charset . '\');');
 	$s = insertconfig($s, '/\\?\\>/', '?>');

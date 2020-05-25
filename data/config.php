@@ -38,6 +38,6 @@ define('OLD_AUTH_KEY', '');
 
 define('API_TIME', '');
 
-define('EC_TEMPLATE', 'ecmoban_dsc2017');
+define('EC_TEMPLATE', 'wlmoban_dsc2017');
 
 ?>

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ECTouch Open Source Project
+ * wenlv Open Source Project
  * ============================================================================
  * Copyright (c) 2012-2014 http://jabrielcloud.com All rights reserved.
  * ----------------------------------------------------------------------------
@@ -42,7 +42,7 @@ if (isset($set_modules) && $set_modules == TRUE) {
     /* 是否支持在线支付 */
     $modules[$i]['is_online'] = '1';
     /* 作者 */
-    $modules[$i]['author'] = 'ECTOUCH TEAM';
+    $modules[$i]['author'] = 'wenlv TEAM';
     /* 网址 */
     $modules[$i]['website'] = 'http://mp.weixin.qq.com/';
     /* 版本号 */
@@ -127,13 +127,13 @@ class wxpay
 									'<div class="modal-qr">' .
 										'<div class="modal-qrcode"><img src="'.$url. 'images/qrcode/'.basename($filename).'?t='.time().'" /></div>' .
 										'<div class="model-info">' .
-											'<img src="themes/ecmoban_dsc/images/sj.png" class="icon-clock" />' .
+											'<img src="themes/wlmoban_dsc/images/sj.png" class="icon-clock" />' .
 											'<span>二维码有效时长为2小时, 请尽快支付</span>' .
 										'</div>' .
 									'</div>' .
 								'</div>' .
 								'<div class="modal-right">' . 
-									'<img src="/themes/ecmoban_dsc/images/weixin-qrcode.jpg" />' .
+									'<img src="/themes/wlmoban_dsc/images/weixin-qrcode.jpg" />' .
 								'</div>' .
 							'</div>' . 
 						'</div>';

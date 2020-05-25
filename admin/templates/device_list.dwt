@@ -9,22 +9,22 @@
         	<div class="tabs_info">
             	<ul>
                     <li {if $deviceval eq '0'}class="curr"{/if}>
-                    	<a href="ecjia_device.php?act=list&deviceval=0">全部{if $deviceval neq '0'}<em class="li_color">({$device_count.count_all|default:0})</em>{/if}</a>
+                    	<a href="wljia_device.php?act=list&deviceval=0">全部{if $deviceval neq '0'}<em class="li_color">({$device_count.count_all|default:0})</em>{/if}</a>
                     </li>
                     <li {if $deviceval eq '1'}class="curr"{/if}>
-                        <a href="ecjia_device.php?act=list&deviceval=1">Android{if $deviceval neq '1'}<em class="li_color">({$device_count.count_android|default:0})</em>{/if}</a>
+                        <a href="wljia_device.php?act=list&deviceval=1">Android{if $deviceval neq '1'}<em class="li_color">({$device_count.count_android|default:0})</em>{/if}</a>
                     </li>
                     <li {if $deviceval eq '2'}class="curr"{/if}>
-                        <a href="ecjia_device.php?act=list&deviceval=2">iPhone{if $deviceval neq '2'}<em class="li_color">({$device_count.count_iphone|default:0})</em>{/if}</a>
+                        <a href="wljia_device.php?act=list&deviceval=2">iPhone{if $deviceval neq '2'}<em class="li_color">({$device_count.count_iphone|default:0})</em>{/if}</a>
                     </li>
                     <li {if $deviceval eq '3'}class="curr"{/if}>
-                        <a href="ecjia_device.php?act=list&deviceval=3">iPad{if $deviceval neq '3'}<em class="li_color">({$device_count.count_ipad|default:0})</em>{/if}</a>
+                        <a href="wljia_device.php?act=list&deviceval=3">iPad{if $deviceval neq '3'}<em class="li_color">({$device_count.count_ipad|default:0})</em>{/if}</a>
                     </li>
                     <li {if $deviceval eq '4'}class="curr"{/if}>
-                        <a href="ecjia_device.php?act=list&deviceval=4">收银台{if $deviceval neq '4'}<em class="li_color">({$device_count.count_cash|default:0})</em>{/if}</a>
+                        <a href="wljia_device.php?act=list&deviceval=4">收银台{if $deviceval neq '4'}<em class="li_color">({$device_count.count_cash|default:0})</em>{/if}</a>
                     </li>
                     <li {if $deviceval eq '5'}class="curr"{/if}>
-                        <a href="ecjia_device.php?act=list&deviceval=5">回收站{if $deviceval neq '5'}<em class="li_color">({$device_count.count_trash|default:0})</em>{/if}</a>
+                        <a href="wljia_device.php?act=list&deviceval=5">回收站{if $deviceval neq '5'}<em class="li_color">({$device_count.count_trash|default:0})</em>{/if}</a>
                     </li>
                 </ul>
             </div>			
@@ -85,15 +85,15 @@
                                     {if $deviceval eq '5'}
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_device.php?act=back_device&id={$device.id}" class="btn_see">还原设备</a>
+                                            <a href="wljia_device.php?act=back_device&id={$device.id}" class="btn_see">还原设备</a>
                                             
-                                            <a href="ecjia_device.php?act=del&id={$device.id}" onclick="{if(confirm('确定要彻底删除该设备吗')){return true;}return false;}" class="btn_trash"><i class="icon icon-trash"></i>彻底删除</a>
+                                            <a href="wljia_device.php?act=del&id={$device.id}" onclick="{if(confirm('确定要彻底删除该设备吗')){return true;}return false;}" class="btn_trash"><i class="icon icon-trash"></i>彻底删除</a>
                                         </div>
                                     </td>
                                     {else}
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_device.php?act=view&id={$device.id}" class="btn_see"><i class="sc_icon sc_icon_see"></i>查看</a>
+                                            <a href="wljia_device.php?act=view&id={$device.id}" class="btn_see"><i class="sc_icon sc_icon_see"></i>查看</a>
                                             
                                             <a href="javascript:;" onclick="listTable.remove({$device.id}, '确定要移动到回收站吗')" class="btn_trash"><i class="icon icon-trash"></i>移至回收站</a>
                                         </div>

@@ -7,7 +7,7 @@
 </div>
 <div class="fn-clear userdefined">
 <div class="mc">
-<div class="userDefinedArea"><a target="_blank" href="#"><img src="themes/ecmoban_dsc/store_tpl_7/images/adv_banner.jpg" /></a></div>
+<div class="userDefinedArea"><a target="_blank" href="#"><img src="themes/wlmoban_dsc/store_tpl_7/images/adv_banner.jpg" /></a></div>
 </div>
 </div>
 </div>

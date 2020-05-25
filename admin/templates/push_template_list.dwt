@@ -62,7 +62,7 @@
                                     <td class="sky_id"><div class="tDiv">{$push_template.date}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_push_template.php?act=edit&id={$push_template.template_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
+                                            <a href="wljia_push_template.php?act=edit&id={$push_template.template_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
                                             
                                             <a href="javascript:;" onclick="listTable.remove({$push_template.template_id}, '确定要删除吗')" class="btn_trash"><i class="icon icon-trash"></i>{$lang.drop}</a>
                                         </div>

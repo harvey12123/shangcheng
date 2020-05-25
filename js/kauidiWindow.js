@@ -23,7 +23,7 @@
 						vieH=Math.max((document.documentElement.clientHeight||document.body.clientHeight),h),
 						vieW=Math.max((document.documentElement.clientWidth||document.body.clientWidth),w);
 						oTitle.style.cssText='height:42px;text-indent:10px;line-height:42px;color:#fff;background:#ec5151;overflow:hidden;';
-						oClose.style.cssText='margin:12px;*margin-top:-30px;width:17px;height:15px;float:right;background:url(themes/ecmoban_sc/images/close.png) no-repeat center;cursor:pointer';
+						oClose.style.cssText='margin:12px;*margin-top:-30px;width:17px;height:15px;float:right;background:url(themes/wlmoban_sc/images/close.png) no-repeat center;cursor:pointer';
 						var h1 = h+4;
 						var w1 = w+64
 						oWrap.style.cssText='opacity:0;filter:alpha(opacity:0);border:2px solid #333;position:absolute;z-index:99999;height:'+h+'px;width:'+w+'px;left:50%;top:22%;margin:-'+h1/2+'px 0 0 -'+w1/2+'px;background:#fff';

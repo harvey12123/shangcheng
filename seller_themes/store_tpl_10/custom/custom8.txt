@@ -2,11 +2,11 @@
 <div class="layout">
 <div class="layout-one w990">
 <div class="fn-clear cuxiaoNo1">
-<div style="background:url(themes/ecmoban_dsc/store_tpl_10/images/no1_cuxiao_bg.jpg);" class="mc">
+<div style="background:url(themes/wlmoban_dsc/store_tpl_10/images/no1_cuxiao_bg.jpg);" class="mc">
 <div class="user_jy">
 <div class="cuxiao_cp">
 <div class="jItem">
-<div class="jPic"><a target="_blank" href="#"><img height="580" width="580" src="themes/ecmoban_dsc/store_tpl_10/images/cuxiao_cp_1.png"></a></div>
+<div class="jPic"><a target="_blank" href="#"><img height="580" width="580" src="themes/wlmoban_dsc/store_tpl_10/images/cuxiao_cp_1.png"></a></div>
 <div class="jGoodsInfo">
 <div class="jDesc"><a target="_blank" href="#">龙扬茶叶 新茶安溪清香型铁观音 茗茶 礼盒铁盒装250G</a></div>
 <div class="jPrice">

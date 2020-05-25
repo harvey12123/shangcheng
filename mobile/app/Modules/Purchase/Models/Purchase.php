@@ -334,7 +334,7 @@ class Purchase extends Model {
                 }
 
                 $GLOBALS['db']->autoReplace($GLOBALS['ecs']->table('keywords'), ['date' => local_date('Y-m-d'),
-                    'searchengine' => 'ecshop', 'keyword' => addslashes(str_replace('%', '', $val)), 'count' => 1], ['count' => 1]);
+                    'searchengine' => 'wlshop', 'keyword' => addslashes(str_replace('%', '', $val)), 'count' => 1], ['count' => 1]);
             }
 
             $goods_ids = array_unique($goods_ids);

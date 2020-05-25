@@ -10,7 +10,7 @@ class EditorController extends \App\Modules\Base\Controllers\BackendController
 		header('Access-Control-Allow-Origin: *');
 		header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 		header('Access-Control-Allow-Headers: X-HTTP-Method-Override, Content-Type, x-requested-with, Authorization');
-		$this->load_helper(array('function', 'ecmoban'));
+		$this->load_helper(array('function', 'wlmoban'));
 		$this->admin_priv('touch_dashboard');
 	}
 

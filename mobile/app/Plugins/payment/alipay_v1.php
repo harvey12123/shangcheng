@@ -142,6 +142,6 @@ class alipay
 	}
 }
 
-defined('IN_ECTOUCH') || exit('Deny Access');
+defined('IN_wenlv') || exit('Deny Access');
 
 ?>

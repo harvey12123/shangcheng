@@ -100,7 +100,7 @@ if ($_GET['act'] == 'send') {
 		$is_null = get_send_sms_keyval($GLOBALS['_CFG']['dsc_appkey'], $GLOBALS['_CFG']['dsc_appsecret']);
 	}
 	else {
-		$is_null = get_send_sms_keyval($GLOBALS['_CFG']['sms_ecmoban_user'], $GLOBALS['_CFG']['sms_ecmoban_password']);
+		$is_null = get_send_sms_keyval($GLOBALS['_CFG']['sms_wlmoban_user'], $GLOBALS['_CFG']['sms_wlmoban_password']);
 	}
 
 	if ($is_null) {

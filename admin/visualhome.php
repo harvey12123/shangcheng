@@ -84,7 +84,7 @@ else if ($_REQUEST['act'] == 'visual') {
 
 	$arr['tem'] = $code;
 	$arr['out'] = get_html_file($filename);
-	$replace_data = array('http://localhost/ecmoban_dsc2.0.5_20170518/', 'http://localhost/ecmoban_dsc2.2.6_20170727/', 'http://localhost/ecmoban_dsc2.3/', 'http://localhost/dsc30/');
+	$replace_data = array('http://localhost/wlmoban_dsc2.0.5_20170518/', 'http://localhost/wlmoban_dsc2.2.6_20170727/', 'http://localhost/wlmoban_dsc2.3/', 'http://localhost/dsc30/');
 	$arr['out'] = str_replace($replace_data, $ecs->url(), $arr['out']);
 	$content = getleft_attr('content', 0, $arr['tem'], $GLOBALS['_CFG']['template']);
 	$bonusadv = getleft_attr('bonusadv', 0, $arr['tem'], $GLOBALS['_CFG']['template']);

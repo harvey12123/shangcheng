@@ -45,7 +45,7 @@ class paypal
 		$nvpstr .= '&PAYMENTREQUEST_0_PAYMENTACTION=' . $paymentType;
 		$nvpstr .= '&PAYMENTREQUEST_0_CURRENCYCODE=' . $currencyCodeType;
 		$nvpstr .= '&PAYMENTREQUEST_0_INVNUM=' . $data_order_id;
-		$nvpstr .= '&ButtonSource=ECTouch';
+		$nvpstr .= '&ButtonSource=wenlv';
 		$nvpstr .= '&NOSHIPPING=1';
 		$returnURL = urlencode($url . '/respond.php?code=paypal');
 		$cancelURL = urlencode($url . '/respond.php?code=paypal');

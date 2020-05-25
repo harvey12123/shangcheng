@@ -475,7 +475,7 @@ function order_list($page = 0)
 
 		if ($filter['order_referer']) {
 			if ($filter['order_referer'] == 'pc') {
-				$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'ecjia-cashdesk\') ';
+				$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'wljia-cashdesk\') ';
 			}
 			else {
 				$where .= ' AND o.referer = \'' . $filter['order_referer'] . '\' ';
@@ -1413,7 +1413,7 @@ function delivery_list()
 
 		if ($filter['order_referer']) {
 			if ($filter['order_referer'] == 'pc') {
-				$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'ecjia-cashdesk\') ';
+				$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'wljia-cashdesk\') ';
 			}
 			else {
 				$where .= ' AND o.referer = \'' . $filter['order_referer'] . '\' ';
@@ -1516,7 +1516,7 @@ function back_list()
 
 		if ($filter['order_referer']) {
 			if ($filter['order_referer'] == 'pc') {
-				$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'ecjia-cashdesk\') ';
+				$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'wljia-cashdesk\') ';
 			}
 			else {
 				$where .= ' AND o.referer = \'' . $filter['order_referer'] . '\' ';

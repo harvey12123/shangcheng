@@ -9,16 +9,16 @@
         	<div class="tabs_info">
             	<ul>
                     <li {if $errorval eq '0'}class="curr"{/if}>
-                    	<a href="ecjia_sms_record.php?act=list&errorval=0">全部{if $errorval neq '0'}<em class="li_color">({$count_sms_record.count_all|default:0})</em>{/if}</a>
+                    	<a href="wljia_sms_record.php?act=list&errorval=0">全部{if $errorval neq '0'}<em class="li_color">({$count_sms_record.count_all|default:0})</em>{/if}</a>
                     </li>
                     <li {if $errorval eq '1'}class="curr"{/if}>
-                        <a href="ecjia_sms_record.php?act=list&errorval=1">待发送{if $errorval neq '1'}<em class="li_color">({$count_sms_record.count_wait|default:0})</em>{/if}</a>
+                        <a href="wljia_sms_record.php?act=list&errorval=1">待发送{if $errorval neq '1'}<em class="li_color">({$count_sms_record.count_wait|default:0})</em>{/if}</a>
                     </li>
                     <li {if $errorval eq '2'}class="curr"{/if}>
-                        <a href="ecjia_sms_record.php?act=list&errorval=2">发送成功{if $errorval neq '2'}<em class="li_color">({$count_sms_record.count_success|default:0})</em>{/if}</a>
+                        <a href="wljia_sms_record.php?act=list&errorval=2">发送成功{if $errorval neq '2'}<em class="li_color">({$count_sms_record.count_success|default:0})</em>{/if}</a>
                     </li>
                     <li {if $errorval eq '3'}class="curr"{/if}>
-                        <a href="ecjia_sms_record.php?act=list&errorval=3">发送失败{if $errorval neq '3'}<em class="li_color">({$count_sms_record.count_fail|default:0})</em>{/if}</a>
+                        <a href="wljia_sms_record.php?act=list&errorval=3">发送失败{if $errorval neq '3'}<em class="li_color">({$count_sms_record.count_fail|default:0})</em>{/if}</a>
                     </li>
                 </ul>
             </div>			
@@ -76,7 +76,7 @@
                                     <td class="sky_id"><div class="tDiv">{$sms_record.status}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_sms_record.php?act=sendsms&id={$sms_record.id}" class="btn_see">重新发送</a>
+                                            <a href="wljia_sms_record.php?act=sendsms&id={$sms_record.id}" class="btn_see">重新发送</a>
                                         </div>
                                     </td>
                                 </tr>

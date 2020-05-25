@@ -29,8 +29,8 @@ foreach ($lang['lang_charset'] as $key => $val) {
 
 echo "    </select>\r\n</fieldset>\r\n</form>\r\n<form target=\"_parent\" action=\"\" method=\"post\">\r\n<fieldset>\r\n    <legend dir=\"ltr\">";
 echo $lang['ui_title'];
-echo "</legend>\r\n    <input type=\"radio\" id=\"ui_1\" name=\"ui\" value=\"ecshop\" checked=\"checked\" /><label for=\"ui_1\">";
-echo $lang['ui_ecshop'];
+echo "</legend>\r\n    <input type=\"radio\" id=\"ui_1\" name=\"ui\" value=\"wlshop\" checked=\"checked\" /><label for=\"ui_1\">";
+echo $lang['ui_wlshop'];
 echo "</label>\r\n    <!--<input type=\"radio\" id=\"ui_2\" name=\"ui\" value=\"ucenter\" /><label for=\"ui_2\">";
 echo $lang['ui_ucenter'];
 echo "</label>-->\r\n</fieldset>\r\n<fieldset>\r\n    <legend>";

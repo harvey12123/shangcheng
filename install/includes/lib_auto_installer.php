@@ -65,7 +65,7 @@ function get_system_info()
 	$system_info[] = array($_LANG['jpeg'], $jpeg_enabled);
 	$system_info[] = array($_LANG['gif'], $gif_enabled);
 	$system_info[] = array($_LANG['png'], $png_enabled);
-	$file_types = array('dwt' => ROOT_PATH . 'themes/ecmoban_dsc/index.dwt', 'lbi' => ROOT_PATH . 'themes/ecmoban_dsc/library/member_info.lbi', 'dat' => ROOT_PATH . 'includes/codetable/ipdata.dat');
+	$file_types = array('dwt' => ROOT_PATH . 'themes/wlmoban_dsc/index.dwt', 'lbi' => ROOT_PATH . 'themes/wlmoban_dsc/library/member_info.lbi', 'dat' => ROOT_PATH . 'includes/codetable/ipdata.dat');
 	$exists_info = file_types_exists($file_types);
 	$exists_info = empty($exists_info) ? $_LANG['support_dld'] : $exists_info;
 	$system_info[] = array($_LANG['does_support_dld'], $exists_info);
@@ -244,7 +244,7 @@ function create_config_file($db_host, $db_port, $db_user, $db_pass, $db_name, $p
 	$content .= 'define(\'API_TIME\', \'\');
 
 ';
-	$content .= 'define(\'EC_TEMPLATE\', \'ecmoban_dsc2017\');
+	$content .= 'define(\'EC_TEMPLATE\', \'wlmoban_dsc2017\');
 
 ';
 	$content .= '?>';
@@ -426,10 +426,10 @@ function deal_aftermath()
 	global $err;
 	global $_LANG;
 	include ROOT_PATH . 'data/config.php';
-	include_once ROOT_PATH . 'includes/cls_ecshop.php';
+	include_once ROOT_PATH . 'includes/cls_wlshop.php';
 	include_once ROOT_PATH . 'includes/cls_mysql.php';
 	include_once ROOT_PATH . 'includes/cls_ecmac.php';
-	include_once ROOT_PATH . 'includes/lib_ecmoban.php';
+	include_once ROOT_PATH . 'includes/lib_wlmoban.php';
 	$db = new cls_mysql($db_host, $db_user, $db_pass, $db_name);
 	$sql = 'UPDATE ' . $prefix . 'shop_config SET value=\'' . time() . '\' WHERE code=\'install_date\'';
 
@@ -470,7 +470,7 @@ function deal_aftermath()
 function get_spt_code()
 {
 	include ROOT_PATH . 'data/config.php';
-	include_once ROOT_PATH . 'includes/cls_ecshop.php';
+	include_once ROOT_PATH . 'includes/cls_wlshop.php';
 	include_once ROOT_PATH . 'includes/cls_mysql.php';
 	$db = new cls_mysql($db_host, $db_user, $db_pass, $db_name);
 	$ecs = new ECS($db_name, $prefix);

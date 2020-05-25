@@ -73,7 +73,7 @@ if ($_REQUEST['act'] == 'view') {
 	$general_xml .= '</chart>';
 	$smarty->assign('ur_here', $_LANG['searchengine_stats']);
 	$smarty->assign('general_data', $general_xml);
-	$searchengines = array('ecshop' => false, 'MSLIVE' => false, 'BAIDU' => false, 'GOOGLE' => false, 'GOOGLE CHINA' => false, 'CT114' => false, 'SOSO' => false);
+	$searchengines = array('wlshop' => false, 'MSLIVE' => false, 'BAIDU' => false, 'GOOGLE' => false, 'GOOGLE CHINA' => false, 'CT114' => false, 'SOSO' => false);
 
 	if (isset($_POST['filter'])) {
 		foreach ($_POST['filter'] as $v) {

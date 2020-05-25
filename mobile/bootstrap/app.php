@@ -1,7 +1,7 @@
 <?php
 
-define('IN_ECTOUCH', true);
-define('APPNAME', 'ECTouch');
+define('IN_wenlv', true);
+define('APPNAME', 'wenlv');
 define('VERSION', 'v2.7.3.4');
 define('CHARSET', 'utf-8');
 define('ROOT_PATH', str_replace('\\', '/', dirname(__DIR__)) . '/');

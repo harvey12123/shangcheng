@@ -1,8 +1,8 @@
 <?php
 
-$_LANG['app_name'] = 'ECSHOP';
-$_LANG['cp_home'] = 'ECSHOP Management';
-$_LANG['copyright'] = ' &copy; 2005-2020 ECSHOP Copyright, <br> All Right Reserved.';
+$_LANG['app_name'] = 'wlshop';
+$_LANG['cp_home'] = 'wlshop Management';
+$_LANG['copyright'] = ' &copy; 2005-2020 wlshop Copyright, <br> All Right Reserved.';
 $_LANG['query_info'] = 'Run %d queries, spend %s seconds';
 $_LANG['memory_info'] = ',memory occupied:%0.3f MB';
 $_LANG['gzip_enabled'] = ',Gzip enabled';

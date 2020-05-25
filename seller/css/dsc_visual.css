@@ -327,7 +327,7 @@ img{ font-size:0;}
 .main-wrapper .db_main{ margin-left: 80px;transition: all .5s;-moz-transition: all .5s;-webkit-transition: all .5s;-o-transition: all .5s;}
 
 .pc-page{ overflow:auto;}
-.pc-page.dsc-ecmoban .homeFloor{ display:none !important;}
+.pc-page.dsc-wlmoban .homeFloor{ display:none !important;}
 .pc-page .hd_main,.pc-page .prompt,.pc-page .demo{ min-width:1593px;}
 .pc-page .hd_main .nav_bg{ margin-top:10px;}
 

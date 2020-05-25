@@ -4,7 +4,7 @@ function instheader()
 {
 	global $charset;
 	global $tools_version;
-	echo '<html><head>' . ('<meta http-equiv="Content-Type" content="text/html; charset=' . $charset . '">') . ('<title>ECShop 数据库编码转换工具' . $tools_version . '</title>') . '<link href="styles/general.css" rel="stylesheet" type="text/css" />' . '<script type="text/javascript">
+	echo '<html><head>' . ('<meta http-equiv="Content-Type" content="text/html; charset=' . $charset . '">') . ('<title>wlshop 数据库编码转换工具' . $tools_version . '</title>') . '<link href="styles/general.css" rel="stylesheet" type="text/css" />' . '<script type="text/javascript">
         function redirect(url) {
             window.location=url;
         }
@@ -14,7 +14,7 @@ function instheader()
         </script>
         </head>' . '<body class="body"><div class="main">';
 	include ROOT_PATH . 'upgrade/templates/header.php';
-	echo '<div id="append_parent"></div>' . '<div class="wrapper">' . ('<div class="tit_install">ECShop 数据库编码转换工具' . $tools_version . '</div>') . '<div class="content">';
+	echo '<div id="append_parent"></div>' . '<div class="wrapper">' . ('<div class="tit_install">wlshop 数据库编码转换工具' . $tools_version . '</div>') . '<div class="content">';
 }
 
 function instfooter()
@@ -182,7 +182,7 @@ function convert_table($table)
 	}
 
 	display('正在转换 ' . $table . ' 数据表，请勿关闭本页面或刷新。');
-	global $ecshop_charset;
+	global $wlshop_charset;
 	global $mysql_charset;
 	global $mysql_version;
 	global $db;
@@ -192,7 +192,7 @@ function convert_table($table)
 	global $tables_keys;
 	global $rpp;
 	$s_charset = str_replace('-', '', $mysql_charset);
-	$d_charset = str_replace('-', '', $ecshop_charset);
+	$d_charset = str_replace('-', '', $wlshop_charset);
 
 	if ($convert_tables[$table] == 1) {
 		$query = $db->query('SHOW CREATE TABLE `' . $table . '_bak`', 'SILENT');
@@ -231,7 +231,7 @@ function convert_table($table)
 
 			foreach ($row as $k => $v) {
 				$_key[] = $k;
-				$_value[] = addslashes(ecs_iconv($mysql_charset, $ecshop_charset, $v));
+				$_value[] = addslashes(ecs_iconv($mysql_charset, $wlshop_charset, $v));
 			}
 
 			$_key = implode('`,`', $_key);
@@ -254,13 +254,13 @@ function convert_table($table)
 
 			if (count($convert_tables) < 1) {
 				@unlink(ROOT_PATH . $convert_tables_file);
-				@setcookie('ECCC', $ecshop_charset, 0);
+				@setcookie('ECCC', $wlshop_charset, 0);
 				showmessage('<br /><span style="font-size:14px;font-size:weight">转换结束！</span><br /><a href="index.php"><font size="2"><b>&gt;&gt;&nbsp;如果您需要执行升级程序，请点这里进行升级</b></font></a>');
 			}
 			else {
 				array_shift($tables_keys);
 				$extra = '
-                <input type="hidden" name="ecshop_charset" value="' . $ecshop_charset . '" />
+                <input type="hidden" name="wlshop_charset" value="' . $wlshop_charset . '" />
                 <input type="hidden" name="mysql_charset" value="' . $mysql_charset . '" />
                 <input type="hidden" name="act" value="convert" />
                 <input type="hidden" name="table_name" value="' . $tables_keys[0] . '" />';
@@ -270,7 +270,7 @@ function convert_table($table)
 		else {
 			$next_start = $start + $rpp;
 			$extra = '
-            <input type="hidden" name="ecshop_charset" value="' . $ecshop_charset . '" />
+            <input type="hidden" name="wlshop_charset" value="' . $wlshop_charset . '" />
             <input type="hidden" name="mysql_charset" value="' . $mysql_charset . '" />
             <input type="hidden" name="act" value="convert" />
             <input type="hidden" name="start" value="' . $next_start . '" />
@@ -284,16 +284,16 @@ function convert_table($table)
 $charset = 'utf-8';
 $tools_version = 'v1.0';
 $mysql_version = '';
-$ecshop_version = '';
+$wlshop_version = '';
 $mysql_charset = '';
-$ecshop_charset = '';
+$wlshop_charset = '';
 $convert_charset = array('utf-8' => 'gbk', 'gbk' => 'utf-8');
 $convert_tables_file = 'data/convert_tables.php';
 $rpp = 500;
 define('ROOT_PATH', str_replace('\\', '/', substr(__FILE__, 0, -19)));
 define('IN_ECS', true);
 require ROOT_PATH . 'data/config.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/cls_mysql.php';
 require ROOT_PATH . 'includes/lib_common.php';
 require ROOT_PATH . 'includes/lib_base.php';
@@ -305,15 +305,15 @@ else {
 	$ec_charset = '';
 }
 
-$ecshop_version = str_replace('v', '', VERSION);
-$ecshop_charset = $ec_charset;
+$wlshop_version = str_replace('v', '', VERSION);
+$wlshop_charset = $ec_charset;
 $db = new cls_mysql($db_host, $db_user, $db_pass, $db_name, '', 0, 1);
 $mysql_version = $db->version;
 $mysql_charset = get_mysql_charset();
 $step = getgpc('step');
 $step = empty($step) ? 1 : $step;
 
-if ($ecshop_version < '1.0') {
+if ($wlshop_version < '1.0') {
 	$step = 'halt';
 }
 
@@ -321,25 +321,25 @@ ob_start();
 instheader();
 
 if ($step == 1) {
-	if (!empty($ecshop_charset) && !empty($mysql_charset) && $ecshop_charset == $mysql_charset) {
+	if (!empty($wlshop_charset) && !empty($mysql_charset) && $wlshop_charset == $mysql_charset) {
 		$ext_msg = '<div class="tishi"><span>您的程序编码与数据库编码一致，无需进行转换。</span></div><div class="btn_info mt50 mb40"><a href="index.php" class="button">系统升级</a></div>';
 	}
 	else {
-		if (empty($ecshop_charset) && !empty($mysql_charset)) {
+		if (empty($wlshop_charset) && !empty($mysql_charset)) {
 			$ext_msg = '<form name="convert_form" method="post" action="?step=start"><b>由于未能确定您的程序编码，该编码由您手动确定。</b><br />
                     <b>您的数据库编码为：<span style="color:blue">' . $mysql_charset . '</span> ，确认您的程序编码是：<span style="color:red">' . $convert_charset[$mysql_charset] . '</span> 才能进行转换</b><br /><br />
-        <a href="###" id="runturn"><font size="2"><b>&gt;&gt;&nbsp;如果您已确认完成上面的说明,请点这里进行转换</b></font></a><input type="hidden" name="ecshop_charset" value="' . $convert_charset[$mysql_charset] . '" />&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><font size="2">&gt;&gt;&nbsp;如果您确认程序与数据库的编码一致，请点这里进行升级</font></a></form>';
-			$ecshop_charset = '<span style="color:red">未知</span>';
+        <a href="###" id="runturn"><font size="2"><b>&gt;&gt;&nbsp;如果您已确认完成上面的说明,请点这里进行转换</b></font></a><input type="hidden" name="wlshop_charset" value="' . $convert_charset[$mysql_charset] . '" />&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><font size="2">&gt;&gt;&nbsp;如果您确认程序与数据库的编码一致，请点这里进行升级</font></a></form>';
+			$wlshop_charset = '<span style="color:red">未知</span>';
 		}
 		else {
-			if (empty($mysql_charset) && !empty($ecshop_charset)) {
+			if (empty($mysql_charset) && !empty($wlshop_charset)) {
 				$ext_msg = '<form name="convert_form" method="post" action="?step=start"><b>由于未能确定您的数据库编码，该编码由您手动确定。</b><br />
-                    <b>您的程序编码为：<span style="color:blue">' . $ecshop_charset . '</span> ，确认您的数据库编码是：<span style="color:red">' . $convert_charset[$ecshop_charset] . '</span> 才能进行转换</b><br /><br />
-        <a href="###" id="runturn"><font size="2"><b>&gt;&gt;&nbsp;如果您已确认完成上面的说明,请点这里进行转换</b></font></a><input type="hidden" name="mysql_charset" value="' . $convert_charset[$ecshop_charset] . '" />&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><font size="2">&gt;&gt;&nbsp;如果您确认程序与数据库的编码一致，请点这里进行升级</font></a></form>';
+                    <b>您的程序编码为：<span style="color:blue">' . $wlshop_charset . '</span> ，确认您的数据库编码是：<span style="color:red">' . $convert_charset[$wlshop_charset] . '</span> 才能进行转换</b><br /><br />
+        <a href="###" id="runturn"><font size="2"><b>&gt;&gt;&nbsp;如果您已确认完成上面的说明,请点这里进行转换</b></font></a><input type="hidden" name="mysql_charset" value="' . $convert_charset[$wlshop_charset] . '" />&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><font size="2">&gt;&gt;&nbsp;如果您确认程序与数据库的编码一致，请点这里进行升级</font></a></form>';
 				$mysql_charset = '<span style="color:red">未知</span>';
 			}
 			else {
-				if (empty($ecshop_charset) && empty($mysql_charset)) {
+				if (empty($wlshop_charset) && empty($mysql_charset)) {
 					$charset_option = '';
 
 					foreach ($convert_charset as $c_charset) {
@@ -347,10 +347,10 @@ if ($step == 1) {
 					}
 
 					$ext_msg = '<form name="convert_form" method="post" action="?step=start"><b>由于未能确定您的程序与数据库编码，该编码由您手动确定。</b><br />
-                    <b>您的程序编码为：<select name="ecshop_charset" id="ecshop_charset">' . $charset_option . '</select> ，您的数据库编码为：<select name="mysql_charset" id="mysql_charset">' . $charset_option . '</select></b><br /><b></b><br /><br />
+                    <b>您的程序编码为：<select name="wlshop_charset" id="wlshop_charset">' . $charset_option . '</select> ，您的数据库编码为：<select name="mysql_charset" id="mysql_charset">' . $charset_option . '</select></b><br /><b></b><br /><br />
         <a href="###" id="runturn"><font size="2"><b>&gt;&gt;&nbsp;如果您已确认完成上面的说明,请点这里进行转换</b></font></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php"><font size="2"><b>&gt;&gt;&nbsp;如果您确认程序与数据库的编码一致，请点这里进行升级</font></a></form>';
 					$mysql_charset = '<span style="color:red">未知</span>';
-					$ecshop_charset = '<span style="color:red">未知</span>';
+					$wlshop_charset = '<span style="color:red">未知</span>';
 				}
 				else {
 					$ext_msg = '<a href="?step=start"><font size="2"><b>&gt;&gt;&nbsp;如果您已确认完成上面的说明,请点这里进行转换</b></font></a>';
@@ -369,13 +369,13 @@ if ($step == 1) {
             document.forms["convert_form"].submit();
         }
     }
-    if (_o("ecshop_charset") && _o("mysql_charset")) {
-        if (_o("ecshop_charset").options[0].value == "gbk") {
+    if (_o("wlshop_charset") && _o("mysql_charset")) {
+        if (_o("wlshop_charset").options[0].value == "gbk") {
             _o("mysql_charset").options[1].selected = true;
         } else {
             _o("mysql_charset").options[0].selected = true;
         }
-        _o("ecshop_charset").onchange = function() {
+        _o("wlshop_charset").onchange = function() {
             if (this.value == "gbk") {
                 _o("mysql_charset").options[1].selected = true;
             } else {
@@ -384,9 +384,9 @@ if ($step == 1) {
         }
         _o("mysql_charset").onchange = function() {
             if (this.value == "gbk") {
-                _o("ecshop_charset").options[1].selected = true;
+                _o("wlshop_charset").options[1].selected = true;
             } else {
-                _o("ecshop_charset").options[0].selected = true;
+                _o("wlshop_charset").options[0].selected = true;
             }
         }
     }
@@ -402,7 +402,7 @@ if ($step == 1) {
 <fieldset>
 <legend>转换程序使用说明</legend>
 <ul class="list">
-    <li>1、只支持ECShop数据库的转换</li>
+    <li>1、只支持wlshop数据库的转换</li>
     <li>2、根据您上传程序的编码自动转换数据库编码，现在只支持 UTF-8 与 GBK 编码的互换。</li>
     <li>3、本工具在执行过程中不会对您的原数据库进行破坏，会将您的原数据表命名为备份文件，转换后的数据存在原来的表明中。例如：原表名为members（编码为UTF-8）需要转为GBK编码，则转换后为members（编码为GBK），members_bak（编码为UTF-8，即为原表的备份）。</li>
     <li>4、如果中途失败，请恢复数据库的到原备份数据库，去除错误后重新运行本程序</li>
@@ -412,8 +412,8 @@ if ($step == 1) {
 <fieldset>
 <legend>当前信息</legend>
 <ul class="list">
-    <li>程序版本：' . $ecshop_version . '</li>
-    <li>程序编码：' . $ecshop_charset . '</li>
+    <li>程序版本：' . $wlshop_version . '</li>
+    <li>程序编码：' . $wlshop_charset . '</li>
     <li>MySQL版本：' . $mysql_version . '</li>
     <li>MySQL编码：' . $mysql_charset . '</li>
 </ul>
@@ -429,10 +429,10 @@ else if ($step == 'halt') {
 	instfooter();
 }
 else if ($step == 'start') {
-	$ecshop_charset = isset($_POST['ecshop_charset']) ? $_POST['ecshop_charset'] : $ecshop_charset;
+	$wlshop_charset = isset($_POST['wlshop_charset']) ? $_POST['wlshop_charset'] : $wlshop_charset;
 	$mysql_charset = isset($_POST['mysql_charset']) ? $_POST['mysql_charset'] : $mysql_charset;
 
-	if ($ecshop_charset == $mysql_charset) {
+	if ($wlshop_charset == $mysql_charset) {
 		$ext_msg = '<span style="color:red;font-size:14px;font-weight:bold">您的程序编码与数据库编码一致，无需进行转换。</span><br /><a href="index.php"><font size="2"><b>&gt;&gt;&nbsp;如果您需要执行升级程序，请点这里进行升级</b></font></a>';
 		showmessage($ext_msg);
 	}
@@ -451,7 +451,7 @@ else if ($step == 'start') {
 	if (empty($act)) {
 		$backup_count = backup_tables($tables_keys);
 		$extra = '
-        <input type="hidden" name="ecshop_charset" value="' . $ecshop_charset . '" />
+        <input type="hidden" name="wlshop_charset" value="' . $wlshop_charset . '" />
         <input type="hidden" name="mysql_charset" value="' . $mysql_charset . '" />
         <input type="hidden" name="act" value="convert" />
         <input type="hidden" name="table_name" value="' . $tables_keys[0] . '" />';

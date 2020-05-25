@@ -37,7 +37,7 @@
                                                 <a href="integrate.php?act=points_set&code=<?php echo $this->_var['module']['code']; ?>" class="btn_edit"><?php echo $this->_var['lang']['points_set']; ?></a>
                                                 <?php endif; ?>
                                             <?php else: ?>
-                                            	<a <?php if ($this->_var['module']['code'] != "ecshop"): ?>href="javascript:confirm_redirect('<?php echo $this->_var['lang']['install_confirm']; ?>', 'integrate.php?act=install&code=<?php echo $this->_var['module']['code']; ?>')"<?php else: ?>href="integrate.php?act=install&code=<?php echo $this->_var['module']['code']; ?>" <?php endif; ?> class="btn_inst"><i class="sc_icon sc_icon_inst"></i><?php echo $this->_var['lang']['install']; ?></a>
+                                            	<a <?php if ($this->_var['module']['code'] != "wlshop"): ?>href="javascript:confirm_redirect('<?php echo $this->_var['lang']['install_confirm']; ?>', 'integrate.php?act=install&code=<?php echo $this->_var['module']['code']; ?>')"<?php else: ?>href="integrate.php?act=install&code=<?php echo $this->_var['module']['code']; ?>" <?php endif; ?> class="btn_inst"><i class="sc_icon sc_icon_inst"></i><?php echo $this->_var['lang']['install']; ?></a>
                                         	<?php endif; ?>
                                         </div>
                                     </td>

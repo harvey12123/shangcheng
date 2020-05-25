@@ -82,7 +82,7 @@ else if ($_REQUEST['act'] == 'add') {
 	$smarty->assign('ur_here', $_LANG['07_brand_add']);
 	$smarty->assign('action_link', array('text' => $_LANG['06_goods_brand_list'], 'href' => 'brand.php?act=list'));
 	$smarty->assign('form_action', 'insert');
-	$smarty->assign('is_need', $_CFG['template'] == 'ecmoban_dsc2017' ? 1 : 0);
+	$smarty->assign('is_need', $_CFG['template'] == 'wlmoban_dsc2017' ? 1 : 0);
 	assign_query_info();
 	$smarty->assign('brand', array('sort_order' => 50, 'is_show' => 1));
 	$smarty->display('brand_info.dwt');
@@ -136,7 +136,7 @@ else if ($_REQUEST['act'] == 'edit') {
 	$smarty->assign('action_link', array('text' => $_LANG['06_goods_brand_list'], 'href' => 'brand.php?act=list&' . list_link_postfix()));
 	$smarty->assign('brand', $brand);
 	$smarty->assign('form_action', 'updata');
-	$smarty->assign('is_need', $_CFG['template'] == 'ecmoban_dsc2017' ? 1 : 0);
+	$smarty->assign('is_need', $_CFG['template'] == 'wlmoban_dsc2017' ? 1 : 0);
 	assign_query_info();
 	$smarty->display('brand_info.dwt');
 }

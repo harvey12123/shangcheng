@@ -1261,7 +1261,7 @@ function get_up_settings($groups = '')
 
 	$sql = 'SELECT * FROM ' . $GLOBALS['ecs']->table('shop_config') . (' WHERE type<>\'hidden\' ' . $where . ' ORDER BY parent_id, sort_order, id');
 	$item_list = $GLOBALS['db']->getAll($sql);
-	$code_arr = array('shop_logo', 'no_picture', 'watermark', 'shop_slagon', 'wap_logo', 'two_code_logo', 'ectouch_qrcode', 'ecjia_qrcode', 'index_down_logo', 'site_commitment', 'user_login_logo', 'login_logo_pic', 'business_logo');
+	$code_arr = array('shop_logo', 'no_picture', 'watermark', 'shop_slagon', 'wap_logo', 'two_code_logo', 'wenlv_qrcode', 'wljia_qrcode', 'index_down_logo', 'site_commitment', 'user_login_logo', 'login_logo_pic', 'business_logo');
 
 	foreach ($item_list as $key => $item) {
 		$pid = $item['parent_id'];
@@ -1489,7 +1489,7 @@ function get_seller_shopinfo_changelog($ru_id = 0)
 function create_ueditor_editor($input_name, $input_value = '', $input_height = 486, $type = 0)
 {
 	global $smarty;
-	$FCKeditor = '<input type="hidden" id="' . $input_name . '" name="' . $input_name . '" value="' . htmlspecialchars($input_value) . '" /><iframe id="' . $input_name . '_frame" src="../plugins/seller_ueditor/ecmobanEditor.php?item=' . $input_name . '" width="100%" height="' . $input_height . '" frameborder="0" scrolling="no"></iframe>';
+	$FCKeditor = '<input type="hidden" id="' . $input_name . '" name="' . $input_name . '" value="' . htmlspecialchars($input_value) . '" /><iframe id="' . $input_name . '_frame" src="../plugins/seller_ueditor/wlmobanEditor.php?item=' . $input_name . '" width="100%" height="' . $input_height . '" frameborder="0" scrolling="no"></iframe>';
 
 	if ($type == 1) {
 		return $FCKeditor;

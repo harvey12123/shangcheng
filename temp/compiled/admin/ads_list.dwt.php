@@ -4,7 +4,7 @@
 <head><?php echo $this->fetch('library/admin_html_head.lbi'); ?></head>
 <body class="iframe_body">
 	<div class="warpper">
-    	<div class="title"><a href="javascript:;" ectype='goback' class="s-back"><?php echo $this->_var['lang']['back']; ?></a><?php if ($this->_var['ads_type'] == 1): ?><?php echo $this->_var['lang']['ectouch']; ?><?php else: ?><?php echo $this->_var['lang']['ad_type1']; ?><?php endif; ?> - <?php echo $this->_var['ur_here']; ?></div>
+    	<div class="title"><a href="javascript:;" ectype='goback' class="s-back"><?php echo $this->_var['lang']['back']; ?></a><?php if ($this->_var['ads_type'] == 1): ?><?php echo $this->_var['lang']['wenlv']; ?><?php else: ?><?php echo $this->_var['lang']['ad_type1']; ?><?php endif; ?> - <?php echo $this->_var['ur_here']; ?></div>
         <div class="content">
         	<div class="explanation" id="explanation">
             	<div class="ex_tit">
@@ -14,7 +14,7 @@
                         <div class="view-case">
                             <div class="view-case-tit"><i></i><?php echo $this->_var['lang']['view_tutorials']; ?></div>
                             <div class="view-case-info">
-                                <a href="http://help.ecmoban.com/article-6893.html" target="_blank"><?php echo $this->_var['lang']['tutorials_bonus_list_one']; ?></a>
+                                <a href="http://www.jabrielcloud.com/article-6893.html" target="_blank"><?php echo $this->_var['lang']['tutorials_bonus_list_one']; ?></a>
                             </div>
                         </div>
                         <?php endif; ?>	

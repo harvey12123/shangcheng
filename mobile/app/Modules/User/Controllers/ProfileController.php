@@ -25,11 +25,11 @@ class ProfileController extends \App\Modules\Base\Controllers\FrontendController
 		$this->parameter();
 		$sql = 'SELECT user_id,user_name,sex FROM {pre}users WHERE user_id = ' . $this->user_id;
 		$user_info = $this->db->getRow($sql);
-		$ecjiaBrowse = 0;
+		$wljiaBrowse = 0;
 		$agent = strtolower($_SERVER['HTTP_USER_AGENT']);
 
-		if (strpos($agent, 'ecjia') !== false) {
-			$ecjiaBrowse = 1;
+		if (strpos($agent, 'wljia') !== false) {
+			$wljiaBrowse = 1;
 		}
 
 		$user_real = dao('users_real')->where(array('user_id' => $this->user_id, 'user_type' => 0))->count();
@@ -38,7 +38,7 @@ class ProfileController extends \App\Modules\Base\Controllers\FrontendController
 		$this->assign('user_name', $user_info['user_name']);
 		$this->assign('user_sex', $user_info['sex']);
 		$this->assign('page_title', L('profile'));
-		$this->assign('in_ecjia', $ecjiaBrowse);
+		$this->assign('in_wljia', $wljiaBrowse);
 		$this->display();
 	}
 

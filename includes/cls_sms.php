@@ -12,8 +12,8 @@ class sms
 
 	public function sms()
 	{
-		$this->sms_name = $GLOBALS['_CFG']['sms_ecmoban_user'];
-		$this->sms_password = $GLOBALS['_CFG']['sms_ecmoban_password'];
+		$this->sms_name = $GLOBALS['_CFG']['sms_wlmoban_user'];
+		$this->sms_password = $GLOBALS['_CFG']['sms_wlmoban_password'];
 	}
 
 	public function send($phones, $msg = '', $send_date = '', $send_num = 1, $sms_type = '', $version = '1.0', &$sms_error = '', $mobile_code = '')

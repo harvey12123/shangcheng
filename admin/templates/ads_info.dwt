@@ -4,7 +4,7 @@
 
 <body class="iframe_body">
 	<div class="warpper">
-    	<div class="title"><a href="{$action_link.href}" class="s-back">{$lang.back}</a>{if $ads_type eq 1}{$lang.ectouch}{else}{$lang.ad_type1}{/if} - {$ur_here}</div>
+    	<div class="title"><a href="{$action_link.href}" class="s-back">{$lang.back}</a>{if $ads_type eq 1}{$lang.wenlv}{else}{$lang.ad_type1}{/if} - {$ur_here}</div>
         <div class="content">
         	<div class="explanation" id="explanation">
             	<div class="ex_tit"><i class="sc_icon"></i><h4>{$lang.operating_hints}</h4><span id="explanationZoom" title="{$lang.fold_tips}"></span></div>

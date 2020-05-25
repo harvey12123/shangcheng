@@ -15,7 +15,7 @@
 7. invoice_type 0普通发票，1增值发票
 
 ####头部参数
-1. x-ectouch-authorization     参数名
+1. x-wenlv-authorization     参数名
 2.    参数值
 
 

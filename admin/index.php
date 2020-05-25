@@ -858,7 +858,7 @@ else if ($_REQUEST['act'] == 'main') {
 	$sql = 'SELECT COUNT(f.msg_id) ' . 'FROM ' . $ecs->table('feedback') . ' AS f ' . 'LEFT JOIN ' . $ecs->table('feedback') . ' AS r ON r.parent_id=f.msg_id ' . 'WHERE f.parent_id=0 AND ISNULL(r.msg_id) ';
 	$smarty->assign('feedback_number', $db->GetOne($sql));
 	$phone_num = $db->getOne('SELECT value FROM ' . $ecs->table('shop_config') . ' WHERE code = \'sms_shop_mobile\'');
-	$user_name = $db->getOne('SELECT value FROM ' . $ecs->table('shop_config') . ' WHERE code = \'sms_ecmoban_user\'');
+	$user_name = $db->getOne('SELECT value FROM ' . $ecs->table('shop_config') . ' WHERE code = \'sms_wlmoban_user\'');
 	$smarty->assign('phone_num', $phone_num);
 	$smarty->assign('user_name', $user_name);
 	$email = $db->getOne('SELECT value FROM ' . $ecs->table('shop_config') . ' WHERE code = \'smtp_user\'');
@@ -2460,8 +2460,8 @@ else if ($_REQUEST['act'] == 'license') {
 
 		switch ($license['flag']) {
 		case 'login_succ':
-			if (isset($license['request']['info']['service']['ecshop_b2c']['cert_auth']['auth_str'])) {
-				make_json_result(process_login_license($license['request']['info']['service']['ecshop_b2c']['cert_auth']));
+			if (isset($license['request']['info']['service']['wlshop_b2c']['cert_auth']['auth_str'])) {
+				make_json_result(process_login_license($license['request']['info']['service']['wlshop_b2c']['cert_auth']));
 			}
 			else {
 				make_json_error(0);
@@ -2479,8 +2479,8 @@ else if ($_REQUEST['act'] == 'license') {
 
 			switch ($_license['flag']) {
 			case 'login_succ':
-				if (isset($_license['request']['info']['service']['ecshop_b2c']['cert_auth']['auth_str']) && $_license['request']['info']['service']['ecshop_b2c']['cert_auth']['auth_str'] != '') {
-					make_json_result(process_login_license($license['request']['info']['service']['ecshop_b2c']['cert_auth']));
+				if (isset($_license['request']['info']['service']['wlshop_b2c']['cert_auth']['auth_str']) && $_license['request']['info']['service']['wlshop_b2c']['cert_auth']['auth_str'] != '') {
+					make_json_result(process_login_license($license['request']['info']['service']['wlshop_b2c']['cert_auth']));
 				}
 				else {
 					make_json_error(0);

@@ -85,7 +85,7 @@ else {
 
 require ROOT_PATH . 'includes/inc_constant.php';
 require ROOT_PATH . 'includes/cls_error.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 
 if (!get_magic_quotes_gpc()) {
 	if (!empty($_GET)) {

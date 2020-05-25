@@ -61,7 +61,7 @@
                             </tfoot>
                         </table>
                         <div class="row-fluid">
-                            <form method="post" action="ecjia_feedback_info.php?act=reply" name="listForm" onsubmit="return confirmSubmit(this)">
+                            <form method="post" action="wljia_feedback_info.php?act=reply" name="listForm" onsubmit="return confirmSubmit(this)">
                                 <h3 class="heading">
                                     <strong>回复留言</strong>
                                 </h3>

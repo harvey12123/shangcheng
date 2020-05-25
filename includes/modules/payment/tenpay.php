@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ECSHOP 财付通插件
+ * wlshop 财付通插件
  * ============================================================================
  * * 版权所有 2017-2020 中国联通，并保留所有权利。
  * 网站地址: http://www.jabrielcloud.com；
@@ -45,7 +45,7 @@ if (isset($set_modules) && $set_modules == TRUE)
     $modules[$i]['is_online']  = '1';
 
     /* 作者 */
-    $modules[$i]['author']  = 'ECSHOP TEAM';
+    $modules[$i]['author']  = 'wlshop TEAM';
 
     /* 网址 */
     $modules[$i]['website'] = 'http://www.tenpay.com';
@@ -155,7 +155,7 @@ class tenpay
             'attach'            => $attach,                     // 用户自定义签名
             'sign'              => $sign,                       // MD5签名
             'spbill_create_ip'  => $spbill_create_ip,           //财付通风险防范参数
-            'sys_id'            => '542554970',                 //ecshop C账号 不参与签名
+            'sys_id'            => '542554970',                 //wlshop C账号 不参与签名
             'sp_suggestuser'    => '1202822001'                 //财付通分配的商户号
 
         );

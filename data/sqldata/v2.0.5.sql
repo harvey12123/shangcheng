@@ -1,10 +1,10 @@
--- ecshop v2.x SQL Dump Program
+-- wlshop v2.x SQL Dump Program
 -- http://localhost
 -- 
 -- DATE : 2017-05-17 09:41:40
 -- MYSQL SERVER VERSION : 5.5.40
 -- PHP VERSION : 5.6.1
--- ECShop VERSION : v2.0.5
+-- wlshop VERSION : v2.0.5
 -- Vol : 1
 DROP TABLE IF EXISTS `dsc_shop_config`;
 CREATE TABLE `dsc_shop_config` (
@@ -46,7 +46,7 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('115', '1', 'service_phone', 'text', '', '', '4000-000-000', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('116', '1', 'shop_closed', 'select', '0,1', '', '0', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('117', '1', 'close_comment', 'textarea', '', '', '', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('118', '1', 'shop_logo', 'file', '', '../themes/{$template}/images/', '../themes/ecmoban_sc3.0/images/logo.gif', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('118', '1', 'shop_logo', 'file', '', '../themes/{$template}/images/', '../themes/wlmoban_sc3.0/images/logo.gif', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('119', '1', 'licensed', 'select', '0,1', '', '1', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('120', '1', 'user_notice', 'textarea', '', '', '用户中心公告�\�', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('121', '1', 'shop_notice', 'textarea', '', '', '尊敬的各位合作伙伴，感谢您对平台的关注与爱戴.一路上有你的陪伴，我们相信，明天的阳光更加灿烂..', '1');
@@ -86,7 +86,7 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('236', '2', 'message_board', 'select', '1,0', '', '1', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('239', '2', 'certificate_id', 'hidden', '', '', '1133133131', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('240', '2', 'token', 'hidden', '', '', 'c49edab224d09de5d24e1bcdf9a18508322868ca44f62506af25f77b45af4e5b', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('241', '2', 'certi', 'hidden', '', '', 'http://ecshop.ecmoban.com/dsc.php', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('241', '2', 'certi', 'hidden', '', '', 'http://wlshop.wlmoban.com/dsc.php', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('242', '2', 'send_verify_email', 'select', '1,0', '', '0', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('243', '2', 'ent_id', 'hidden', '', '', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('244', '2', 'ent_ac', 'hidden', '', '', '', '1');
@@ -158,10 +158,10 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('506', '5', 'mail_charset', 'select', 'UTF8,GB2312,BIG5', '', 'UTF8', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('507', '5', 'mail_service', 'select', '0,1', '', '1', '0');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('508', '5', 'smtp_ssl', 'select', '0,1', '', '0', '0');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('601', '6', 'integrate_code', 'hidden', '', '', 'ecshop', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('601', '6', 'integrate_code', 'hidden', '', '', 'wlshop', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('602', '6', 'integrate_config', 'hidden', '', '', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('603', '6', 'hash_code', 'hidden', '', '', 'b76989c756aab2c64cf941eb31dec09c', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('604', '6', 'template', 'hidden', '', '', 'ecmoban_dsc2017', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('604', '6', 'template', 'hidden', '', '', 'wlmoban_dsc2017', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('605', '6', 'install_date', 'hidden', '', '', '1494984585', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('606', '6', 'dsc_version', 'hidden', '', '', 'v2.0.4', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('607', '6', 'sms_user_name', 'hidden', '', '', '', '1');
@@ -204,8 +204,8 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('915', '2', 'editing_tools', 'select', 'ueditor', '', 'ueditor', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('916', '2', 'customer_service', 'select', '0,1', '', '1', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('917', '2', 'review_goods', 'select', '0,1', '', '1', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('918', '8', 'sms_ecmoban_user', 'text', '', '', '', '4');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('919', '8', 'sms_ecmoban_password', 'password', '', '', 'd41d8cd98f00b204e9800998ecf8427e', '5');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('918', '8', 'sms_wlmoban_user', 'text', '', '', '', '4');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('919', '8', 'sms_wlmoban_password', 'password', '', '', 'd41d8cd98f00b204e9800998ecf8427e', '5');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('920', '8', 'sms_signin', 'select', '1,0', '', '0', '12');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('921', '2', 'group_goods', 'text', '', '', '推荐配件,人气组合', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('923', '2', 'attr_set_up', 'select', '0,1', '', '1', '1');
@@ -224,7 +224,7 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('937', '9', 'wap_index_pro', 'select', '1,0', '', '1', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('938', '3', 'two_code', 'select', '1,0', '', '1', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('939', '3', 'two_code_logo', 'file', '', '../images/weixin_img/logo/', '', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('940', '3', 'two_code_links', 'text', '', '', 'http://test1.ecmoban.com/', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('940', '3', 'two_code_links', 'text', '', '', 'http://test1.wlmoban.com/', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('941', '3', 'two_code_mouse', 'text', '', '', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('942', '0', 'extend_basic', 'group', '', '', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('943', '942', 'open_oss', 'select', '0,1', '', '0', '1');
@@ -254,15 +254,15 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('966', '942', 'tengxun_key', 'text', '', '', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('967', '942', 'kuaidi100_key', 'text', '', '', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('968', '942', 'ip_type', 'select', '0,1,2', '', '0', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('969', '942', 'ectouch_qrcode', 'file', '', 'images/common/', 'images/common/ectouch_qrcode.png', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('970', '942', 'ecjia_qrcode', 'file', '', 'images/common/', 'images/common/ecjia_qrcode.png', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('969', '942', 'wenlv_qrcode', 'file', '', 'images/common/', 'images/common/wenlv_qrcode.png', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('970', '942', 'wljia_qrcode', 'file', '', 'images/common/', 'images/common/wljia_qrcode.png', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('971', '942', 'index_down_logo', 'file', '', 'images/common/', 'images/common/index_down_logo.png', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('972', '942', 'site_commitment', 'file', '', 'images/common/', 'images/common/site_commitment.png', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('973', '942', 'user_login_logo', 'file', '', 'images/common/', 'images/common/user_login_logo.png', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('974', '4', 'use_value_card', 'select', '0,1', '', '0', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('975', '942', 'commission_model', 'select', '0,1', '', '0', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('976', '942', 'login_logo_pic', 'file', '', 'images/common/', 'images/common/login_logo_pic.png', '1');
-INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('977', '2', 'merchants_prefix', 'text', '', '', 'ecmoban_', '1');
+INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('977', '2', 'merchants_prefix', 'text', '', '', 'wlmoban_', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('978', '7', 'show_rank_price', 'select', '1,0', '', '0', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('979', '942', 'login_limited_num', 'hidden', '', '', '3', '30');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('980', '942', 'nav_cat_model', 'select', '0,1', '', '0', '1');
@@ -270,4 +270,4 @@ INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('982', '3', 'marticle_index', 'text', '', '', '1,2,3,4', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('983', '2', 'no_brand', 'file', '', '../images/', '', '1');
 INSERT INTO `dsc_shop_config` ( `id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order` ) VALUES  ('984', '942', 'open_study', 'select', '0,1', '', '0', '1');
--- END ecshop v2.x SQL Dump Program 
+-- END wlshop v2.x SQL Dump Program 

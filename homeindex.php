@@ -38,7 +38,7 @@ if (!$smarty->is_cached('homeindex.dwt', $cache_id) || $preview == 1) {
 	$smarty->assign('area_city', $area_city);
 	$smarty->assign('helps', get_shop_help());
 	assign_dynamic('homeindex', $region_id, $area_id, $area_city);
-	$replace_data = array('http://localhost/ecmoban_dsc2.0.5_20170518/', 'http://localhost/ecmoban_dsc2.2.6_20170727/', 'http://localhost/ecmoban_dsc2.3/', 'http://localhost/dsc30/', 'themes/ecmoban_dsc2017/');
+	$replace_data = array('http://localhost/wlmoban_dsc2.0.5_20170518/', 'http://localhost/wlmoban_dsc2.2.6_20170727/', 'http://localhost/wlmoban_dsc2.3/', 'http://localhost/dsc30/', 'themes/wlmoban_dsc2017/');
 	$page = get_html_file($dir . '/pc_html.php');
 	$nav_page = get_html_file($dir . '/nav_html.php');
 	$topBanner = get_html_file($dir . '/topBanner.php');

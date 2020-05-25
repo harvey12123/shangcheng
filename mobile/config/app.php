@@ -2,7 +2,7 @@
 
 return [
 
-    'name' => 'ECTouch',
+    'name' => 'wenlv',
     'wxapp_on' => false, // 是否支持微信小程序 true 支持， false 不支持
 
     /*

@@ -38,7 +38,7 @@ class MapController extends \App\Modules\Base\Controllers\FrontendController
 				exit(json_encode(array('error' => 1, 'message' => '您的附近暂无商家哦')));
 			}
 
-			$url = 'http://apis.map.qq.com/tools/poimarker?type=0&marker=' . $store . '&key=' . C('shop.tengxun_key') . '&referer=ectouch';
+			$url = 'http://apis.map.qq.com/tools/poimarker?type=0&marker=' . $store . '&key=' . C('shop.tengxun_key') . '&referer=wenlv';
 			exit(json_encode(array('error' => 0, 'url' => $url)));
 		}
 

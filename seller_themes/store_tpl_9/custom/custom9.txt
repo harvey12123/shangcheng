@@ -3,7 +3,7 @@
 <div class="user_item_box">
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_2.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_2.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -18,7 +18,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_3.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_3.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -33,7 +33,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_4.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_4.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -48,7 +48,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_11.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_11.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -63,7 +63,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_12.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_12.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -78,7 +78,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_13.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_13.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -93,7 +93,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_8.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_8.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -108,7 +108,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_14.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_14.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">
@@ -123,7 +123,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_15.jpg" width="322" height="322" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_15.jpg" width="322" height="322" /></a>
 <div class="jBuy">
 <div class="Price">
 <span class="jPrice">

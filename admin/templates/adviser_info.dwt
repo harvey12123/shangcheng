@@ -16,7 +16,7 @@
             <div class="flexilist">
                 <div class="common-content">
                     <div class="mian-info">
-                        <form action="ecjia_adviser.php" method="post" name="theForm" enctype="multipart/form-data" id="adviser_form" >
+                        <form action="wljia_adviser.php" method="post" name="theForm" enctype="multipart/form-data" id="adviser_form" >
                             <div class="switch_info" id="conent_area">
                                 <div class="item">
                                     <div class="label">{$lang.require_field}&nbsp;顾问名称：</div>

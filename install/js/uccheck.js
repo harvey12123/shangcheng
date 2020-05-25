@@ -114,7 +114,7 @@ function displayres(res)
             var td2 = document.createElement("TD");
             td1.innerHTML = 'UCenter 的 IP：';
             td1.setAttribute('width', 200);td1.setAttribute('align', 'right');
-            td2.innerHTML = '<input name=\"js-ucip\" type=\"text\" id=\"js-ucip\"  value=\"\" size=\"40\" /><span id=\"ucipnotice\" style=\"color:#FF0000\">连接的过程中出了点问题，请您填写服务器 IP 地址，如果您的 UC 与 ECShop 装在同一服务器上，我们建议您尝试填写 127.0.0.1</span>';
+            td2.innerHTML = '<input name=\"js-ucip\" type=\"text\" id=\"js-ucip\"  value=\"\" size=\"40\" /><span id=\"ucipnotice\" style=\"color:#FF0000\">连接的过程中出了点问题，请您填写服务器 IP 地址，如果您的 UC 与 wlshop 装在同一服务器上，我们建议您尝试填写 127.0.0.1</span>';
             $("ucip").appendChild(td1);
             $("ucip").appendChild(td2);
         }

@@ -176,7 +176,7 @@ class Integrate
 	public function remove_user($id)
 	{
 		$post_id = $id;
-		if ($this->need_sync || isset($this->is_ecshop) && $this->is_ecshop) {
+		if ($this->need_sync || isset($this->is_wlshop) && $this->is_wlshop) {
 			$sql = 'SELECT user_id FROM ' . $GLOBALS['ecs']->table('users') . ' WHERE ';
 			$sql .= is_array($post_id) ? db_create_in($post_id, 'user_name') : 'user_name=\'' . $post_id . '\' LIMIT 1';
 			$col = $GLOBALS['db']->getCol($sql);
@@ -216,7 +216,7 @@ class Integrate
 			}
 		}
 
-		if (isset($this->ecshop) && $this->ecshop) {
+		if (isset($this->wlshop) && $this->wlshop) {
 			return NULL;
 		}
 

@@ -66,7 +66,7 @@
                                     <td class="sky_id"><div class="tDiv">{$mobile_manage.date}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_mobile_manage.php?act=edit&id={$mobile_manage.app_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
+                                            <a href="wljia_mobile_manage.php?act=edit&id={$mobile_manage.app_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
                                             
                                             <a href="javascript:;" onclick="listTable.remove({$mobile_manage.app_id}, '确定要删除吗')" class="btn_trash"><i class="icon icon-trash"></i>{$lang.drop}</a>
                                         </div>

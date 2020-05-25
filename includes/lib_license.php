@@ -87,7 +87,7 @@ function process_login_license($cert_auth)
 function license_login($certi_added = '')
 {
 	$certi['certi_app'] = '';
-	$certi['app_id'] = 'ecshop_b2c';
+	$certi['app_id'] = 'wlshop_b2c';
 	$certi['app_instance_id'] = '';
 	$certi['version'] = LICENSE_VERSION;
 	$certi['shop_version'] = VERSION . '#' . RELEASE;
@@ -139,7 +139,7 @@ function license_login($certi_added = '')
 function license_reg($certi_added = '')
 {
 	$certi['certi_app'] = '';
-	$certi['app_id'] = 'ecshop_b2c';
+	$certi['app_id'] = 'wlshop_b2c';
 	$certi['app_instance_id'] = '';
 	$certi['version'] = LICENSE_VERSION;
 	$certi['shop_version'] = VERSION . '#' . RELEASE;

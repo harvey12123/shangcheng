@@ -18,7 +18,7 @@ if ($_REQUEST['act'] == 'add') {
 	}
 
 	@closedir($dir);
-	$data_format_array = array('ecshop' => $_LANG['export_ecshop'], 'taobao' => $_LANG['export_taobao']);
+	$data_format_array = array('wlshop' => $_LANG['export_wlshop'], 'taobao' => $_LANG['export_taobao']);
 	$smarty->assign('data_format', $data_format_array);
 	$smarty->assign('lang_list', $lang_list);
 	$smarty->assign('download_list', $download_list);
@@ -38,7 +38,7 @@ else if ($_REQUEST['act'] == 'upload') {
 	$field_list = array_keys($_LANG['upload_goods_lib']);
 	$data = file($_FILES['file']['tmp_name']);
 
-	if ($_POST['data_cat'] == 'ecshop') {
+	if ($_POST['data_cat'] == 'wlshop') {
 		foreach ($data as $line) {
 			if ($line_number == 0) {
 				$line_number++;

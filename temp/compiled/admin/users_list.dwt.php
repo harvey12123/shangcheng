@@ -152,10 +152,10 @@
                                             <div class="cite"><?php echo $this->_var['lang']['please_select']; ?></div>
                                             <ul>
                                                <li><a href="javascript:;" data-value="0"><?php echo $this->_var['lang']['all_option']; ?></a></li>
-                                               <?php $_from = $this->_var['user_ranks']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('k', 'user_ranks_0_62708100_1589956484');if (count($_from)):
-    foreach ($_from AS $this->_var['k'] => $this->_var['user_ranks_0_62708100_1589956484']):
+                                               <?php $_from = $this->_var['user_ranks']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('k', 'user_ranks_0_21198700_1590308626');if (count($_from)):
+    foreach ($_from AS $this->_var['k'] => $this->_var['user_ranks_0_21198700_1590308626']):
 ?>
-                                               <li><a href="javascript:;" data-value="<?php echo $this->_var['k']; ?>"><?php echo $this->_var['user_ranks_0_62708100_1589956484']; ?></a></li>
+                                               <li><a href="javascript:;" data-value="<?php echo $this->_var['k']; ?>"><?php echo $this->_var['user_ranks_0_21198700_1590308626']; ?></a></li>
                                                <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
                                             </ul>
                                             <input name="user_rank" type="hidden" value="0">

@@ -74,7 +74,7 @@ class up_v2_3_8
 		if (!$GLOBALS['db']->getOne($sql, true)) {
 			$sql = 'INSERT INTO ' . $GLOBALS['ecs']->table('touch_ad_position') . ('(`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES (NUll, \'0\', 	\'首页红包广告\', \'360\', \'180\', \'\', \'{foreach ' . $ads . ' as ' . $ad . '}
 <div class="swiper-slide">' . $ad . '</div>
-{/foreach}\', \'1\', \'ecmoban_dsc2017\');');
+{/foreach}\', \'1\', \'wlmoban_dsc2017\');');
 			$GLOBALS['db']->query($sql);
 		}
 

@@ -55,7 +55,7 @@ class Compile
 	static public function replace_img($data)
 	{
 		$data = str_replace(array('http://localhost/'), '/', $data);
-		return str_replace(array('/ecmoban0309/', '/dscmall/'), rtrim(dirname(__URL__), '/') . '/', $data);
+		return str_replace(array('/wlmoban0309/', '/dscmall/'), rtrim(dirname(__URL__), '/') . '/', $data);
 	}
 
 	static public function initModule()

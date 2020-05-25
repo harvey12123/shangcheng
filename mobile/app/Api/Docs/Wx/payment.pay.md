@@ -9,7 +9,7 @@
     > 参数   ： code  订单支付（order.pay）  或者  资金充值
 
 ####头部参数
-1. x-ectouch-authorization     参数名
+1. x-wenlv-authorization     参数名
 2.    参数值
 
 

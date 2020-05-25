@@ -9,7 +9,7 @@
 </div>
 <a href="#" class="s_btn" target="_blank"><span class="s_kefu"></span>客服</a>
 </div>
-<a href="#" class="s_logo" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_4/images/s-logo.jpg" /></a>
+<a href="#" class="s_logo" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_4/images/s-logo.jpg" /></a>
 <div class="s_search">
 <form method="GET" action="merchants_store.php" class="sort" name="listform">
 <input type="text"  placeholder="请输入关键词" class="inputMiddle" style="border:none" name="keyword" />

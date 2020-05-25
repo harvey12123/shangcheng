@@ -15,7 +15,7 @@ class AdminController extends BackendController
         L(require(MODULE_PATH . 'Language/' . C('shop.lang') . '/drp.php'));
         $this->assign('lang', array_change_key_case(L()));
         $files = [
-            'ecmoban'
+            'wlmoban'
         ];
         $this->load_helper($files);
         

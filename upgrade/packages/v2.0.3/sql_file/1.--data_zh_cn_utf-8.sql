@@ -1,7 +1,7 @@
 
 INSERT INTO `dsc_ad_position` (`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_model`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES (NULL, '0', '店铺轮播图', '1200', '480', 'users_a[num_id]_[merchant_id]', 'num_id-数量序号，merchant_id-商家ID', '{foreach from=$ads item=ad}
 {$ad}
-{/foreach}', '1', 'ecmoban_dsc2017');
+{/foreach}', '1', 'wlmoban_dsc2017');
 
 INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES
 (NULL, 942, 'open_study', 'select', '0,1', '', '0', 1);

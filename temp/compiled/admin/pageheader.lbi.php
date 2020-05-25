@@ -155,7 +155,7 @@
                 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 			</div>
             <div class="admincp-map-div" data-param="map-mobile" style="display: none;">
-                <?php $_from = $this->_var['nav_top']['ectouch']['children']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'vo');if (count($_from)):
+                <?php $_from = $this->_var['nav_top']['wenlv']['children']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'vo');if (count($_from)):
     foreach ($_from AS $this->_var['vo']):
 ?>
                 <dl>
@@ -171,7 +171,7 @@
                 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 			</div>
             <!--<div class="admincp-map-div" data-param="map-cms" style="display: none;">
-                <?php $_from = $this->_var['nav_top']['ecjia']['children']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'vo');if (count($_from)):
+                <?php $_from = $this->_var['nav_top']['wljia']['children']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'vo');if (count($_from)):
     foreach ($_from AS $this->_var['vo']):
 ?>
                 <dl>

@@ -22,7 +22,7 @@
 <span>√Î</span>
 </div>
 </div>
-<a target="_blank" href="#"><img height="392" width="392" src="themes/ecmoban_dsc/store_tpl_7/images/chuxiao_1.jpg" /></a>
+<a target="_blank" href="#"><img height="392" width="392" src="themes/wlmoban_dsc/store_tpl_7/images/chuxiao_1.jpg" /></a>
 </div>
 <div class="jGoodsInfo user_bgcolor_3">
 <div class="jbuy user_bgcolor_7">
@@ -63,7 +63,7 @@
 <span>√Î</span>
 </div>
 </div>
-<a target="_blank" href="#"><img height="392" width="392" src="themes/ecmoban_dsc/store_tpl_7/images/chuxiao_1.jpg" /></a>
+<a target="_blank" href="#"><img height="392" width="392" src="themes/wlmoban_dsc/store_tpl_7/images/chuxiao_1.jpg" /></a>
 </div>
 <div class="jGoodsInfo user_bgcolor_3">
 <div class="jbuy user_bgcolor_7">
@@ -104,7 +104,7 @@
 <span>√Î</span>
 </div>
 </div>
-<a target="_blank" href="#"><img height="392" width="392" src="themes/ecmoban_dsc/store_tpl_7/images/chuxiao_1.jpg" /></a>
+<a target="_blank" href="#"><img height="392" width="392" src="themes/wlmoban_dsc/store_tpl_7/images/chuxiao_1.jpg" /></a>
 </div>
 <div class="jGoodsInfo user_bgcolor_3">
 <div class="jbuy user_bgcolor_7">

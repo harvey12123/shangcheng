@@ -11,7 +11,7 @@ require ROOT_PATH . '/includes/lib_area.php';
 require ROOT_PATH . '/includes/cls_json.php';
 require ROOT_PATH . '/includes/lib_clips.php';
 include_once ROOT_PATH . 'includes/lib_transaction.php';
-require_once ROOT_PATH . 'includes/lib_ecmoban.php';
+require_once ROOT_PATH . 'includes/lib_wlmoban.php';
 require_once ROOT_PATH . 'languages/' . $_CFG['lang'] . '/user.php';
 assign_template();
 $warehouse_other = array('province_id' => $province_id, 'city_id' => $city_id);

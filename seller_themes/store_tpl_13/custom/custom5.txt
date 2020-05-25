@@ -12,7 +12,7 @@
 </div>
 <div class="jPic">
 <p class="biaoqian bq1"></p>
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="430" height="430"></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="430" height="430"></a>
 </div>
 </li>
 </ul>
@@ -24,7 +24,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -42,7 +42,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -60,7 +60,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -78,7 +78,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -96,7 +96,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -114,7 +114,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -132,7 +132,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>
@@ -150,7 +150,7 @@
 <li>
 <div class="jPhoto">
 <a target="_blank" href="#">
-<img class="" src="themes/ecmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
+<img class="" src="themes/wlmoban_dsc/store_tpl_13/images/product_13.jpg" width="240" height="240">
 </a>
 <a class="jPop" target="_blank" href="#">
 <p class="jg"><span class="jdNum">гд</span><span class="jdNum"><span class="jdNum">10.00</span></span></p>

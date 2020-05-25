@@ -74,6 +74,6 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', 'ectouch'),
+    'prefix' => env('CACHE_PREFIX', 'wenlv'),
 
 ];

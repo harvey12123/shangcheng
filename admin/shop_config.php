@@ -37,7 +37,7 @@ function get_settings($groups = NULL, $excludes = NULL)
 	$item_list = $GLOBALS['db']->getAll($sql);
 	$filter_item = array('sms', 'hidden', 'goods');
 	$group_list = array();
-	$code_arr = array('shop_logo', 'no_picture', 'watermark', 'shop_slagon', 'wap_logo', 'two_code_logo', 'ectouch_qrcode', 'ecjia_qrcode', 'index_down_logo', 'site_commitment', 'user_login_logo', 'login_logo_pic', 'business_logo', 'admin_login_logo', 'admin_logo', 'seller_login_logo', 'seller_logo', 'stores_login_logo', 'stores_logo', 'order_print_logo');
+	$code_arr = array('shop_logo', 'no_picture', 'watermark', 'shop_slagon', 'wap_logo', 'two_code_logo', 'wenlv_qrcode', 'wljia_qrcode', 'index_down_logo', 'site_commitment', 'user_login_logo', 'login_logo_pic', 'business_logo', 'admin_login_logo', 'admin_logo', 'seller_login_logo', 'seller_logo', 'stores_login_logo', 'stores_logo', 'order_print_logo');
 
 	foreach ($item_list as $key => $item) {
 		if (!in_array($item['code'], $filter_item)) {
@@ -244,7 +244,7 @@ else if ($_REQUEST['act'] == 'post') {
 				sys_msg(sprintf($_LANG['msg_invalid_file'], $file['name']));
 			}
 			else {
-				$code_store_dir = array('shop_logo', 'ecjia_qrcode', 'ectouch_qrcode', 'index_down_logo', 'site_commitment', 'user_login_logo', 'login_logo_pic', 'admin_login_logo', 'admin_logo', 'seller_login_logo', 'seller_logo', 'stores_login_logo', 'stores_logo', 'order_print_logo');
+				$code_store_dir = array('shop_logo', 'wljia_qrcode', 'wenlv_qrcode', 'index_down_logo', 'site_commitment', 'user_login_logo', 'login_logo_pic', 'admin_login_logo', 'admin_logo', 'seller_login_logo', 'seller_logo', 'stores_login_logo', 'stores_logo', 'order_print_logo');
 
 				if ($code == 'business_logo') {
 					include_once 'includes/lib_template.php';

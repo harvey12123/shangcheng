@@ -1,5 +1,5 @@
 ##api/wx/cart/update   更新购物车商品
-    > headers  : x-ectouch-authorization
+    > headers  : x-wenlv-authorization
     > 参数   ： id   商品id
 
 
@@ -12,7 +12,7 @@
 
 
 ####头部参数
-1. x-ectouch-authorization     参数名
+1. x-wenlv-authorization     参数名
 2.    参数值
 
 

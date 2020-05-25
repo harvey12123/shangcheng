@@ -17,9 +17,9 @@ if ('/' == substr($php_self, -1)) {
 define('PHP_SELF', $php_self);
 require ROOT_PATH . 'data/config.php';
 require ROOT_PATH . 'includes/lib_common.php';
-require ROOT_PATH . 'includes/lib_ecmoban.php';
+require ROOT_PATH . 'includes/lib_wlmoban.php';
 require ROOT_PATH . 'includes/Http.class.php';
-require ROOT_PATH . 'includes/lib_ecmobanFunc.php';
+require ROOT_PATH . 'includes/lib_wlmobanFunc.php';
 require ROOT_PATH . 'includes/lib_seller_store.php';
 require ROOT_PATH . 'includes/lib_ipCity.php';
 require ROOT_PATH . 'includes/cls_ecmac.php';
@@ -44,7 +44,7 @@ if (!defined('EC_CHARSET')) {
 $json = new JSON();
 parse_json($json, $_POST['Json']);
 require ROOT_PATH . 'includes/inc_constant.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/lib_time.php';
 require ROOT_PATH . 'includes/lib_main.php';
 require ROOT_PATH . 'includes/lib_insert.php';

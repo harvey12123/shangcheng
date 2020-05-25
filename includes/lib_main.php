@@ -1678,8 +1678,8 @@ function assign_template($ctype = '', $catlist = array(), $merchant_id = 0)
 	}
 
 	$smarty->assign('shop_logo', $GLOBALS['_CFG']['shop_logo']);
-	$smarty->assign('ecjia_qrcode', $GLOBALS['_CFG']['ecjia_qrcode']);
-	$smarty->assign('ectouch_qrcode', $GLOBALS['_CFG']['ectouch_qrcode']);
+	$smarty->assign('wljia_qrcode', $GLOBALS['_CFG']['wljia_qrcode']);
+	$smarty->assign('wenlv_qrcode', $GLOBALS['_CFG']['wenlv_qrcode']);
 	$smarty->assign('index_down_logo', $GLOBALS['_CFG']['index_down_logo']);
 	$smarty->assign('site_commitment', $GLOBALS['_CFG']['site_commitment']);
 	$smarty->assign('user_login_logo', $GLOBALS['_CFG']['user_login_logo']);
@@ -1808,24 +1808,24 @@ function set_affiliate()
 				$c = 1;
 			}
 
-			setcookie('ecshop_affiliate_uid', intval($_GET['u']), gmtime() + 3600 * $config['config']['expire'] * $c, $GLOBALS['cookie_path'], $GLOBALS['cookie_domain']);
+			setcookie('wlshop_affiliate_uid', intval($_GET['u']), gmtime() + 3600 * $config['config']['expire'] * $c, $GLOBALS['cookie_path'], $GLOBALS['cookie_domain']);
 		}
 		else {
-			setcookie('ecshop_affiliate_uid', intval($_GET['u']), gmtime() + 3600 * 24, $GLOBALS['cookie_path'], $GLOBALS['cookie_domain']);
+			setcookie('wlshop_affiliate_uid', intval($_GET['u']), gmtime() + 3600 * 24, $GLOBALS['cookie_path'], $GLOBALS['cookie_domain']);
 		}
 	}
 }
 
 function get_affiliate()
 {
-	if (!empty($_COOKIE['ecshop_affiliate_uid'])) {
-		$uid = intval($_COOKIE['ecshop_affiliate_uid']);
+	if (!empty($_COOKIE['wlshop_affiliate_uid'])) {
+		$uid = intval($_COOKIE['wlshop_affiliate_uid']);
 
 		if ($GLOBALS['db']->getOne('SELECT user_id FROM ' . $GLOBALS['ecs']->table('users') . ('WHERE user_id = \'' . $uid . '\''))) {
 			return $uid;
 		}
 		else {
-			setcookie('ecshop_affiliate_uid', '', 1, $GLOBALS['cookie_path'], $GLOBALS['cookie_domain']);
+			setcookie('wlshop_affiliate_uid', '', 1, $GLOBALS['cookie_path'], $GLOBALS['cookie_domain']);
 		}
 	}
 

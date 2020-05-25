@@ -1,5 +1,5 @@
 <?php
-defined('IN_ECTOUCH') or die('Deny Access');
+defined('IN_wenlv') or die('Deny Access');
 
 $_LANG['wholesale_list'] = '批发列表';
 $_LANG['need_to_login'] = '您的等级暂时无法查看批发方案';

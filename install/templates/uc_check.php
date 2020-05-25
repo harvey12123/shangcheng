@@ -42,7 +42,7 @@ echo '</h3>
 <table width="550" class="list">
 <tr>
     <td align="right">请选择用户接口方式：</td>
-    <td><input type="radio" id="user_interface_1" name="user_interface" value="ecshop" checked="checked" /><label for="user_interface_1">ECShop方式</label>
+    <td><input type="radio" id="user_interface_1" name="user_interface" value="wlshop" checked="checked" /><label for="user_interface_1">wlshop方式</label>
     <input type="radio" id="user_interface_2" name="user_interface" value="ucenter" /><label for="user_interface_2">UCenter方式</label></td>
 </tr>
 <tr>

@@ -16,7 +16,7 @@
             <div class="flexilist">
             	<div class="common-head">
                     <div class="fl">
-                        <a href="ecjia_cycleimage_ipad.php?act=add"><div class="fbutton"><div class="add" title="添加商品"><span><i class="icon icon-plus"></i>添加手机端iPad轮播图</span></div></div></a>
+                        <a href="wljia_cycleimage_ipad.php?act=add"><div class="fbutton"><div class="add" title="添加商品"><span><i class="icon icon-plus"></i>添加手机端iPad轮播图</span></div></div></a>
                     </div>
                     <div class="refresh{if !$action_link} ml0{/if}">
                     	<div class="refresh_tit" title="{$lang.refresh_data}"><i class="icon icon-refresh"></i></div>
@@ -56,7 +56,7 @@
                                     </td>
                                     <td class="handle">
                                         <div class="tDiv a3">
-                                            <a href="ecjia_cycleimage_ipad.php?act=edit&id={$key}" title="{$lang.edit}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
+                                            <a href="wljia_cycleimage_ipad.php?act=edit&id={$key}" title="{$lang.edit}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
                                             <a href="javascript:;" onclick="listTable.remove({$key}, '{$lang.drop_confirm}')" title="{$lang.remove}" class="btn_trash"><i class="icon icon-trash"></i>{$lang.drop}</a>
                                         </div>
                                     </td>

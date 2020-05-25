@@ -827,8 +827,8 @@ else if ($_REQUEST['act'] == 'license') {
 
 		switch ($license['flag']) {
 		case 'login_succ':
-			if (isset($license['request']['info']['service']['ecshop_b2c']['cert_auth']['auth_str'])) {
-				make_json_result(process_login_license($license['request']['info']['service']['ecshop_b2c']['cert_auth']));
+			if (isset($license['request']['info']['service']['wlshop_b2c']['cert_auth']['auth_str'])) {
+				make_json_result(process_login_license($license['request']['info']['service']['wlshop_b2c']['cert_auth']));
 			}
 			else {
 				make_json_error(0);
@@ -846,8 +846,8 @@ else if ($_REQUEST['act'] == 'license') {
 
 			switch ($_license['flag']) {
 			case 'login_succ':
-				if (isset($_license['request']['info']['service']['ecshop_b2c']['cert_auth']['auth_str']) && $_license['request']['info']['service']['ecshop_b2c']['cert_auth']['auth_str'] != '') {
-					make_json_result(process_login_license($license['request']['info']['service']['ecshop_b2c']['cert_auth']));
+				if (isset($_license['request']['info']['service']['wlshop_b2c']['cert_auth']['auth_str']) && $_license['request']['info']['service']['wlshop_b2c']['cert_auth']['auth_str'] != '') {
+					make_json_result(process_login_license($license['request']['info']['service']['wlshop_b2c']['cert_auth']));
 				}
 				else {
 					make_json_error(0);

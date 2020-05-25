@@ -3,7 +3,7 @@
 function api_request($url, $apiget)
 {
 	global $sc_charset;
-	$install_api = 'http://dsc.ecmoban.com/ecmoban_sc/dsc_pms/sc_admin.php?c=Api&a=';
+	$install_api = 'http://dsc.wlmoban.com/wlmoban_sc/dsc_pms/sc_admin.php?c=Api&a=';
 	$t = new Http();
 	$api_comment = $t->doGet($install_api . $url . $apiget);
 	$api_str = substr($api_comment, 3);
@@ -88,7 +88,7 @@ case 'check':
 	include_once ROOT_PATH . 'install/includes/lib_env_checker.php';
 	include_once ROOT_PATH . 'install/includes/checking_dirs.php';
 	$dir_checking = check_dirs_priv($checking_dirs);
-	$templates_root = array('dwt' => ROOT_PATH . 'themes/ecmoban_dsc/', 'lbi' => ROOT_PATH . 'themes/ecmoban_dsc/library/');
+	$templates_root = array('dwt' => ROOT_PATH . 'themes/wlmoban_dsc/', 'lbi' => ROOT_PATH . 'themes/wlmoban_dsc/library/');
 	$template_checking = check_templates_priv($templates_root);
 	$rename_priv = check_rename_priv();
 	$disabled = '';
@@ -149,7 +149,7 @@ case 'setting_ui':
 	$_SESSION['setting_ui']['show_timezone'] = $show_timezone;
 	$_SESSION['setting_ui']['local_timezone'] = get_local_timezone();
 	$_SESSION['setting_ui']['timezones'] = $timezones;
-	$_SESSION['setting_ui']['userinterface'] = empty($_GET['ui']) ? 'ecshop' : $_GET['ui'];
+	$_SESSION['setting_ui']['userinterface'] = empty($_GET['ui']) ? 'wlshop' : $_GET['ui'];
 	$smarty->assign('ucapi', $_POST['ucapi']);
 	$smarty->assign('ucfounderpw', $_POST['ucfounderpw']);
 	$smarty->assign('installer_lang', $installer_lang);
@@ -158,7 +158,7 @@ case 'setting_ui':
 	$smarty->assign('show_timezone', $show_timezone);
 	$smarty->assign('local_timezone', get_local_timezone());
 	$smarty->assign('timezones', $timezones);
-	$smarty->assign('userinterface', empty($_GET['ui']) ? 'ecshop' : $_GET['ui']);
+	$smarty->assign('userinterface', empty($_GET['ui']) ? 'wlshop' : $_GET['ui']);
 	$smarty->display('setting.php');
 	break;
 
@@ -204,8 +204,8 @@ case 'setup_ucenter':
 	include_once ROOT_PATH . 'includes/cls_json.php';
 	$json = new JSON();
 	$result = array('error' => 0, 'message' => '');
-	$app_type = 'ECSHOP';
-	$app_name = 'ECSHOP 网店';
+	$app_type = 'wlshop';
+	$app_name = 'wlshop 网店';
 	$app_url = url();
 	$app_charset = EC_CHARSET;
 	$app_dbcharset = EC_DB_CHARSET;
@@ -319,7 +319,7 @@ case 'do_others':
 	$system_lang = isset($_POST['system_lang']) ? $_POST['system_lang'] : 'zh_cn';
 	$captcha = isset($_POST['disable_captcha']) ? intval($_POST['disable_captcha']) : '0';
 	$install_demo = isset($_POST['install_demo']) ? $_POST['install_demo'] : 0;
-	$integrate = isset($_POST['userinterface']) ? trim($_POST['userinterface']) : 'ecshop';
+	$integrate = isset($_POST['userinterface']) ? trim($_POST['userinterface']) : 'wlshop';
 	$result = do_others($system_lang, $captcha, $install_demo, $integrate);
 
 	if ($result === false) {

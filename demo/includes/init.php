@@ -25,10 +25,10 @@ else {
 	exit('Can\'t find config.php!');
 }
 
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/cls_mysql.php';
 $ecs = new ECS($db_name, $prefix);
-$mysql_charset = $ecshop_charset = '';
+$mysql_charset = $wlshop_charset = '';
 $tmp_link = @mysql_connect($db_host, $db_user, $db_pass);
 
 if (!$tmp_link) {
@@ -49,10 +49,10 @@ else {
 }
 
 if (defined('EC_CHARSET')) {
-	$ecshop_charset = EC_CHARSET;
+	$wlshop_charset = EC_CHARSET;
 }
 
-$db = new cls_mysql($db_host, $db_user, $db_pass, $db_name, $ecshop_charset);
+$db = new cls_mysql($db_host, $db_user, $db_pass, $db_name, $wlshop_charset);
 require ROOT_PATH . 'includes/cls_error.php';
 $err = new ecs_error('message.dwt');
 require ROOT_PATH . 'includes/cls_sql_executor.php';

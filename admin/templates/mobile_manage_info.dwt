@@ -16,7 +16,7 @@
             <div class="flexilist">
                 <div class="common-content">
                     <div class="mian-info">
-                        <form action="ecjia_mobile_manage.php" method="post" name="theForm" enctype="multipart/form-data" id="mobile_manage_form" >
+                        <form action="wljia_mobile_manage.php" method="post" name="theForm" enctype="multipart/form-data" id="mobile_manage_form" >
                             <div class="switch_info" id="conent_area">
                                 <div class="item">
                                     <div class="label">{$lang.require_field}应用名称：</div>

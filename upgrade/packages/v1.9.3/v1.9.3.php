@@ -31,9 +31,9 @@ class up_v1_9_3
 		$db->query($sql);
 		$sql = 'UPDATE ' . $ecs->table('shop_config') . ' SET `store_dir` = \'images/common/\' WHERE `code` = \'index_down_logo\';';
 		$db->query($sql);
-		$sql = 'UPDATE ' . $ecs->table('shop_config') . ' SET `store_dir` = \'images/common/\' WHERE `code` = \'ecjia_qrcode\';';
+		$sql = 'UPDATE ' . $ecs->table('shop_config') . ' SET `store_dir` = \'images/common/\' WHERE `code` = \'wljia_qrcode\';';
 		$db->query($sql);
-		$sql = 'UPDATE ' . $ecs->table('shop_config') . ' SET `store_dir` = \'images/common/\' WHERE `code` = \'ectouch_qrcode\';';
+		$sql = 'UPDATE ' . $ecs->table('shop_config') . ' SET `store_dir` = \'images/common/\' WHERE `code` = \'wenlv_qrcode\';';
 		$db->query($sql);
 		$sql = 'INSERT INTO ' . $ecs->table('admin_action') . ' (`action_id`, `parent_id`, `action_code`, `relevance`, `seller_show`) VALUES (NULL, \'136\', \'touch_dashboard\', \'\', \'1\');';
 		$db->query($sql);

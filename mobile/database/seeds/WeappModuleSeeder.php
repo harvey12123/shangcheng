@@ -38,7 +38,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}<div class="swiper-slide">{$ad}</div>{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -51,7 +51,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}<div class="swiper-slide">{$ad}</div>{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -64,7 +64,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}<div class="box-flex activity-list">{$ad}</div>{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -77,7 +77,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}{$ad}{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -90,7 +90,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}{$ad}{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -103,7 +103,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}<div class="swiper-slide">{$ad}</div>{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -116,7 +116,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}{$ad}{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -129,7 +129,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}{$ad}{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '0',
                     'tc_type' => '',
                     'ad_type' => 'wxapp'
@@ -142,7 +142,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}<div class="swiper-slide">{$ad}</div>{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '1',
                     'tc_type' => 'banner',
 					'ad_type' => 'wxapp'
@@ -155,7 +155,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}' . "\n" . '{$ad}' . "\n" . '{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '1',
                     'tc_type' => 'left',
 					'ad_type' => 'wxapp'
@@ -168,7 +168,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}' . "\n" . '{$ad}' . "\n" . '{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '1',
                     'tc_type' => 'right',
 					'ad_type' => 'wxapp'
@@ -181,7 +181,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}<div class="swiper-slide">{$ad}</div>{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '2',
                     'tc_type' => 'banner',
 					'ad_type' => 'wxapp'
@@ -194,7 +194,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}' . "\n" . '{$ad}' . "\n" . '{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '2',
                     'tc_type' => 'left',
 					'ad_type' => 'wxapp'
@@ -207,7 +207,7 @@ class WeappModuleSeeder extends Seeder
                     'position_desc' => '',
                     'position_style' => '{foreach $ads as $ad}' . "\n" . '{$ad}' . "\n" . '{/foreach}',
                     'is_public' => '0',
-                    'theme' => 'ecmoban_dsc',
+                    'theme' => 'wlmoban_dsc',
                     'tc_id' => '2',
                     'tc_type' => 'right',
 					'ad_type' => 'wxapp'

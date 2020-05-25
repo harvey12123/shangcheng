@@ -837,10 +837,10 @@ if ($this->_foreach['noproperty']['total'] > 0):
                                 <?php endif; ?>
                                 <?php if ($this->_var['extend_info']): ?>
                                 <dl class="goods-para">
-                                    <?php $_from = $this->_var['extend_info']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('key', 'info_0_50710500_1589957483');if (count($_from)):
-    foreach ($_from AS $this->_var['key'] => $this->_var['info_0_50710500_1589957483']):
+                                    <?php $_from = $this->_var['extend_info']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('key', 'info_0_65918100_1590253350');if (count($_from)):
+    foreach ($_from AS $this->_var['key'] => $this->_var['info_0_65918100_1590253350']):
 ?>
-                                    <dd class="column"><span title="<?php echo htmlspecialchars($this->_var['info_0_50710500_1589957483']); ?>"><?php echo $this->_var['key']; ?>：<?php echo htmlspecialchars($this->_var['info_0_50710500_1589957483']); ?></span></dd>
+                                    <dd class="column"><span title="<?php echo htmlspecialchars($this->_var['info_0_65918100_1590253350']); ?>"><?php echo $this->_var['key']; ?>：<?php echo htmlspecialchars($this->_var['info_0_65918100_1590253350']); ?></span></dd>
                                     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
                                 </dl>
                                 <?php endif; ?>

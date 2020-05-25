@@ -16,7 +16,7 @@
             <div class="flexilist">
                 <div class="common-content">
                     <div class="mian-info">
-                        <form action="ecjia_sms.php" method="post" name="theForm" enctype="multipart/form-data" id="sms_form" >
+                        <form action="wljia_sms.php" method="post" name="theForm" enctype="multipart/form-data" id="sms_form" >
                             <div class="switch_info" id="conent_area">
                                 <div class="item">
                                     <div class="label">{$lang.require_field}&nbsp;消息模板：</div>

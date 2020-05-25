@@ -11,7 +11,7 @@
 
 <link rel="shortcut icon" href="favicon.ico" />
 <?php echo $this->fetch('library/js_languages_new.lbi'); ?>
-<link rel="stylesheet" type="text/css" href="themes/ecmoban_dsc2017/css/color.css">
+<link rel="stylesheet" type="text/css" href="themes/wlmoban_dsc2017/css/color.css">
 </head>
 
 <body class="home_visual_body<?php if ($this->_var['pc_page']['tem'] == 'backup_festival_1'): ?> festival_home<?php endif; ?>"<?php if ($this->_var['bg_image']['img_file']): ?>style="background:url(<?php echo $this->_var['bg_image']['img_file']; ?>)<?php if ($this->_var['bg_image']['bg_color']): ?> <?php echo $this->_var['bg_image']['bg_color']; ?><?php endif; ?> top <?php echo $this->_var['bg_image']['align']; ?> <?php echo $this->_var['bg_image']['bgrepeat']; ?>;"<?php endif; ?>>

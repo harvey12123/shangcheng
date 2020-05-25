@@ -3,7 +3,7 @@
 function api_request($url, $apiget)
 {
 	global $sc_charset;
-	$install_api = 'http://dsc.ecmoban.com/sc_admin.php?c=Api&a=';
+	$install_api = 'http://dsc.wlmoban.com/sc_admin.php?c=Api&a=';
 	$t = new Http();
 	$api_comment = $t->doGet($install_api . $url . $apiget);
 	$api_str = substr($api_comment, 3);
@@ -25,7 +25,7 @@ function api_request($url, $apiget)
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 session_start();
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/Http.class.php';
 require ROOT_PATH . 'includes/cls_ecmac.php';
 $data['api_ver'] = '1.0';

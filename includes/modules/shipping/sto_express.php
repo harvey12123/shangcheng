@@ -59,7 +59,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['version'] = '1.0.0';
 	$modules[$i]['desc'] = 'sto_express_desc';
 	$modules[$i]['cod'] = false;
-	$modules[$i]['author'] = 'ECMOBAN TEAM';
+	$modules[$i]['author'] = 'wlmoban TEAM';
 	$modules[$i]['website'] = 'http://www.jabrielcloud.com';
 	$modules[$i]['configure'] = array(
 	array('name' => 'item_fee', 'value' => 15),

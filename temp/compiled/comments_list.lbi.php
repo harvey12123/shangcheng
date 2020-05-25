@@ -10,7 +10,7 @@ if ($this->_foreach['no']['total'] > 0):
 			<?php if ($this->_var['comment']['user_picture']): ?>
 			<img src="<?php echo $this->_var['comment']['user_picture']; ?>" width="50" height="50">
 			<?php else: ?>
-			<img src="themes/ecmoban_dsc2017/images/touxiang.jpg" width="50" height="50" />
+			<img src="themes/wlmoban_dsc2017/images/touxiang.jpg" width="50" height="50" />
 			<?php endif; ?>
 		</div>
 		<div class="user-txt"><?php echo htmlspecialchars($this->_var['comment']['username']); ?></div>

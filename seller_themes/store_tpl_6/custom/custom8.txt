@@ -11,7 +11,7 @@
 <div class="huierk_items">
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_1.jpg" /></div>
+<div class="item_img"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_1.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -20,7 +20,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_2.jpg" /></div>
+<div class="item_img"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_2.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -29,7 +29,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_3.jpg" /></div>
+<div class="item_img"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_3.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -38,7 +38,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img border_right"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_4.jpg" /></div>
+<div class="item_img border_right"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_4.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -47,7 +47,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_1.jpg" /></div>
+<div class="item_img"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_1.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -56,7 +56,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_2.jpg" /></div>
+<div class="item_img"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_2.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -65,7 +65,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_3.jpg" /></div>
+<div class="item_img"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_3.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>
@@ -74,7 +74,7 @@
 </div>
 <div class="item">
 <a href="#" target="_blank">
-<div class="item_img border_right"><img src="themes/ecmoban_dsc/store_tpl_6/images/huierk_product_4.jpg" /></div>
+<div class="item_img border_right"><img src="themes/wlmoban_dsc/store_tpl_6/images/huierk_product_4.jpg" /></div>
 <div class="item_desc">
 <span class="title">特级古银杏 原生态农场出品</span>
 <span class="description">千年古银杏树 顺丰包邮</span>

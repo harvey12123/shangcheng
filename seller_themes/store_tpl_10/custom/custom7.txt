@@ -4,7 +4,7 @@
 <div class="fn-clear">
 <div class="mc">
 <div style="width: 1920px;" class="userDefinedArea">
-<center><a target="_blank" href="#"><img src="themes/ecmoban_dsc/store_tpl_10/images/qp_adv_1.png"></a></center>
+<center><a target="_blank" href="#"><img src="themes/wlmoban_dsc/store_tpl_10/images/qp_adv_1.png"></a></center>
 </div>
 </div>
 </div>

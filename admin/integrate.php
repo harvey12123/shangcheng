@@ -137,7 +137,7 @@ if ($_REQUEST['act'] == 'list') {
 
 if ($_REQUEST['act'] == 'install') {
 	admin_priv('integrate_users', '');
-	if ($_GET['code'] == 'ucenter' || $_GET['code'] == 'ecjia') {
+	if ($_GET['code'] == 'ucenter' || $_GET['code'] == 'wljia') {
 		$uc_client_dir = file_mode_info(ROOT_PATH . 'uc_client/data');
 
 		if ($uc_client_dir === false) {
@@ -149,7 +149,7 @@ if ($_REQUEST['act'] == 'install') {
 		}
 	}
 
-	if ($_GET['code'] == 'dscmall' || $_GET['code'] == 'ucenter' || $_GET['code'] == 'ecjia') {
+	if ($_GET['code'] == 'dscmall' || $_GET['code'] == 'ucenter' || $_GET['code'] == 'wljia') {
 		$sql = 'UPDATE ' . $ecs->table('shop_config') . (' SET value = \'' . $_GET['code'] . '\' WHERE code = \'integrate_code\'');
 		$db->query($sql);
 		$sql = 'UPDATE ' . $GLOBALS['ecs']->table('shop_config') . ' SET value = \'\' WHERE code = \'points_rule\'';
@@ -294,7 +294,7 @@ if ($_REQUEST['act'] == 'setup_ucenter') {
 	include_once ROOT_PATH . 'includes/cls_transport.php';
 	$json = new JSON();
 	$result = array('error' => 0, 'message' => '');
-	$app_type = 'ECSHOP';
+	$app_type = 'wlshop';
 	$app_name = $db->getOne('SELECT value FROM ' . $ecs->table('shop_config') . ' WHERE code = \'shop_name\'');
 	$app_url = $GLOBALS['ecs']->url();
 	$app_charset = EC_CHARSET;

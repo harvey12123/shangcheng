@@ -14,7 +14,7 @@
                     <div class="view-case">
                     	<div class="view-case-tit"><i></i><?php echo $this->_var['lang']['view_tutorials']; ?></div>
                         <div class="view-case-info">
-                        	<a href="http://help.ecmoban.com/article-3926.html" target="_blank"><?php echo $this->_var['lang']['tutorials_bonus_list_one']; ?></a>
+                        	<a href="http://www.jabrielcloud.com" target="_blank"><?php echo $this->_var['lang']['tutorials_bonus_list_one']; ?></a>
                         </div>
                     </div>			
                     <?php endif; ?>				

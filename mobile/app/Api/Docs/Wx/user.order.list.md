@@ -9,7 +9,7 @@
 3. status   2  订单类型   （0 待付款 1 已付款   3 已收货 待评价）
 
 ####头部参数
-1. x-ectouch-authorization     参数名
+1. x-wenlv-authorization     参数名
 2.    参数值
 
 

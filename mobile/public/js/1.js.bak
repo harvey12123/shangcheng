@@ -5480,7 +5480,7 @@ webpackJsonp([1], {
                 EcCoupon: H.a,
                 EcCountDown: R.a
             },
-            d()(i, "EcButton", G.a), d()(i, "EcSearch", Y.a), d()(i, "EcStore", V.a), d()(i, "EcShopSigns", j.a), d()(i, "EcShopMenu", $.a), d()(i, "EcTabDown", K.a), d()(i, "EcFilterTop", Z.a), d()(i, "AppDown", ee.a), i),
+            d()(i, "EcButton", G.a), d()(i, "EcSearch", Y.a), d()(i, "EcStore", V.a), d()(i, "wlshopSigns", j.a), d()(i, "wlshopMenu", $.a), d()(i, "EcTabDown", K.a), d()(i, "EcFilterTop", Z.a), d()(i, "AppDown", ee.a), i),
             data: function() {
                 return {}
             },

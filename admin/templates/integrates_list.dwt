@@ -35,7 +35,7 @@
                                                 <a href="integrate.php?act=points_set&code={$module.code}" class="btn_edit">{$lang.points_set}</a>
                                                 {/if}
                                             {else}
-                                            	<a {if $module.code neq "ecshop"}href="javascript:confirm_redirect('{$lang.install_confirm}', 'integrate.php?act=install&code={$module.code}')"{else}href="integrate.php?act=install&code={$module.code}" {/if} class="btn_inst"><i class="sc_icon sc_icon_inst"></i>{$lang.install}</a>
+                                            	<a {if $module.code neq "wlshop"}href="javascript:confirm_redirect('{$lang.install_confirm}', 'integrate.php?act=install&code={$module.code}')"{else}href="integrate.php?act=install&code={$module.code}" {/if} class="btn_inst"><i class="sc_icon sc_icon_inst"></i>{$lang.install}</a>
                                         	{/if}
                                         </div>
                                     </td>

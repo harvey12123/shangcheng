@@ -6,7 +6,7 @@
 <div class="items">
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_2.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_2.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -26,7 +26,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_3.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_3.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -46,7 +46,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_4.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_4.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -66,7 +66,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_5.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_5.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -88,7 +88,7 @@
 <div class="items">
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_1.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_1.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -108,7 +108,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_13.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_13.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -128,7 +128,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_18.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_18.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -148,7 +148,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_14.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_14.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -170,7 +170,7 @@
 <div class="items">
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_15.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_15.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -190,7 +190,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_11.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_11.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -210,7 +210,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_18.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_18.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>
@@ -230,7 +230,7 @@
 </div>
 <div class="item">
 <div class="jPic">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_9/images/tuijian_4.jpg" width="240" height="240" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_9/images/tuijian_4.jpg" width="240" height="240" /></a>
 <div class="jBtnBox">
 <div class="box">
 <a class="favo"></a>

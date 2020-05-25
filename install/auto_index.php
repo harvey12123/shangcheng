@@ -32,7 +32,7 @@ if (file_exists(ROOT_PATH . 'data/install.lock.php')) {
 include_once ROOT_PATH . 'install/includes/lib_env_checker.php';
 include_once ROOT_PATH . 'install/includes/checking_dirs.php';
 $dir_checking = check_dirs_priv($checking_dirs);
-$templates_root = array('dwt' => ROOT_PATH . 'themes/ecmoban_dsc/', 'lbi' => ROOT_PATH . 'themes/ecmoban_dsc/library/');
+$templates_root = array('dwt' => ROOT_PATH . 'themes/wlmoban_dsc/', 'lbi' => ROOT_PATH . 'themes/wlmoban_dsc/library/');
 $template_checking = check_templates_priv($templates_root);
 $rename_priv = check_rename_priv();
 $disabled = '';
@@ -92,7 +92,7 @@ if ($result === false) {
 $system_lang = isset($_POST['system_lang']) ? $_POST['system_lang'] : 'zh_cn';
 $captcha = isset($_POST['disable_captcha']) ? intval($_POST['disable_captcha']) : '0';
 $install_demo = isset($_POST['data']) ? $_POST['data'] : 1;
-$integrate = isset($_POST['userinterface']) ? trim($_POST['userinterface']) : 'ecshop';
+$integrate = isset($_POST['userinterface']) ? trim($_POST['userinterface']) : 'wlshop';
 $result = do_others($system_lang, $captcha, $install_demo, $integrate);
 
 if ($result === false) {

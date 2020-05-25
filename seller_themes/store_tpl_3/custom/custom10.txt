@@ -6,7 +6,7 @@
 <div class="zhekou_cp">
 <ul>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -17,7 +17,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -28,7 +28,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -39,7 +39,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -50,7 +50,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -61,7 +61,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -72,7 +72,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">
@@ -83,7 +83,7 @@
 </div>
 </li>
 <li>
-<a href="#" target="_blank" class="jPhoto"><img src="themes/ecmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
+<a href="#" target="_blank" class="jPhoto"><img src="themes/wlmoban_dsc/store_tpl_3/images/zjeli_pr_1.gif" /></a>
 <div class="jInfo">
 <div class="line1">
 <div class="jPrice">

@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="../js/perfect-scrollbar/perfect-scrollbar.min.css" />
 <link rel="stylesheet" type="text/css" href="../js/calendar/calendar.min.css" />
 <script type="text/javascript" src="../js/calendar.php?lang=<?php echo $this->_var['cfg_lang']; ?>"></script>
-<?php echo $this->smarty_insert_scripts(array('files'=>'../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/utils.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.form.js,../js/jquery.nyroModal.js,../js/jquery.validation.min.js,../js/jquery.cookie.js,../js/lib_ecmobanFunc.js,../js/jquery-ui/jquery-ui.min.js,common.js,listtable.js,listtable_pb.js,dsc_admin2.0.js,jquery.bgColorSelector.js')); ?>
+<?php echo $this->smarty_insert_scripts(array('files'=>'../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/utils.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.form.js,../js/jquery.nyroModal.js,../js/jquery.validation.min.js,../js/jquery.cookie.js,../js/lib_wlmobanFunc.js,../js/jquery-ui/jquery-ui.min.js,common.js,listtable.js,listtable_pb.js,dsc_admin2.0.js,jquery.bgColorSelector.js')); ?>
 <script type="text/javascript">
 /*这里把JS用到的所有语言都赋值到这里*/
 <?php $_from = $this->_var['lang']['js_languages']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('key', 'item');if (count($_from)):

@@ -1,5 +1,5 @@
 
-INSERT INTO `dsc_touch_ad_position`(`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES (NUll, '0', '首页红包广告', '360', '180', '', '{foreach $ads as $ad}\r\n<div class=\"swiper-slide\">{$ad}</div>\r\n{/foreach}', '1', 'ecmoban_dsc2017');
+INSERT INTO `dsc_touch_ad_position`(`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES (NUll, '0', '首页红包广告', '360', '180', '', '{foreach $ads as $ad}\r\n<div class=\"swiper-slide\">{$ad}</div>\r\n{/foreach}', '1', 'wlmoban_dsc2017');
 
 --
 -- 此处 position_id(3553) 是 SELECT position_id FROM dsc_touch_ad_position WHERE position_name = '首页红包广告'; 查询出来的值

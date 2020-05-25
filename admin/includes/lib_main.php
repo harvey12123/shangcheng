@@ -232,7 +232,7 @@ function create_html_editor($input_name, $input_value = '')
 	global $_CFG;
 	global $smarty;
 	$input_height = $_CFG['editing_tools'] == 'ueditor' ? 586 : 500;
-	$FCKeditor = '<input type="hidden" id="' . $input_name . '" name="' . $input_name . '" value="' . htmlspecialchars($input_value) . '" /><iframe id="' . $input_name . '_frame" src="../plugins/' . $_CFG['editing_tools'] . '/ecmobanEditor.php?item=' . $input_name . '" width="100%" height="' . $input_height . '" frameborder="0" scrolling="no"></iframe>';
+	$FCKeditor = '<input type="hidden" id="' . $input_name . '" name="' . $input_name . '" value="' . htmlspecialchars($input_value) . '" /><iframe id="' . $input_name . '_frame" src="../plugins/' . $_CFG['editing_tools'] . '/wlmobanEditor.php?item=' . $input_name . '" width="100%" height="' . $input_height . '" frameborder="0" scrolling="no"></iframe>';
 	$smarty->assign('FCKeditor', $FCKeditor);
 }
 
@@ -241,7 +241,7 @@ function create_html_editor2($input_name, $output_name, $input_value = '')
 	global $_CFG;
 	global $smarty;
 	$input_height = $_CFG['editing_tools'] == 'ueditor' ? 586 : 500;
-	$FCKeditor = '<input type="hidden" id="' . $input_name . '" name="' . $input_name . '" value="' . htmlspecialchars($input_value) . '" /><iframe id="' . $input_name . '_frame" src="../plugins/' . $_CFG['editing_tools'] . '/ecmobanEditor.php?item=' . $input_name . '" width="100%" height="' . $input_height . '" frameborder="0" scrolling="no"></iframe>';
+	$FCKeditor = '<input type="hidden" id="' . $input_name . '" name="' . $input_name . '" value="' . htmlspecialchars($input_value) . '" /><iframe id="' . $input_name . '_frame" src="../plugins/' . $_CFG['editing_tools'] . '/wlmobanEditor.php?item=' . $input_name . '" width="100%" height="' . $input_height . '" frameborder="0" scrolling="no"></iframe>';
 	$smarty->assign($output_name, $FCKeditor);
 }
 
@@ -1203,7 +1203,7 @@ function return_order_list()
 
 			if ($filter['order_referer']) {
 				if ($filter['order_referer'] == 'pc') {
-					$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'ecjia-cashdesk\') ';
+					$where .= ' AND o.referer NOT IN (\'mobile\',\'touch\',\'wljia-cashdesk\') ';
 				}
 				else {
 					$where .= ' AND o.referer = \'' . $filter['order_referer'] . '\' ';

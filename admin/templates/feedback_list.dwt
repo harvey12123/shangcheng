@@ -60,7 +60,7 @@
                                     <td class="sky_id"><div class="tDiv">{$feedback.date}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_feedback_info.php?act=view&id={$feedback.msg_id}" class="btn_see"><i class="sc_icon sc_icon_see"></i>查看及回复</a>
+                                            <a href="wljia_feedback_info.php?act=view&id={$feedback.msg_id}" class="btn_see"><i class="sc_icon sc_icon_see"></i>查看及回复</a>
                                             
                                             <a href="javascript:;" onclick="listTable.remove({$feedback.msg_id}, '确定要移至回收站吗')" class="btn_trash"><i class="icon icon-trash"></i>移至回收站</a>
                                         </div>

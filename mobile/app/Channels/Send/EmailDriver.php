@@ -4,7 +4,7 @@ namespace App\Channels\Send;
 
 class EmailDriver implements SendInterface
 {
-	protected $config = array('smtp_host' => 'smtp.qq.com', 'smtp_port' => '465', 'smtp_ssl' => false, 'smtp_username' => '', 'smtp_password' => '', 'smtp_from_to' => '', 'smtp_from_name' => 'ECTouch');
+	protected $config = array('smtp_host' => 'smtp.qq.com', 'smtp_port' => '465', 'smtp_ssl' => false, 'smtp_username' => '', 'smtp_password' => '', 'smtp_from_to' => '', 'smtp_from_name' => 'wenlv');
 	protected $mail;
 
 	public function __construct($config = array())

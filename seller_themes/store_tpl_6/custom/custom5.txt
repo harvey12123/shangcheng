@@ -4,18 +4,18 @@
 <div class="fn-clear">
 <div class="mc">
 <div class="biaoti_title">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/biaoti_1.jpg" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/biaoti_1.jpg" /></a>
 </div>
 <div class="user_adv_list">
 <ul>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_1.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_2.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_3.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_4.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_5.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_6.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_7.jpg" /></a></li>
-<li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_6/images/guanggao_8.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_1.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_2.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_3.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_4.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_5.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_6.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_7.jpg" /></a></li>
+<li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_6/images/guanggao_8.jpg" /></a></li>
 </ul>
 </div>
 </div>

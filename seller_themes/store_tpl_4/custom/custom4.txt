@@ -24,20 +24,20 @@
 <div class="s_content img" style="width:990px;height:90px;">
 <ul>
 <li style="width:990px;height:90px;">
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_1.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_2.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_3.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_4.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_5.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_6.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_1.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_2.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_3.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_4.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_5.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_6.jpg" /></a>
 </li>
 <li style="width:990px;height:90px;">
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_1.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_2.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_3.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_4.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_5.jpg" /></a>
-<a href="#"><img src="themes/ecmoban_dsc/store_tpl_4/images/pinpai_6.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_1.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_2.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_3.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_4.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_5.jpg" /></a>
+<a href="#"><img src="themes/wlmoban_dsc/store_tpl_4/images/pinpai_6.jpg" /></a>
 </li>
 </ul>
 </div>

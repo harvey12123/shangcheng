@@ -249,7 +249,7 @@
             </view>
           </view>
           <view wx:else>
-            <view class="ectouch-notcont">
+            <view class="wenlv-notcont">
               <view class="img">
                 <image src="../../images/no_content.png" mode="aspectFit" />
               </view>
@@ -270,7 +270,7 @@
             </block>
           </view>
           <view wx:else>
-            <view class="ectouch-notcont">
+            <view class="wenlv-notcont">
               <view class="img">
                 <image src="../../images/no_content.png" mode="aspectFit" />
               </view>

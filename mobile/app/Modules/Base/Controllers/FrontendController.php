@@ -15,10 +15,10 @@ abstract class FrontendController extends FoundationController
 	{
 		parent::__construct();
 		$this->start();
-		$this->ecjia_login();
+		$this->wljia_login();
 	}
 
-	private function ecjia_login()
+	private function wljia_login()
 	{
 		if (isset($_GET['origin']) && $_GET['origin'] == 'app') {
 			$openid = I('get.openid');
@@ -87,7 +87,7 @@ abstract class FrontendController extends FoundationController
 			define('SESS_ID', session_id());
 		}
 
-		$helper_list = array('ecmoban', 'function');
+		$helper_list = array('wlmoban', 'function');
 		$this->load_helper($helper_list);
 	}
 

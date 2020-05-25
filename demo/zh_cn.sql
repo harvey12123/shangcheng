@@ -504,9 +504,9 @@ INSERT INTO `dsc_ad` VALUES ('589', '319', '0', 'merchants_index_category_ad1_12
 INSERT INTO `dsc_ad` VALUES ('590', '319', '0', 'merchants_index_category_ad1_6', 'http://www.jabrielcloud.com/', '', '', '', '1489978972367649095.png', '', '1489978958', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `dsc_ad` VALUES ('591', '319', '0', 'merchants_index_category_ad1_8', 'http://www.jabrielcloud.com/', '', '', '', '1489978986231187639.png', '', '1489978973', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `dsc_ad` VALUES ('592', '320', '0', 'merchants_index_case_ad1', 'http://www.jabrielcloud.com/', '', '中国联通官方旗舰店', '中国联通是国内最专业、最具开发实力的独立电子商务服务与技术提供商，业内首家股交所挂牌企业', '1490061461513345174.png', '', '1489979153', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
-INSERT INTO `dsc_ad` VALUES ('593', '320', '0', 'merchants_index_case_ad2', 'http://www.jabrielcloud.com/', '', 'ECJia电商专营店', 'ECJia为你提供当下多种主流设备的商城开发业务，实现电商领域从移动端到PC端的终极解决方案的全方位布局', '1489979528200662778.png', '', '1489979499', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
+INSERT INTO `dsc_ad` VALUES ('593', '320', '0', 'merchants_index_case_ad2', 'http://www.jabrielcloud.com/', '', 'wljia电商专营店', 'wljia为你提供当下多种主流设备的商城开发业务，实现电商领域从移动端到PC端的终极解决方案的全方位布局', '1489979528200662778.png', '', '1489979499', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `dsc_ad` VALUES ('594', '320', '0', 'merchants_index_case_ad3', 'http://www.jabrielcloud.com/', '', '文旅新零售平台电商系统', '在文旅网络基于十年的电商架构重构下，打造出了一套可以满足运营商、供货商、采购商、用户分销等，在PC与移动设备上', '1489979554533969030.png', '', '1489979530', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
-INSERT INTO `dsc_ad` VALUES ('595', '320', '0', 'merchants_index_case_ad4', 'http://www.jabrielcloud.com/', '', 'ECTouch自营店', 'ECTouch是中国联通推出的一款移动商城网店系统，可以在手机上面卖商品的电子商务软件系统', '1489979583329456244.png', '', '1489979556', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
+INSERT INTO `dsc_ad` VALUES ('595', '320', '0', 'merchants_index_case_ad4', 'http://www.jabrielcloud.com/', '', 'wenlv自营店', 'wenlv是中国联通推出的一款移动商城网店系统，可以在手机上面卖商品的电子商务软件系统', '1489979583329456244.png', '', '1489979556', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `dsc_ad` VALUES ('676', '297', '0', 'cat_tree_4_1', 'http://www.jabrielcloud.com/', '', '', '', '1490296350661886591.jpg', '', '1490296201', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `dsc_ad` VALUES ('677', '297', '0', 'cat_tree_3_1', 'http://www.jabrielcloud.com/', '', '', '', '1490296477657287023.jpg', '', '1490296441', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
 INSERT INTO `dsc_ad` VALUES ('681', '297', '0', 'cat_tree_8_1', 'http://www.jabrielcloud.com/', '', '', '', '1490296765062943272.jpg', '', '1490296747', '1616956263', '', '', '', '0', '1', '0', '0', '0', '0', '0', '0');
@@ -3971,46 +3971,46 @@ INSERT INTO `dsc_brand_extend` VALUES ('102', '211', '0');
 -- 转存表中的数据 `dsc_floor_content`
 --
 
-INSERT INTO `dsc_floor_content` VALUES ('1', 'index', '首页楼层', '6', '男装、女装、内衣', '93', '同庆和堂', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('2', 'index', '首页楼层', '6', '男装、女装、内衣', '71', 'esprit', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('3', 'index', '首页楼层', '6', '男装、女装、内衣', '72', 'ELLE HOME', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('4', 'index', '首页楼层', '6', '男装、女装、内衣', '76', '金利来', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('5', 'index', '首页楼层', '6', '男装、女装、内衣', '79', 'justyle', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('6', 'index', '首页楼层', '6', '男装、女装、内衣', '82', '李宁', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('7', 'index', '首页楼层', '6', '男装、女装、内衣', '85', '喜瑞', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('8', 'index', '首页楼层', '6', '男装、女装、内衣', '86', '康比特', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('9', 'index', '首页楼层', '6', '男装、女装、内衣', '89', '健安喜', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('10', 'index', '首页楼层', '6', '男装、女装、内衣', '91', '金奥力', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('14', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '115', '西门子', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('13', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '92', '一品玉', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('15', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '116', '伊莱克斯', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('16', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '124', '亿健', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('17', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '130', 'TP-LINL', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('18', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '131', 'ZIPPO', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('28', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '97', '斯伯丁', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('25', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '178', '文轩网', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('21', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '139', '飞科', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('23', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '85', '喜瑞', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('27', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '93', '同庆和堂', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('29', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '132', '阿玛尼', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('38', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '90', '北大荒', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('31', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '136', '博时基金', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('32', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '137', '达利园', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('33', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '141', '钙尔奇', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('34', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '142', '哥弟', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('35', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '144', '海飞丝', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('36', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '150', '华帝', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('37', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '151', '姬芮', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('40', 'index', '首页楼层', '858', '家用电器', '88', '养生堂', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('41', 'index', '首页楼层', '858', '家用电器', '92', '一品玉', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('42', 'index', '首页楼层', '858', '家用电器', '124', '亿健', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('43', 'index', '首页楼层', '858', '家用电器', '131', 'ZIPPO', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('48', 'index', '首页楼层', '858', '家用电器', '108', '苹果', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('45', 'index', '首页楼层', '858', '家用电器', '154', '匡威', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('46', 'index', '首页楼层', '858', '家用电器', '160', '美的', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('47', 'index', '首页楼层', '858', '家用电器', '163', '魅族', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('49', 'index', '首页楼层', '858', '家用电器', '109', '诺基亚', 'ecmoban_dsc2017');
-INSERT INTO `dsc_floor_content` VALUES ('50', 'index', '首页楼层', '858', '家用电器', '110', '松下电器', 'ecmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('1', 'index', '首页楼层', '6', '男装、女装、内衣', '93', '同庆和堂', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('2', 'index', '首页楼层', '6', '男装、女装、内衣', '71', 'esprit', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('3', 'index', '首页楼层', '6', '男装、女装、内衣', '72', 'ELLE HOME', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('4', 'index', '首页楼层', '6', '男装、女装、内衣', '76', '金利来', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('5', 'index', '首页楼层', '6', '男装、女装、内衣', '79', 'justyle', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('6', 'index', '首页楼层', '6', '男装、女装、内衣', '82', '李宁', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('7', 'index', '首页楼层', '6', '男装、女装、内衣', '85', '喜瑞', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('8', 'index', '首页楼层', '6', '男装、女装、内衣', '86', '康比特', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('9', 'index', '首页楼层', '6', '男装、女装、内衣', '89', '健安喜', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('10', 'index', '首页楼层', '6', '男装、女装、内衣', '91', '金奥力', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('14', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '115', '西门子', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('13', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '92', '一品玉', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('15', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '116', '伊莱克斯', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('16', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '124', '亿健', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('17', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '130', 'TP-LINL', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('18', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '131', 'ZIPPO', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('28', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '97', '斯伯丁', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('25', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '178', '文轩网', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('21', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '139', '飞科', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('23', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '85', '喜瑞', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('27', 'index', '首页楼层', '8', '鞋靴、箱包、钟表、奢侈品', '93', '同庆和堂', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('29', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '132', '阿玛尼', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('38', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '90', '北大荒', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('31', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '136', '博时基金', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('32', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '137', '达利园', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('33', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '141', '钙尔奇', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('34', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '142', '哥弟', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('35', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '144', '海飞丝', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('36', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '150', '华帝', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('37', 'index', '首页楼层', '12', '食品、酒类、生鲜、特产', '151', '姬芮', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('40', 'index', '首页楼层', '858', '家用电器', '88', '养生堂', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('41', 'index', '首页楼层', '858', '家用电器', '92', '一品玉', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('42', 'index', '首页楼层', '858', '家用电器', '124', '亿健', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('43', 'index', '首页楼层', '858', '家用电器', '131', 'ZIPPO', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('48', 'index', '首页楼层', '858', '家用电器', '108', '苹果', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('45', 'index', '首页楼层', '858', '家用电器', '154', '匡威', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('46', 'index', '首页楼层', '858', '家用电器', '160', '美的', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('47', 'index', '首页楼层', '858', '家用电器', '163', '魅族', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('49', 'index', '首页楼层', '858', '家用电器', '109', '诺基亚', 'wlmoban_dsc2017');
+INSERT INTO `dsc_floor_content` VALUES ('50', 'index', '首页楼层', '858', '家用电器', '110', '松下电器', 'wlmoban_dsc2017');
 
 --
 -- 转存表中的数据 `dsc_brand`
@@ -4209,8 +4209,7 @@ INSERT INTO `dsc_favourable_activity` (`act_id`, `act_name`, `start_time`, `end_
 --
 
 INSERT INTO `dsc_payment` (`pay_id`, `pay_code`, `pay_name`, `pay_fee`, `pay_desc`, `pay_order`, `pay_config`, `enabled`, `is_cod`, `is_online`) VALUES
-(9, 'alipay', '支付宝', '0', '支付宝网站(www.alipay.com) 是国内先进的网上支付平台。<br/>支付宝收款接口：在线即可开通，<font color="red"><b>零预付，免年费</b></font>，单笔阶梯费率，无流量限制。<br/><a href="http://cloud.ecshop.com/payment_apply.php?mod=alipay" target="_blank"><font color="red">立即在线申请</font></a>', 0, 'a:4:{i:0;a:3:{s:4:"name";s:14:"alipay_account";s:4:"type";s:4:"text";s:5:"value";s:0:"";}i:1;a:3:{s:4:"name";s:10:"alipay_key";s:4:"type";s:4:"text";s:5:"value";s:0:"";}i:2;a:3:{s:4:"name";s:14:"alipay_partner";s:4:"type";s:4:"text";s:5:"value";s:0:"";}i:3;a:3:{s:4:"name";s:17:"alipay_pay_method";s:4:"type";s:6:"select";s:5:"value";s:1:"0";}}', 1, 0, 1),
-(10, 'bank', '银行汇款/转帐', '0', '银行名称\r\n收款人信息：全称 ××× ；帐号或地址 ××× ；开户行 ×××。\r\n注意事项：办理电汇时，请在电汇单“汇款用途”一栏处注明您的订单号。', 0, 'a:0:{}', 1, 0, 0),
+(9, 'alipay', '支付宝', '0', '支付宝网站(www.alipay.com) 是国内先进的网上支付平台。<br/>支付宝收款接口：在线即可开通，<font color="red"><b>零预付，免年费</b></font>，单笔阶梯费率，无流量限制。<br/>
 (11, 'balance', '余额支付', '0', '使用帐户余额支付。只有会员才能使用，通过设置信用额度，可以透支。', 0, 'a:0:{}', 1, 0, 0),
 (14, 'chunsejinrong', '白条支付', '0', '中国联通根据京东白条理念自主开发支付方式程序,如您想要在网站中使用白条支付、白条分期,请务必安装此方法!', 0, 'a:0:{}', 1, 0, 1),
 (15, 'onlinepay', '在线支付', '0', '想要使用在线支付的一系列方法如支付宝,余额支付,就必须安装该插件,否则订单结算页不会显示"在线支付"按钮', 0, 'a:0:{}', 1, 0, 0),
@@ -4302,7 +4301,7 @@ INSERT INTO `dsc_zc_goods` VALUES ('16', '11', '500', '0', '198', '0', '感谢�
 
 INSERT INTO `dsc_zc_initiator` (`id`, `name`, `company`, `img`, `intro`, `describe`, `rank`) VALUES
 (2, '无印良品', '无印良品', 'data/initiator_image/1469505347118618837.png', '无印良品是一个日本杂货品牌', '无印良品是一个日本杂货品牌，在日文中意为无品牌标志的好产品。产品类别以日常用品为主。产品注重纯朴、简洁、环保、以人为本等理念，在包装与产品设计上皆无品牌标志。产品类别从铅笔、笔记本、食品到厨房的基本用具都有。最近也开始进入房屋建筑、花店、咖啡店等产业类别。', 1),
-(3, '中国联通', '中国联通', 'data/initiator_image/1469561234331729031.jpg', 'ecshop模板制作选购第一站，国内专业的ecshop模板开发商，提供完善的ecshop二次开发与模板定制服务以及ecshop插件与ecshop教程。', '中国联通（ECSHOP中国联通）是ecshop行业首家股交中心挂牌企业。伴随着ECSHOP一起成长，可以为广大ECSHOP模板使用者提供更为全面的服务。ECSHOP中国联通创始于1999年，是一家连续十余年为中国互联网用户提供服务的运营商，是国内领先的网站建设机构。', 2);
+(3, '中国联通', '中国联通', 'data/initiator_image/1469561234331729031.jpg', 'wlshop模板制作选购第一站，国内专业的wlshop模板开发商，提供完善的wlshop二次开发与模板定制服务以及wlshop插件与wlshop教程。', '中国联通（wlshop中国联通）是wlshop行业首家股交中心挂牌企业。伴随着wlshop一起成长，可以为广大wlshop模板使用者提供更为全面的服务。wlshop中国联通创始于1999年，是一家连续十余年为中国互联网用户提供服务的运营商，是国内领先的网站建设机构。', 2);
 
 --
 -- 转存表中的数据 `dsc_zc_project`

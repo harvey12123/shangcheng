@@ -40,7 +40,7 @@ function get_sale_list($is_pagination = true)
 
 	if ($filter['order_referer']) {
 		if ($filter['order_referer'] == 'pc') {
-			$where .= ' AND oi.referer NOT IN (\'mobile\',\'touch\',\'ecjia-cashdesk\') ';
+			$where .= ' AND oi.referer NOT IN (\'mobile\',\'touch\',\'wljia-cashdesk\') ';
 		}
 		else {
 			$where .= ' AND oi.referer = \'' . $filter['order_referer'] . '\' ';

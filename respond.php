@@ -9,7 +9,7 @@ if (empty($pay_code) && !empty($_REQUEST['v_pmode']) && !empty($_REQUEST['v_pstr
 	$pay_code = 'cappay';
 }
 
-if (empty($pay_code) && $_REQUEST['ext1'] == 'shenzhou' && $_REQUEST['ext2'] == 'ecshop') {
+if (empty($pay_code) && $_REQUEST['ext1'] == 'shenzhou' && $_REQUEST['ext2'] == 'wlshop') {
 	$pay_code = 'shenzhou';
 }
 

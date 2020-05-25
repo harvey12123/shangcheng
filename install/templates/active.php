@@ -13,7 +13,7 @@ echo '</title>
 
 <body style="background:#DDEEF2">
 <div id="logos">
-  <div id="logos-inside"> <img src="../admin/images/ecshop_logo.gif" alt="ECSHOP" width="160" height="57" /> </div>
+  <div id="logos-inside"> <img src="../admin/images/wlshop_logo.gif" alt="wlshop" width="160" height="57" /> </div>
 </div>
 <div id="content">
 <p style="font-size:30px;text-align: center;margin-top:50px;">

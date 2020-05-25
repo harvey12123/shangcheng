@@ -501,7 +501,7 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 .icon_18_suppliers{ background-position:0px -387px;}
 .icon_18_batch_manage{background-position:1px -412px;}
 .icon_19_merchants_store{background-position:1px -440px;}
-.icon_20_ectouch{ background-position:3px -464px;}
+.icon_20_wenlv{ background-position:3px -464px;}
 .icon_21_cloud{ background-position:1px -486px;}
 .icon_supply_and_demand{background-position:-3px -799px;}
 .icon_18_region_store{background-position:-1px -827px;}
@@ -515,10 +515,10 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 /* 小程序 */
 .icon_24_wxapp{background-position:-1px -873px;}
 
-.icon_20_ecjia_app{ background-position:1px -589px;}
-.icon_24_ecjia_sms{ background-position:1px -614px;}
-.icon_26_ecjia_feedback{ background-position:1px -637px;}
-.icon_28_ecjia_marketing{ background-position:1px -659px;}
+.icon_20_wljia_app{ background-position:1px -589px;}
+.icon_24_wljia_sms{ background-position:1px -614px;}
+.icon_26_wljia_feedback{ background-position:1px -637px;}
+.icon_28_wljia_marketing{ background-position:1px -659px;}
 
 /*第三方服务*/
 .icon_24_sms{ background-position:0px -687px;}
@@ -553,7 +553,7 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 .current .icon_18_suppliers{ background-position:-25px -387px;}
 .current .icon_18_batch_manage{background-position:-24px -412px;}
 .current .icon_19_merchants_store{background-position:-24px -440px;}
-.current .icon_20_ectouch{ background-position:-22px -464px;}
+.current .icon_20_wenlv{ background-position:-22px -464px;}
 .current .icon_21_cloud{ background-position:-24px -486px;}
 .current .icon_05_banner{ background-position:-25px -510px;}
 .current .icon_supply_and_demand{background-position:-28px -799px;}
@@ -567,10 +567,10 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 /* 小程序 */
 .current .icon_24_wxapp{background-position:-26px -873px;}
 
-.current .icon_20_ecjia_app{ background-position:-27px -589px;}
-.current .icon_24_ecjia_sms{ background-position:-27px -614px;}
-.current .icon_26_ecjia_feedback{ background-position:-27px -637px;}
-.current .icon_28_ecjia_marketing{ background-position:-25px -659px;}
+.current .icon_20_wljia_app{ background-position:-27px -589px;}
+.current .icon_24_wljia_sms{ background-position:-27px -614px;}
+.current .icon_26_wljia_feedback{ background-position:-27px -637px;}
+.current .icon_28_wljia_marketing{ background-position:-25px -659px;}
 
 /*第三方服务*/
 .current .icon_24_sms{ background-position:-26px -686px;}

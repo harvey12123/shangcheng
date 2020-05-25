@@ -111,7 +111,7 @@ function send_sms($mobile, $send_time = '', $content)
 		'driver'       => 'sms',
 		'driverConfig' => array(
 			'sms_type' => $sms_type[$GLOBALS['_CFG']['sms_type']],
-			'ihuyi'    => array('sms_name' => $GLOBALS['_CFG']['sms_ecmoban_user'], 'sms_password' => $GLOBALS['_CFG']['sms_ecmoban_password']),
+			'ihuyi'    => array('sms_name' => $GLOBALS['_CFG']['sms_wlmoban_user'], 'sms_password' => $GLOBALS['_CFG']['sms_wlmoban_password']),
 			'alidayu'  => array('ali_appkey' => $GLOBALS['_CFG']['ali_appkey'], 'ali_secretkey' => $GLOBALS['_CFG']['ali_secretkey']),
 			'aliyun'   => array('access_key_id' => $GLOBALS['_CFG']['access_key_id'], 'access_key_secret' => $GLOBALS['_CFG']['access_key_secret']),
 			'dscsms'   => array('app_key' => $GLOBALS['_CFG']['dsc_appkey'], 'app_secret' => $GLOBALS['_CFG']['dsc_appsecret'])
@@ -609,7 +609,8 @@ function ecs_header($string, $replace = true, $http_response_code = 0)
 		echo '<script type="text/javascript">window.location.href="' . $string . '";</script>';
 	}
 
-	$string = str_replace(array('', '
+	$string = str_replace(array('
+', '
 '), array('', ''), $string);
 
 	if (preg_match('/^\\s*location:/is', $string)) {

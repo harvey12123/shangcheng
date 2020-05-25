@@ -67,7 +67,7 @@ echo '：</div>
             <div class="value">
             	<div class="checkbox_items">
                 	<div class="checkbox_item">
-                    	<input type="radio" id="ui_1" name="ui" value="ecshop" class="ui_radio" checked="checked" />
+                    	<input type="radio" id="ui_1" name="ui" value="wlshop" class="ui_radio" checked="checked" />
                         <label for="ui_1" class="ui_radio_label">';
 echo $lang['ui_ordinary'];
 echo '</label>

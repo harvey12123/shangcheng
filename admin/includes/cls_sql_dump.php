@@ -161,7 +161,7 @@ class cls_sql_dump
 			}
 		}
 
-		$this->dump_sql .= '-- END ecshop v2.x SQL Dump Program ';
+		$this->dump_sql .= '-- END wlshop v2.x SQL Dump Program ';
 		$this->put_tables_list($path, $tables);
 		return $tables;
 	}
@@ -173,7 +173,7 @@ class cls_sql_dump
 		$sys_info['php_ver'] = PHP_VERSION;
 		$sys_info['mysql_ver'] = $this->db->version();
 		$sys_info['date'] = date('Y-m-d H:i:s');
-		$head = "-- ecshop v2.x SQL Dump Program\r\n" . '-- ' . $sys_info['web_server'] . "\r\n" . "-- \r\n" . '-- DATE : ' . $sys_info['date'] . "\r\n" . '-- MYSQL SERVER VERSION : ' . $sys_info['mysql_ver'] . "\r\n" . '-- PHP VERSION : ' . $sys_info['php_ver'] . "\r\n" . '-- ECShop VERSION : ' . VERSION . "\r\n" . '-- Vol : ' . $vol . "\r\n";
+		$head = "-- wlshop v2.x SQL Dump Program\r\n" . '-- ' . $sys_info['web_server'] . "\r\n" . "-- \r\n" . '-- DATE : ' . $sys_info['date'] . "\r\n" . '-- MYSQL SERVER VERSION : ' . $sys_info['mysql_ver'] . "\r\n" . '-- PHP VERSION : ' . $sys_info['php_ver'] . "\r\n" . '-- wlshop VERSION : ' . VERSION . "\r\n" . '-- Vol : ' . $vol . "\r\n";
 		return $head;
 	}
 
@@ -201,7 +201,7 @@ class cls_sql_dump
 				else if ($type == 'PHP VERSION') {
 					$sql_info['php_ver'] = $value;
 				}
-				else if ($type == 'ECShop VERSION') {
+				else if ($type == 'wlshop VERSION') {
 					$sql_info['ecs_ver'] = $value;
 				}
 				else if ($type == 'Vol') {

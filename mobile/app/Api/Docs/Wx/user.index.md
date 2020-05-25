@@ -6,7 +6,7 @@
 ####参数
 
 ####头部参数
-1. x-ectouch-authorization     参数名
+1. x-wenlv-authorization     参数名
 2.    参数值  token
 
 
@@ -39,4 +39,4 @@
     > sex:0   性别
     > user_money:"20.00"   用户资金
     > user_name:"wxmpooftw0j_"    用户名
-    > user_picture:"themes/ecmoban_dsc2017/images/avatar.png"    用户头像
+    > user_picture:"themes/wlmoban_dsc2017/images/avatar.png"    用户头像

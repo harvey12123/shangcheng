@@ -64,10 +64,10 @@ $modules['02_cat_and_goods']['07_merchants_brand'] = 'merchants_brand.php?act=li
 $modules['02_cat_and_goods']['03_store_category_list'] = 'category_store.php?act=list';
 $modules['08_members']['12_user_address_list'] = 'user_address_log.php?act=list';
 $modules['04_order']['13_goods_inventory_logs'] = 'goods_inventory_logs.php?act=list';
-$modules['20_ectouch']['01_oauth_admin'] = '../mobile/index.php?r=oauth/admin';
-$modules['20_ectouch']['02_touch_nav_admin'] = 'touch_navigator.php?act=list';
-$modules['20_ectouch']['03_touch_ads'] = 'touch_ads.php?act=list';
-$modules['20_ectouch']['04_touch_ad_position'] = 'touch_ad_position.php?act=list';
+$modules['20_wenlv']['01_oauth_admin'] = '../mobile/index.php?r=oauth/admin';
+$modules['20_wenlv']['02_touch_nav_admin'] = 'touch_navigator.php?act=list';
+$modules['20_wenlv']['03_touch_ads'] = 'touch_ads.php?act=list';
+$modules['20_wenlv']['04_touch_ad_position'] = 'touch_ad_position.php?act=list';
 $modules['21_cloud']['01_cloud_services'] = 'index.php?act=cloud_services';
 $modules['02_cat_and_goods']['01_goods_list'] = 'goods.php?act=list';
 $modules['02_cat_and_goods']['04_goods_lib_list'] = 'goods_lib.php?act=list';

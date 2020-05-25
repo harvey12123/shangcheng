@@ -1,5 +1,5 @@
 /** 
- @Name：ECTouch infinite js v0.1
+ @Name：wenlv infinite js v0.1
  $Author：carson
  $Site：http://www.jabrielcloud.com
  @Date：2016-01-16

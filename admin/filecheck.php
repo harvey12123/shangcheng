@@ -25,7 +25,7 @@ define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 admin_priv('file_check');
 
-if (!($ecshopfiles = @file('./ecshopfiles.md5'))) {
+if (!($wlshopfiles = @file('./wlshopfiles.md5'))) {
 	sys_msg($_LANG['filecheck_nofound_md5file'], 1);
 }
 
@@ -57,7 +57,7 @@ else if ($step == 3) {
 	checkfiles('wap/', '\\.php|\\.wml');
 	checkfiles('mobile/', '\\.php');
 
-	foreach ($ecshopfiles as $line) {
+	foreach ($wlshopfiles as $line) {
 		$file = trim(substr($line, 34));
 		$md5datanew[$file] = substr($line, 0, 32);
 

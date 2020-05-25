@@ -3,7 +3,7 @@
 class Verify
 {
 	protected $config = array(
-		'seKey'    => 'DSCecmoban.CN',
+		'seKey'    => 'DSCwlmoban.CN',
 		'codeSet'  => '2345678abcdefhijkmnpqrstuvwxyzABCDEFGHJKLMNPQRTUVWXY',
 		'expire'   => 1800,
 		'useZh'    => false,

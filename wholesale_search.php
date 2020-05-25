@@ -118,7 +118,7 @@ if (!empty($_REQUEST['keywords'])) {
         }
 
         $db->autoReplace($ecs->table('keywords'), array('date' => local_date('Y-m-d'),
-            'searchengine' => 'ecshop', 'keyword' => addslashes(str_replace('%', '', $val)), 'count' => 1), array('count' => 1));
+            'searchengine' => 'wlshop', 'keyword' => addslashes(str_replace('%', '', $val)), 'count' => 1), array('count' => 1));
     }
 
     $goods_ids = array_unique($goods_ids);

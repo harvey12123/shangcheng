@@ -12,7 +12,7 @@
 </div>
 <div class="jPic">
 <p class="biaoqian bq1"></p>
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/product_21.jpg" width="430" height="430"></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/product_21.jpg" width="430" height="430"></a>
 </div>
 </li>
 </ul>

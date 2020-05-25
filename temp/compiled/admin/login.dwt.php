@@ -9,7 +9,7 @@
 <link rel="icon" href="../animated_favicon.gif" type="image/gif" />
 <link rel="stylesheet" type="text/css" href="css/purebox.css" />
 <link rel="stylesheet" type="text/css" href="css/login.css" />
-<?php echo $this->smarty_insert_scripts(array('files'=>'../js/jquery-1.9.1.min.js,../js/jquery.cookie.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.validation.min.js,../js/lib_ecmobanFunc.js')); ?>
+<?php echo $this->smarty_insert_scripts(array('files'=>'../js/jquery-1.9.1.min.js,../js/jquery.cookie.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.validation.min.js,../js/lib_wlmobanFunc.js')); ?>
 <script type="text/javascript">
 //若cookie值不存在，则跳出iframe框架
 if(!$.cookie('dscActionParam') && $.cookie('admin_type') != 1){

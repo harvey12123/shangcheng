@@ -2,7 +2,7 @@
             	<div class="layout-one">
                 	<div class="fn-clear">
                     	<div class="mc">
-                        	<div style="width: 1920px; margin-left: -168.5px;" class="userDefinedArea"><img src="themes/ecmoban_dsc/store_tpl_5/images/biaoti_1.jpg" /></div>
+                        	<div style="width: 1920px; margin-left: -168.5px;" class="userDefinedArea"><img src="themes/wlmoban_dsc/store_tpl_5/images/biaoti_1.jpg" /></div>
                         </div>
                     </div>
                     <div style="margin:0 auto 10px;" class="fn-clear w990">
@@ -10,7 +10,7 @@
                         	<div class="user_countdown">
                             	<ul>
                                 	<li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_1.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_1.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -24,7 +24,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_2.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_2.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -38,7 +38,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_3.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_3.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -52,7 +52,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_4.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_4.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -66,7 +66,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_5.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_5.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -80,7 +80,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_6.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_6.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -94,7 +94,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_7.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_7.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -108,7 +108,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/ecmoban_dsc/store_tpl_5/images/product_8.jpg" /></a>
+                                    	<a class="i_l_imgs" target="_blank" href="#"><img width="240" src="themes/wlmoban_dsc/store_tpl_5/images/product_8.jpg" /></a>
                                         <div class="clearfix con_price">
                                         	<a target="_blank" class="buynow"></a>
                                             <div class="tprice">
@@ -129,7 +129,7 @@
                     	<div class="mc">
                         	<div style=" width:990px; height:450px; margin:0 auto; background:url(images/fenlei_bg.jpg) repeat-x 0 0;" class="user_cate">
                             	<div class="gz_box">
-                                	<img src="themes/ecmoban_dsc/store_tpl_5/images/guanggao.png" />
+                                	<img src="themes/wlmoban_dsc/store_tpl_5/images/guanggao.png" />
                                 </div>
                                 <div class="pro_classify">
                                 	<div class="pro_classify_title"><h3 style="background: url(images/baby.png) no-repeat;">商品分类</h3></div>
@@ -214,7 +214,7 @@
                     </div>
                     <div style=" margin:0 auto 10px;" class="fn-clear w990">
                     	<div class="mc">
-                        	<a target="_blank" href="#"><img src="themes/ecmoban_dsc/store_tpl_5/images/adv_990_1.jpg" /></a>
+                        	<a target="_blank" href="#"><img src="themes/wlmoban_dsc/store_tpl_5/images/adv_990_1.jpg" /></a>
                         </div>
                     </div>
                 </div>

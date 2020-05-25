@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ECTouch Open Source Project
+ * wenlv Open Source Project
  * ============================================================================
  * Copyright (c) 2015-2016 http://jabrielcloud.com All rights reserved.
  * ----------------------------------------------------------------------------

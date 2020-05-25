@@ -1,4 +1,4 @@
-<div class="userDefinedArea"><img src="themes/ecmoban_dsc/store_tpl_1/images/daohang_tp.jpg" usemap="#daohang_tp" border="0" />
+<div class="userDefinedArea"><img src="themes/wlmoban_dsc/store_tpl_1/images/daohang_tp.jpg" usemap="#daohang_tp" border="0" />
 <map name="daohang_tp" id="daohang_tp">
 <area shape="rect" coords="828,3,988,181" href="6" />
 <area shape="rect" coords="658,2,818,180" href="5" />

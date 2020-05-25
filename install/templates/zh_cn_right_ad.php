@@ -17,7 +17,7 @@ echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     </p>
 </div>
 <div class="adv">
-    <a href="http://dsc.ecmoban.com/index.php?m=Home&c=Index&a=resource" target="_blank"><img title="install_adv.png" src="http://dsc.ecmoban.com/Upload/images/20160104/14518952335877.png"/></a>
+    <a href="http://dsc.wlmoban.com/index.php?m=Home&c=Index&a=resource" target="_blank"><img title="install_adv.png" src="http://dsc.wlmoban.com/Upload/images/20160104/14518952335877.png"/></a>
 </div>';
 
 ?>

@@ -27,7 +27,7 @@ class up_v1_9_11
 		global $db;
 		global $ecs;
 		include_once ROOT_PATH . 'includes/inc_constant.php';
-		$sql = 'INSERT INTO ' . $ecs->table('shop_config') . ' ( `parent_id` , `code` , `type` , `value` , `sort_order` ) VALUES ( 2, \'merchants_prefix\', \'text\', \'ecmoban_\', \'1\' );';
+		$sql = 'INSERT INTO ' . $ecs->table('shop_config') . ' ( `parent_id` , `code` , `type` , `value` , `sort_order` ) VALUES ( 2, \'merchants_prefix\', \'text\', \'wlmoban_\', \'1\' );';
 		$db->query($sql);
 		$sql = 'ALTER TABLE ' . $ecs->table('cart') . ' ADD COLUMN `is_checked`  tinyint(1) NOT NULL DEFAULT 1 COMMENT \'选中状态，0未选中，1选中\';';
 		$db->query($sql);

@@ -36,18 +36,6 @@ http://www.jabrielcloud.com/service.html
 
 http://www.jabrielcloud.com/manual.html
 
-文旅新零售平台帮助中心：
-
-http://help.ecmoban.com/article_cat-66.html
-
-文旅新零售平台安装初始化数据库数据SQL语句：
-
-http://wenda.ecmoban.com/index.php?m=question&c=index&a=init&id=553
-
-文旅新零售平台问答堂：
-
-http://wenda.ecmoban.com/
-
 文旅新零售平台：
 
 http://www.jabrielcloud.com/
@@ -56,12 +44,7 @@ http://www.jabrielcloud.com/
 
 http://www.jabrielcloud.com/
 
-ECjia官网：
-
-https://ecjia.com/
-
-
-ECtouch官网：
+文旅官网：
 
 https://www.jabrielcloud.com/
 
@@ -69,16 +52,3 @@ https://www.jabrielcloud.com/
 
 	商业使用文旅新零售平台商城系统，请在官方正规渠道购买使用授权，杜绝、严厉打击盗版文旅新零售平台系统，一经发现绝不姑息！
 	
-联系我们
-
-	售前咨询：4006-000-001
-
-	售后服务：021-62601332
-
-建议反馈：4006-000-001 转 8038
-
-商务合作：zhong#ecmoban.com
-
-(注意：发E-mail时，要将邮箱地址里的#号换成@邮件符号)
-
-地址：上海市普陀区中山北路3553号伸大厦3层

@@ -9,13 +9,13 @@
         	<div class="tabs_info">
             	<ul>
                     <li {if $group eq '0'}class="curr"{/if}>
-                    	<a href="ecjia_adviser.php?act=list&group=0">全部{if $group neq '0'}<em class="li_color">({$adviser_count.count_all|default:0})</em>{/if}</a>
+                    	<a href="wljia_adviser.php?act=list&group=0">全部{if $group neq '0'}<em class="li_color">({$adviser_count.count_all|default:0})</em>{/if}</a>
                     </li>
                     <li {if $group eq '1'}class="curr"{/if}>
-                        <a href="ecjia_adviser.php?act=list&group=1">导购员{if $group neq '1'}<em class="li_color">({$adviser_count.count_guider|default:0})</em>{/if}</a>
+                        <a href="wljia_adviser.php?act=list&group=1">导购员{if $group neq '1'}<em class="li_color">({$adviser_count.count_guider|default:0})</em>{/if}</a>
                     </li>
                     <li {if $group eq '2'}class="curr"{/if}>
-                        <a href="ecjia_adviser.php?act=list&group=2">收银员{if $group neq '2'}<em class="li_color">({$adviser_count.count_casher|default:0})</em>{/if}</a>
+                        <a href="wljia_adviser.php?act=list&group=2">收银员{if $group neq '2'}<em class="li_color">({$adviser_count.count_casher|default:0})</em>{/if}</a>
                     </li>
                 </ul>
             </div>			
@@ -80,7 +80,7 @@
                                     <td class="sky_id"><div class="tDiv">{$adviser.date}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_adviser.php?act=edit&id={$adviser.id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
+                                            <a href="wljia_adviser.php?act=edit&id={$adviser.id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
                                             
                                             <a href="javascript:;" onclick="listTable.remove({$adviser.id}, '确定要删除吗')" class="btn_trash"><i class="icon icon-trash"></i>删除顾问</a>
                                         </div>

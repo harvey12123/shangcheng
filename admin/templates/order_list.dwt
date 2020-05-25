@@ -277,7 +277,7 @@
                                             <div class="price-shipping">({if $order.shipping_name}{$order.shipping_name}{else}{$lang.wu}{/if}：{$order.shipping_fee})</div>
                                             <div class="price-shipping">
                                                 <p>{$lang.pay_name}：{if $order.pay_name}{$order.pay_name}{else}{$lang.wu}{/if}</p>
-                                                <p>{$lang.referer}：{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}{$lang.touch}{elseif $order.referer eq 'wxapp'}小程序{elseif $order.referer eq 'ecjia-cashdesk'}{$lang.cashdesk}{else}PC{/if}</p>
+                                                <p>{$lang.referer}：{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}{$lang.touch}{elseif $order.referer eq 'wxapp'}小程序{elseif $order.referer eq 'wljia-cashdesk'}{$lang.cashdesk}{else}PC{/if}</p>
                                             </div>        
                                         </div>    
                                     </td>
@@ -423,7 +423,7 @@
 									 <li><a href="javascript:;" data-value="pc">PC</a></li>
 									 <li><a href="javascript:;" data-value="touch">WAP</a></li>
 									 <li><a href="javascript:;" data-value="mobile">APP</a></li>
-									 <li><a href="javascript:;" data-value="ecjia-cashdesk">{$lang.cashdesk}</a></li>
+									 <li><a href="javascript:;" data-value="wljia-cashdesk">{$lang.cashdesk}</a></li>
                                   </ul>
 								<input name="order_referer" type="hidden" value="" id="order_referer_val">
                                 </div>

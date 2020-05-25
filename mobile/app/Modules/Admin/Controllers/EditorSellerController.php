@@ -12,7 +12,7 @@ class EditorSellerController extends \App\Modules\Base\Controllers\BackendSeller
 		header('Access-Control-Allow-Origin: *');
 		header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 		header('Access-Control-Allow-Headers: X-HTTP-Method-Override, Content-Type, x-requested-with, Authorization');
-		$this->load_helper(array('function', 'ecmoban'));
+		$this->load_helper(array('function', 'wlmoban'));
 		$this->seller_admin_priv('touch_dashboard');
 		$seller_id = dao('admin_user')->where(array('user_id' => $_SESSION['seller_id']))->getField('ru_id');
 		$get_ru_id = input('ru_id', 0, 'intval');

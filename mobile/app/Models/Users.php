@@ -12,7 +12,7 @@ class Users extends \Illuminate\Database\Eloquent\Model
 
 	public function getUserPictureAttribute()
 	{
-		return empty($this->attributes['user_picture']) ? 'themes/ecmoban_dsc2017/images/avatar.png' : $this->attributes['user_picture'];
+		return empty($this->attributes['user_picture']) ? 'themes/wlmoban_dsc2017/images/avatar.png' : $this->attributes['user_picture'];
 	}
 
 	public function getAiteId()

@@ -18,9 +18,9 @@ INSERT INTO `dsc_admin_action` (`action_id`, `parent_id`, `action_code`, `releva
 
 UPDATE `dsc_admin_action` SET `seller_show` = '0' WHERE `action_code` = 'brand_manage';
 
-INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES (NULL, '942', 'ectouch_qrcode', 'file', '', '../images/common/', '', '1');
+INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES (NULL, '942', 'wenlv_qrcode', 'file', '', '../images/common/', '', '1');
 
-INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES (NULL, '942', 'ecjia_qrcode', 'file', '', '../images/common/', '', '1');
+INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES (NULL, '942', 'wljia_qrcode', 'file', '', '../images/common/', '', '1');
 
 INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES (NULL, '942', 'index_down_logo', 'file', '', '../images/common/', '', '1');
 

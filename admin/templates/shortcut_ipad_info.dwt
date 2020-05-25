@@ -16,7 +16,7 @@
             <div class="flexilist">
                 <div class="common-content">
                     <div class="mian-info">
-                        <form action="ecjia_shortcut_ipad.php" method="post" name="theForm" enctype="multipart/form-data" id="mobile_app_form" >
+                        <form action="wljia_shortcut_ipad.php" method="post" name="theForm" enctype="multipart/form-data" id="mobile_app_form" >
                             <div class="switch_info" id="conent_area">
                                 <div class="item">
                                     <div class="label">菜单链接：</div>

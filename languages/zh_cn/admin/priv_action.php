@@ -195,18 +195,18 @@ $_LANG['zc_initiator_manage'] = '众筹发起人管理';
 $_LANG['zc_topic_manage'] = '众筹话题管理';
 $_LANG['offline_store'] = '门店列表';
 $_LANG['stores'] = '门店管理';
-$_LANG['ectouch'] = '手机端管理';
+$_LANG['wenlv'] = '手机端管理';
 $_LANG['oauth_admin'] = '授权登录';
 $_LANG['touch_nav_admin'] = '导航管理';
 $_LANG['touch_ad'] = '广告管理';
 $_LANG['touch_ad_position'] = '广告位管理';
 $_LANG['touch_dashboard'] = '可视化装修';
-$_LANG['ecjia'] = 'APP';
-$_LANG['ecjia_app'] = 'APP移动应用';
-$_LANG['ecjia_shipping'] = 'APP配送方式';
-$_LANG['ecjia_sms'] = 'APP短息管理';
-$_LANG['ecjia_feedback'] = 'APP留言反馈';
-$_LANG['ecjia_marketing'] = 'APP营销顾问';
+$_LANG['wljia'] = 'APP';
+$_LANG['wljia_app'] = 'APP移动应用';
+$_LANG['wljia_shipping'] = 'APP配送方式';
+$_LANG['wljia_sms'] = 'APP短息管理';
+$_LANG['wljia_feedback'] = 'APP留言反馈';
+$_LANG['wljia_marketing'] = 'APP营销顾问';
 
 if (file_exists(MOBILE_WECHAT)) {
 	$_LANG['wechat'] = '微信通管理';

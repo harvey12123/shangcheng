@@ -6,12 +6,12 @@
 <div class="j-module" id="j_idx_focus">
 <div class="J-jbannerImg">
 <ul rel="xtaberItems">
-<li><a href="#" class="idx-focus-img"><img src="themes/ecmoban_dsc/store_tpl_3/images/focus_3.jpg" /></a></li>
-<li><a href="#" class="idx-focus-img"><img src="themes/ecmoban_dsc/store_tpl_3/images/focus_5.jpg" /></a></li>
-<li><a href="#" class="idx-focus-img"><img src="themes/ecmoban_dsc/store_tpl_3/images/focus_6.jpg" /></a></li>
-<li><a href="#" class="idx-focus-img"><img src="themes/ecmoban_dsc/store_tpl_3/images/focus_1.jpg" /></a></li>
-<li><a href="#" class="idx-focus-img"><img src="themes/ecmoban_dsc/store_tpl_3/images/focus_2.jpg" /></a></li>
-<li><a href="#" class="idx-focus-img"><img src="themes/ecmoban_dsc/store_tpl_3/images/focus_4.jpg" /></a></li>
+<li><a href="#" class="idx-focus-img"><img src="themes/wlmoban_dsc/store_tpl_3/images/focus_3.jpg" /></a></li>
+<li><a href="#" class="idx-focus-img"><img src="themes/wlmoban_dsc/store_tpl_3/images/focus_5.jpg" /></a></li>
+<li><a href="#" class="idx-focus-img"><img src="themes/wlmoban_dsc/store_tpl_3/images/focus_6.jpg" /></a></li>
+<li><a href="#" class="idx-focus-img"><img src="themes/wlmoban_dsc/store_tpl_3/images/focus_1.jpg" /></a></li>
+<li><a href="#" class="idx-focus-img"><img src="themes/wlmoban_dsc/store_tpl_3/images/focus_2.jpg" /></a></li>
+<li><a href="#" class="idx-focus-img"><img src="themes/wlmoban_dsc/store_tpl_3/images/focus_4.jpg" /></a></li>
 </ul>
 </div>
 </div>

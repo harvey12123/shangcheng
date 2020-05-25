@@ -1,7 +1,7 @@
 <div class="fn-clear user_djshdt">
 <div class="mc">
 <div class="user-djshdt">
-<div class="user-djshdt-left"><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_12/images/zhekou.jpg" /></a></div>
+<div class="user-djshdt-left"><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_12/images/zhekou.jpg" /></a></div>
 <div class="user-djshdt-right">
 <div class="chuxiao_title">促销进行中</div>
 <div class="chuxiao_time">

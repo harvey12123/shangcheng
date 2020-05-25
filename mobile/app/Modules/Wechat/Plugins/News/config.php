@@ -3,6 +3,6 @@ return [
     'name' => '新品',
     'command' => 'news',
     'keywords' => 'news', 
-    'author' =>'ECTouch Team',
+    'author' =>'wenlv Team',
     'website' => 'http://www.jabrielcloud.com',
 ];

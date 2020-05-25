@@ -74,7 +74,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['desc'] = 'post_express_desc';
 	$modules[$i]['insure'] = '1%';
 	$modules[$i]['cod'] = false;
-	$modules[$i]['author'] = 'ECMOBAN TEAM';
+	$modules[$i]['author'] = 'wlmoban TEAM';
 	$modules[$i]['website'] = 'http://www.jabrielcloud.com';
 	$modules[$i]['configure'] = array(
 	array('name' => 'item_fee', 'value' => 5),

@@ -323,7 +323,7 @@
                                 </dl>
                                 <dl>
                                 	<dt>{$lang.from_order}：</dt>
-                                    <dd>{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}{$lang.touch}{elseif $order.referer eq 'wxapp'}小程序{elseif $order.referer eq 'ecjia-cashdesk'}{$lang.cashdesk}{else}PC{/if}</dd>
+                                    <dd>{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}{$lang.touch}{elseif $order.referer eq 'wxapp'}小程序{elseif $order.referer eq 'wljia-cashdesk'}{$lang.cashdesk}{else}PC{/if}</dd>
                                 </dl>
                             </li>
                             <li>

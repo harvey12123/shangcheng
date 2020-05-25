@@ -39,7 +39,7 @@
                                     <dt>{$lang.label_order_sn}</dt>
                                     <dd>{$order.order_sn}{if $order.extension_code eq "group_buy"}<a href="group_buy.php?act=edit&id={$order.extension_id}">{$lang.group_buy}</a>{elseif $order.extension_code eq "exchange_goods"}<a href="exchange_goods.php?act=edit&id={$order.extension_id}">{$lang.exchange_goods}</a>{/if}</dd>
                                     <dt>{$lang.from_order}：</dt>
-                                    <dd>{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}{$lang.touch}{elseif $order.referer eq 'wxapp'}小程序{elseif $order.referer eq 'ecjia-cashdesk'}{$lang.cashdesk}{else}PC{/if}</dd>
+                                    <dd>{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}{$lang.touch}{elseif $order.referer eq 'wxapp'}小程序{elseif $order.referer eq 'wljia-cashdesk'}{$lang.cashdesk}{else}PC{/if}</dd>
                                 </dl>
                                 <dl>
                                     <dt>{$lang.label_user_name} <div class="div_a">{if $order.user_id > 0}<a href="javascript:;" ectype="orderDialog" data-dialog="userinfo">{$lang.info}</a><i class="shu"></i><a href="user_msg.php?act=add&order_id={$order.order_id}&user_id={$order.user_id}">{$lang.leaving_message}</a>{/if}</div></dt>

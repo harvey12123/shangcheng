@@ -72,8 +72,8 @@ if ($this->_foreach['nav_top_list']['total'] > 0):
 <div class="header">
     <div class="w w1200">
         <div class="logo">
-            <div class="logoImg"><a href="<?php echo $this->_var['url_index']; ?>"><img src="themes/ecmoban_dsc2017/images/logo.gif" /></a></div>
-            <div class="logoAdv"><a href="<?php echo $this->_var['url_merchants']; ?>"><img src="themes/ecmoban_dsc2017/images/ecsc-join.gif" /></a></div>
+            <div class="logoImg"><a href="<?php echo $this->_var['url_index']; ?>"><img src="themes/wlmoban_dsc2017/images/logo.gif" /></a></div>
+            <div class="logoAdv"><a href="<?php echo $this->_var['url_merchants']; ?>"><img src="themes/wlmoban_dsc2017/images/ecsc-join.gif" /></a></div>
         </div>
         <div class="dsc-search">
             <div class="form">

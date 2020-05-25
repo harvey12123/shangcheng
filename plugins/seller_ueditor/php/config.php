@@ -17,12 +17,12 @@ $root_path_relative = '../../../';
 require ROOT_PATH . 'data/config.php';
 require ROOT_PATH . 'includes/lib_base.php';
 require ROOT_PATH . 'includes/cls_mysql.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/cls_session.php';
 require ROOT_PATH . 'includes/lib_common.php';
 require ROOT_PATH . 'includes/lib_oss.php';
 require ROOT_PATH . 'includes/Http.class.php';
-require ROOT_PATH . 'includes/lib_ecmoban.php';
+require ROOT_PATH . 'includes/lib_wlmoban.php';
 $sel_config = get_shop_config_val('open_memcached');
 
 if ($sel_config['open_memcached'] == 1) {

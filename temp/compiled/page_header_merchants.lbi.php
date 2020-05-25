@@ -72,7 +72,7 @@ if ($this->_foreach['nav_top_list']['total'] > 0):
 <div class="header header-settled">
     <div class="w w1200">
         <div class="logo">
-            <div class="logoImg"><a href="<?php echo $this->_var['url_index']; ?>"><img src="themes/ecmoban_dsc2017/images/logo.gif" /></a></div>
+            <div class="logoImg"><a href="<?php echo $this->_var['url_index']; ?>"><img src="themes/wlmoban_dsc2017/images/logo.gif" /></a></div>
             <div class="tit"><?php echo $this->_var['lang']['my_merchants']; ?></div>
         </div>
         <div class="settled-header-right">

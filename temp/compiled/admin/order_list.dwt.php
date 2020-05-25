@@ -299,7 +299,7 @@ if ($this->_foreach['foo']['total'] > 0):
                                             <div class="price-shipping">(<?php if ($this->_var['order']['shipping_name']): ?><?php echo $this->_var['order']['shipping_name']; ?><?php else: ?><?php echo $this->_var['lang']['wu']; ?><?php endif; ?>：<?php echo $this->_var['order']['shipping_fee']; ?>)</div>
                                             <div class="price-shipping">
                                                 <p><?php echo $this->_var['lang']['pay_name']; ?>：<?php if ($this->_var['order']['pay_name']): ?><?php echo $this->_var['order']['pay_name']; ?><?php else: ?><?php echo $this->_var['lang']['wu']; ?><?php endif; ?></p>
-                                                <p><?php echo $this->_var['lang']['referer']; ?>：<?php if ($this->_var['order']['referer'] == 'mobile'): ?>APP<?php elseif ($this->_var['order']['referer'] == 'touch'): ?><?php echo $this->_var['lang']['touch']; ?><?php elseif ($this->_var['order']['referer'] == 'wxapp'): ?>小程序<?php elseif ($this->_var['order']['referer'] == 'ecjia-cashdesk'): ?><?php echo $this->_var['lang']['cashdesk']; ?><?php else: ?>PC<?php endif; ?></p>
+                                                <p><?php echo $this->_var['lang']['referer']; ?>：<?php if ($this->_var['order']['referer'] == 'mobile'): ?>APP<?php elseif ($this->_var['order']['referer'] == 'touch'): ?><?php echo $this->_var['lang']['touch']; ?><?php elseif ($this->_var['order']['referer'] == 'wxapp'): ?>小程序<?php elseif ($this->_var['order']['referer'] == 'wljia-cashdesk'): ?><?php echo $this->_var['lang']['cashdesk']; ?><?php else: ?>PC<?php endif; ?></p>
                                             </div>        
                                         </div>    
                                     </td>
@@ -447,7 +447,7 @@ if ($this->_foreach['foo']['total'] > 0):
 									 <li><a href="javascript:;" data-value="pc">PC</a></li>
 									 <li><a href="javascript:;" data-value="touch">WAP</a></li>
 									 <li><a href="javascript:;" data-value="mobile">APP</a></li>
-									 <li><a href="javascript:;" data-value="ecjia-cashdesk"><?php echo $this->_var['lang']['cashdesk']; ?></a></li>
+									 <li><a href="javascript:;" data-value="wljia-cashdesk"><?php echo $this->_var['lang']['cashdesk']; ?></a></li>
                                   </ul>
 								<input name="order_referer" type="hidden" value="" id="order_referer_val">
                                 </div>

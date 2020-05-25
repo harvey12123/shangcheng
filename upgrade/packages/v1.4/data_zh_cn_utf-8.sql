@@ -14,8 +14,8 @@ INSERT INTO `dsc_admin_action` (`action_id`, `parent_id`, `action_code`, `releva
 
 INSERT INTO `dsc_shop_config` (`id`, `parent_id`, `code`, `type`, `store_range`, `store_dir`, `value`, `sort_order`) VALUES (NULL, '942', 'site_domain', 'text', '', '', '', '1');
 
-UPDATE `dsc_shop_config` SET `sort_order` = '4' WHERE `code` = 'sms_ecmoban_user';
-UPDATE `dsc_shop_config` SET `sort_order` = '5' WHERE `code` = 'sms_ecmoban_password';
+UPDATE `dsc_shop_config` SET `sort_order` = '4' WHERE `code` = 'sms_wlmoban_user';
+UPDATE `dsc_shop_config` SET `sort_order` = '5' WHERE `code` = 'sms_wlmoban_password';
 UPDATE `dsc_shop_config` SET `sort_order` = '6' WHERE `code` = 'sms_shop_mobile';
 UPDATE `dsc_shop_config` SET `sort_order` = '2' WHERE `code` = 'sms_type';
 UPDATE `dsc_shop_config` SET `sort_order` = '7' WHERE `code` = 'ali_appkey';

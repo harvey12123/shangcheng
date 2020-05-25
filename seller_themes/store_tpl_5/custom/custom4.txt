@@ -2,12 +2,12 @@
             	<div class="layout-one">
                 	<div class="fn-clear">
                     	<div class="mc">
-                        	<div style="width: 1920px; margin-left: -168.5px;" class="userDefinedArea"><img src="themes/ecmoban_dsc/store_tpl_5/images/biaoti_2.jpg" /></div>
+                        	<div style="width: 1920px; margin-left: -168.5px;" class="userDefinedArea"><img src="themes/wlmoban_dsc/store_tpl_5/images/biaoti_2.jpg" /></div>
                         </div>
                     </div>
                     <div style=" margin:0 auto 10px;" class="fn-clear w990">
                     	<div class="mc">
-                        	<a target="_blank" href="#"><img border="0" usemap="#tj_Map" src="themes/ecmoban_dsc/store_tpl_5/images/tj_product.jpg" />
+                        	<a target="_blank" href="#"><img border="0" usemap="#tj_Map" src="themes/wlmoban_dsc/store_tpl_5/images/tj_product.jpg" />
                             <map id="tj_Map" name="tj_Map">
                               <area href="#" coords="4,3,487,289" shape="rect">
                               <area href="#" coords="501,7,984,286" shape="rect">

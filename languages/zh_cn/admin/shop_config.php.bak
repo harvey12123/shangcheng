@@ -54,8 +54,8 @@ $_LANG['cfg_desc']['site_domain'] = '请输入您当前网站的域名，避免�
 $_LANG['cfg_name']['sms_price_notice'] = '商品降价时是否发送短信';
 $_LANG['cfg_range']['sms_price_notice'][1] = '发短信';
 $_LANG['cfg_range']['sms_price_notice'][0] = '不发短信';
-$_LANG['cfg_name']['sms_ecmoban_user'] = '短信接口用户名';
-$_LANG['cfg_name']['sms_ecmoban_password'] = '短信接口密码';
+$_LANG['cfg_name']['sms_wlmoban_user'] = '短信接口用户名';
+$_LANG['cfg_name']['sms_wlmoban_password'] = '短信接口密码';
 $_LANG['cfg_name']['sign'] = '发货日期起可退换货时间';
 $_LANG['cfg_desc']['sign'] = '以天数为单位';
 $_LANG['cfg_name']['sms_type'] = '短信类型';
@@ -152,13 +152,13 @@ $_LANG['cfg_range']['editing_tools']['ueditor'] = '百度Ueditor(推荐)';
 $_LANG['cfg_name']['sms_signin'] = '客户注册时是否发送短信验证码';
 $_LANG['cfg_range']['sms_signin'][1] = '发短信';
 $_LANG['cfg_range']['sms_signin'][0] = '不发短信';
-$_LANG['cfg_name']['sms_ecmoban_user'] = '互亿在线短信接口用户名';
-$_LANG['cfg_name']['sms_ecmoban_password'] = '互亿在线短信接口密码';
+$_LANG['cfg_name']['sms_wlmoban_user'] = '互亿在线短信接口用户名';
+$_LANG['cfg_name']['sms_wlmoban_password'] = '互亿在线短信接口密码';
 $_LANG['cfg_name']['sms_seller_signin'] = '修改入住商权限时是否发送短信';
 $_LANG['cfg_range']['sms_seller_signin'][0] = '不发短信';
 $_LANG['cfg_range']['sms_seller_signin'][1] = '发短信';
-$_LANG['cfg_name']['ectouch_qrcode'] = '底部二维码右边';
-$_LANG['cfg_name']['ecjia_qrcode'] = '底部二维码左边';
+$_LANG['cfg_name']['wenlv_qrcode'] = '底部二维码右边';
+$_LANG['cfg_name']['wljia_qrcode'] = '底部二维码左边';
 $_LANG['cfg_name']['index_down_logo'] = '首页下滑弹出logo图片';
 $_LANG['cfg_name']['site_commitment'] = '头部右侧翻转效果图片';
 $_LANG['cfg_name']['user_login_logo'] = '用户登录与注册页面LOGO';
@@ -746,7 +746,7 @@ $_LANG['btnSubmit_notice'] = '平台设置 -> 购物流程 -> 发票税率重复
 $_LANG['type_already_exists'] = '类型已存在';
 $_LANG['type_taxrate_not_notic'] = '类型和税率不能为空';
 $_LANG['taxrate_number'] = '税率必须为数字';
-$_LANG['tutorials_bonus_list_one'] = "<a href=\"http://help.ecmoban.com/article-6273.html\" target=\"_blank\">平台设置---平台基本信息设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6274.html\" target=\"_blank\">平台设置---客服设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6268.html\" target=\"_blank\">平台设置---市场价格比例及积分比例设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6271.html\" target=\"_blank\">平台设置---设置区分地区商品</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6266.html\" target=\"_blank\">平台设置---短信设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6267.html\" target=\"_blank\">平台设置---WAP设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6265.html\" target=\"_blank\">平台设置---商品属性价格模式设置</a>";
+$_LANG['tutorials_bonus_list_one'] = "<a href=\"http://www.jabrielcloud.com/article-6273.html\" target=\"_blank\">平台设置---平台基本信息设置</a>\r\n                            <a href=\"http://www.jabrielcloud.com/article-6274.html\" target=\"_blank\">平台设置---客服设置</a>\r\n                            <a href=\"http://www.jabrielcloud.com/article-6268.html\" target=\"_blank\">平台设置---市场价格比例及积分比例设置</a>\r\n                            <a href=\"http://www.jabrielcloud.com/article-6271.html\" target=\"_blank\">平台设置---设置区分地区商品</a>\r\n                            <a href=\"http://www.jabrielcloud.com/article-6266.html\" target=\"_blank\">平台设置---短信设置</a>\r\n                            <a href=\"http://www.jabrielcloud.com/article-6267.html\" target=\"_blank\">平台设置---WAP设置</a>\r\n                            <a href=\"http://www.jabrielcloud.com/article-6265.html\" target=\"_blank\">平台设置---商品属性价格模式设置</a>";
 $_LANG['tutorials_bonus_list_two'] = '商城邮件服务器设置';
 $_LANG['operation_prompt_content']['shop_config'][0] = '商店相关信息设置，请谨慎填写信息。';
 

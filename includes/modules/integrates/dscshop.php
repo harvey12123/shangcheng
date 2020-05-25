@@ -9,7 +9,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['code'] = 'dscshop';
 	$modules[$i]['name'] = 'DSCSHOP';
 	$modules[$i]['version'] = '2.0';
-	$modules[$i]['author'] = 'ECMOBAN R&D TEAM';
+	$modules[$i]['author'] = 'wlmoban R&D TEAM';
 	$modules[$i]['website'] = 'http://www.jabrielcloud.com';
 	return NULL;
 }
@@ -17,7 +17,7 @@ if (isset($set_modules) && $set_modules == true) {
 require_once ROOT_PATH . 'includes/modules/integrates/integrate.php';
 class dscshop extends integrate
 {
-	public $is_ecshop = 1;
+	public $is_wlshop = 1;
 
 	public function __construct($cfg)
 	{
@@ -33,7 +33,7 @@ class dscshop extends integrate
 		$this->field_bday = 'birthday';
 		$this->field_reg_date = 'reg_time';
 		$this->need_sync = false;
-		$this->is_ecshop = 1;
+		$this->is_wlshop = 1;
 	}
 
 	public function check_user($username, $password = '')

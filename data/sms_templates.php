@@ -48,7 +48,7 @@ if($act_name == 'alitongxin'){
 		'goodsname' => "商品名称",
 		'goodsprice' => "商品价格",
 		'sellername' => "B2B2C系统",
-		'loginname' => "ecmoban_dsc",
+		'loginname' => "wlmoban_dsc",
 		'password' => 'admin123'
 	);
 }else{
@@ -82,7 +82,7 @@ if($act_name == 'alitongxin'){
 		'goodsname' => "商品名称",
 		'goodsprice' => "商品价格",
 		'seller_name' => "B2B2C系统",
-		'login_name' => "ecmoban_dsc",
+		'login_name' => "wlmoban_dsc",
 		'password' => 'admin123'
 	);
 }

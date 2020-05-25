@@ -52,7 +52,7 @@ class up_v2_2_2
 		$sql = 'INSERT INTO ' . $GLOBALS['ecs']->table('ad_position') . (' ( `user_id`, `position_name`, `ad_width`, `ad_height`, `position_model`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES
 		(0, \'首页天降红包（商品设置关闭可视化状态使用）\', 500, 500, \'bonushome[num_id]\', \'num_id-数量序号\', \'{foreach from=' . $ads . ' item=ad}
 ' . $ad . '
-{/foreach}\', 0, \'ecmoban_dsc2017\');');
+{/foreach}\', 0, \'wlmoban_dsc2017\');');
 		$GLOBALS['db']->query($sql);
 	}
 

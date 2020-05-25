@@ -1,7 +1,7 @@
 {
     "name": "dscmall/dscmall",
     "description": "DSCMall E-Commerce System.",
-    "keywords": ["dscmall", "ectouch", "ecshop", "ecmall", "wemall"],
+    "keywords": ["dscmall", "wenlv", "wlshop", "ecmall", "wemall"],
     "homepage": "http://www.jabrielcloud.com/",
     "license": "GPL",
     "type": "project",

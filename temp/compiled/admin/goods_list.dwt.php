@@ -15,7 +15,7 @@
                     <div class="view-case">
                     	<div class="view-case-tit"><i></i><?php echo $this->_var['lang']['view_tutorials']; ?></div>
                         <div class="view-case-info">
-                        	<a href="http://help.ecmoban.com/article-3013.html" target="_blank"><?php echo $this->_var['lang']['tutorials_bonus_list_one']; ?></a>
+                        	<a href="http://www.jabrielcloud.com" target="_blank"><?php echo $this->_var['lang']['tutorials_bonus_list_one']; ?></a>
                         </div>
                     </div>
                     <?php endif; ?>
@@ -796,7 +796,7 @@ if ($this->_foreach['sln']['total'] > 0):
     //贡云导入商品
     $(document).on("click","*[ectype='sync_import_goods']",function(){
         var content = '<div class="sync_import_dialog">' +
-        '<div class="foot_botton_div"><a href="http://q.url.cn/s/T3hNWVm" class="foot_btn" target="_blank">咨询链接</a><a href="http://help.ecmoban.com/article-8070.html" class="foot_a" target="_blank">查看使用教程</a></div><a class="scnc_import_close" ectype="scnc_import_close">X</a>' +
+        '<div class="foot_botton_div"><a href="http://q.url.cn/s/T3hNWVm" class="foot_btn" target="_blank">咨询链接</a><a href="http://www.jabrielcloud.com" class="foot_a" target="_blank">查看使用教程</a></div><a class="scnc_import_close" ectype="scnc_import_close">X</a>' +
         '</div>';
 
         pb({

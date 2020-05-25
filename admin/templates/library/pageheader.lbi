@@ -139,7 +139,7 @@
                 {/foreach}
 			</div>
             <div class="admincp-map-div" data-param="map-mobile" style="display: none;">
-                {foreach from=$nav_top.ectouch.children item=vo}
+                {foreach from=$nav_top.wenlv.children item=vo}
                 <dl>
                     <dt>{$vo.label}</dt>
                     {foreach from=$vo.children item=vo2}
@@ -149,7 +149,7 @@
                 {/foreach}
 			</div>
             <!--<div class="admincp-map-div" data-param="map-cms" style="display: none;">
-                {foreach from=$nav_top.ecjia.children item=vo}
+                {foreach from=$nav_top.wljia.children item=vo}
                 <dl>
                     <dt>{$vo.label}</dt>
                     {foreach from=$vo.children item=vo2}

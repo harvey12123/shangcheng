@@ -92,7 +92,7 @@ class Token
 
 	static public function authorization()
 	{
-		$token = $_SERVER[strtoupper('http_x_ectouch_authorization')];
+		$token = $_SERVER[strtoupper('http_x_wenlv_authorization')];
 
 		if ($payload = self::decode($token)) {
 			if (is_object($payload) && property_exists($payload, 'uid')) {

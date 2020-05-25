@@ -8,8 +8,8 @@
 
 .s-score{ width:160px; height:18px; line-height:18px; border:1px dashed #dbdbdb; background:#fff; border-radius:9px; padding:0 5px; margin:10px 0; cursor:pointer;}
 .s-score span{ float:left;}
-.s-score .score-icon{ display:block; float:left; width:60px; height:12px; background:url(../themes/ecmoban_dsc2017/images/dsc-icon.png) -298px 0 no-repeat; margin:2px 3px 0 0;}
-.s-score .score-icon-bg{ float:left; height:12px; width:60px; background:url(../themes/ecmoban_dsc2017/images/dsc-icon.png) -298px -16px no-repeat;}
+.s-score .score-icon{ display:block; float:left; width:60px; height:12px; background:url(../themes/wlmoban_dsc2017/images/dsc-icon.png) -298px 0 no-repeat; margin:2px 3px 0 0;}
+.s-score .score-icon-bg{ float:left; height:12px; width:60px; background:url(../themes/wlmoban_dsc2017/images/dsc-icon.png) -298px -16px no-repeat;}
 .s-score .iconfont{ font-size:12px; margin-left:5px;}
 .s-score-info{ position:absolute; width:150px; background-color:#fff; z-index:10; padding:0 13px; border:1px dashed #dbdbdb; border-radius:0 0 10px 10px; top:25px; left:0; display:none;}
 .s-score-info .s-cover{ position:absolute; width:120px; height:2px; background:#fff; top:-1px; left:0;}

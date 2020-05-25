@@ -68,7 +68,7 @@
                                             <li><a href="javascript:;" data-value="pc" class="ftx-01">PC</a></li>
                                             <li><a href="javascript:;" data-value="touch" class="ftx-01">WAP</a></li>
                                             <li><a href="javascript:;" data-value="mobile" class="ftx-01">APP</a></li>
-                                            <li><a href="javascript:;" data-value="ecjia-cashdesk" class="ftx-01">{$lang.cashdesk}</a></li>
+                                            <li><a href="javascript:;" data-value="wljia-cashdesk" class="ftx-01">{$lang.cashdesk}</a></li>
                                         </ul>
                                         <input name="order_referer" type="hidden" value="" id="order_referer_val">
                                     </div>

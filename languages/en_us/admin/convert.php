@@ -7,7 +7,7 @@ $_LANG['select_system'] = 'Please choose the system that you want to convert:';
 $_LANG['note_select_system'] = '(If your system not in the list, you can arrive <a href="http://www.###.com" target="_ blank"> <strong> our website </strong></a>look for a help).';
 $_LANG['select_charset'] = 'Please choose the character list that the system that you have to convert use to gather:';
 $_LANG['note_select_charset'] = '(If your system isn\'t UTF-8 character, converting need a long time.)';
-$_LANG['dir_notes'] = 'Please notice root directory path of the old shop, please use opposite path of the admin directory.<Br/>For example:The old shop directory is shop in root directory, but the ecshop put in root directory, that path is../shop.';
+$_LANG['dir_notes'] = 'Please notice root directory path of the old shop, please use opposite path of the admin directory.<Br/>For example:The old shop directory is shop in root directory, but the wlshop put in root directory, that path is../shop.';
 $_LANG['your_config'] = 'Please config an original system to install an information:';
 $_LANG['your_host'] = 'Host name or address:';
 $_LANG['your_user'] = 'Username:';

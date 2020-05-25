@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="../js/perfect-scrollbar/perfect-scrollbar.min.css" />
     <link rel="stylesheet" type="text/css" href="../data/topic/css/style.css" />
     
-    {insert_scripts files="../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.nyroModal.js,../js/plupload.full.min.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.form.js,../js/lib_ecmobanFunc.js,../js/visualization.js,../js/jquery.cookie.js,../js/spectrum-master/spectrum.js,../js/jquery-ui/jquery-ui.min.js,common.js,layer.js"}
+    {insert_scripts files="../js/jquery-1.9.1.min.js,../js/jquery.json.js,../js/transport_jquery.js,../js/perfect-scrollbar/perfect-scrollbar.min.js,../js/jquery.nyroModal.js,../js/plupload.full.min.js,../js/jquery.SuperSlide.2.1.1.js,../js/jquery.form.js,../js/lib_wlmobanFunc.js,../js/visualization.js,../js/jquery.cookie.js,../js/spectrum-master/spectrum.js,../js/jquery-ui/jquery-ui.min.js,common.js,layer.js"}
 
     <!--[if lte IE 8]>
         <script type="Text/Javascript" language="JavaScript">
@@ -978,7 +978,7 @@
                     {/if}
                 </div>
             </div>
-            <div class="pc-page store_tpl_1{if $theme_extension neq 1} dsc-ecmoban{/if}" ectype="visualShell">
+            <div class="pc-page store_tpl_1{if $theme_extension neq 1} dsc-wlmoban{/if}" ectype="visualShell">
                 {if $pc_page.out}
                     {$pc_page.out}
                 {else}

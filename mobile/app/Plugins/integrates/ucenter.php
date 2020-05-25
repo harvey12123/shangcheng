@@ -14,7 +14,7 @@ class ucenter extends \App\Libraries\Integrate
 		$this->field_bday = 'birthday';
 		$this->field_reg_date = 'reg_time';
 		$this->need_sync = false;
-		$this->is_ecshop = 1;
+		$this->is_wlshop = 1;
 		if (!defined('UC_CONNECT') && isset($cfg['uc_id']) && isset($cfg['db_host']) && isset($cfg['db_user']) && isset($cfg['db_name'])) {
 			if (strpos($cfg['db_pre'], '`' . $cfg['db_name'] . '`') === 0) {
 				$db_pre = $cfg['db_pre'];
@@ -377,7 +377,7 @@ class ucenter extends \App\Libraries\Integrate
 			$GLOBALS['db']->query($sql);
 		}
 
-		if (isset($this->ecshop) && $this->ecshop) {
+		if (isset($this->wlshop) && $this->wlshop) {
 			return NULL;
 		}
 

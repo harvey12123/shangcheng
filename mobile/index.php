@@ -1,10 +1,10 @@
 <?php
 
 /**
- * ECTouch E-Commerce Project
+ * wenlv E-Commerce Project
  *
- * @package  ECTouch
- * @author   carson <wanganlin@ecmoban.com>
+ * @package  wenlv
+ * @author   carson <wanganlin@jabrielcloud.com>
  */
 
 // define('APP_DEBUG', true);
@@ -43,4 +43,4 @@ require __DIR__ . '/bootstrap/app.php';
 |--------------------------------------------------------------------------
 */
 
-ECTouch::start();
+wenlv::start();

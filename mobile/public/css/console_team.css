@@ -394,12 +394,12 @@ label {cursor: pointer;font-weight:normal;}
 .btn:link,.btn:visited,.btn:hover{color:#fff;}
 
 
-.ectouch-table {margin:0;}
-.ectouch-table tr:first-child td {border-top:none;}
-.ectouch-line {line-height: 1.8;}
-.ectouch-mb5, .breadcrumb {margin-bottom:5px}
-.ectouch-fs16 {font-size:16px}
-.ectouch-fs18 {font-size:18px}
+.wenlv-table {margin:0;}
+.wenlv-table tr:first-child td {border-top:none;}
+.wenlv-line {line-height: 1.8;}
+.wenlv-mb5, .breadcrumb {margin-bottom:5px}
+.wenlv-fs16 {font-size:16px}
+.wenlv-fs18 {font-size:18px}
 .btn-group .btn-primary {background-color:#e5e5e5; color: #707070;border-color: none;}
 .btn-group .btn-primary:hover {background-color:#62b3ff;color: #707070;border-color: none;}
 .btn-group .btn-primary.active {background-color:#62b3ff; color: #fff; border-color: none;}
@@ -407,7 +407,7 @@ label {cursor: pointer;font-weight:normal;}
 .panel-title {font-size:14px}
 .pagination {margin-top:0}
 .pagination .glyphicon {top:0}
-.ectouch-mb{margin-bottom:5px;}
+.wenlv-mb{margin-bottom:5px;}
 .clear{clear:both;}
 .borderno{border:0;}
 

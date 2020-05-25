@@ -2310,7 +2310,7 @@ else if ($_REQUEST['act'] == 'ajaxBrand') {
 	require_once ROOT_PATH . 'languages/' . $_CFG['lang'] . '/' . ADMIN_PATH . '/brand.php';
 	$json = new JSON();
 	$result = array('content' => '', 'mode' => '');
-	$smarty->assign('is_need', $_CFG['template'] == 'ecmoban_dsc2017' ? 1 : 0);
+	$smarty->assign('is_need', $_CFG['template'] == 'wlmoban_dsc2017' ? 1 : 0);
 	$smarty->assign('temp', $_REQUEST['act']);
 	$smarty->assign('lang', $_LANG);
 	$smarty->assign('form_action', 'brand_insert');

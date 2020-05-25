@@ -1,4 +1,4 @@
-<div class="layout-area no-margin" style="background:url(themes/ecmoban_dsc/store_tpl_14/images/adv_banner_2.jpg) center center no-repeat;">
+<div class="layout-area no-margin" style="background:url(themes/wlmoban_dsc/store_tpl_14/images/adv_banner_2.jpg) center center no-repeat;">
 <div class="layout layout-auto">
 <div class="layout-one">
 <div class="fn-clear">

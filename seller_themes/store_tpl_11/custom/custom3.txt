@@ -2,7 +2,7 @@
 <div class="mc">
 <div class="user_itemsadv_color">
 <div class="item">
-<a class="s_pic" target="_blank" href="#"><img src="themes/ecmoban_dsc/store_tpl_11/images/promotion_1.jpg" /></a>
+<a class="s_pic" target="_blank" href="#"><img src="themes/wlmoban_dsc/store_tpl_11/images/promotion_1.jpg" /></a>
 <div class="jCountdown">
 <div class="youmi-module" data="2015-4-15 11:30:00">
 <span class="jtitle user_font_3">促销剩余：</span>
@@ -24,7 +24,7 @@ RMB<span class="jdNum">999.00</span><span class="yuan">（<span class="jsNum">322
 <div class="s_ping">有<span>51</span>人点赞 | 已有<span>45</span>评论</div>
 </div>
 <div class="item">
-<a class="s_pic" target="_blank" href="#"><img src="themes/ecmoban_dsc/store_tpl_11/images/promotion_2.jpg" /></a>
+<a class="s_pic" target="_blank" href="#"><img src="themes/wlmoban_dsc/store_tpl_11/images/promotion_2.jpg" /></a>
 <div class="jCountdown">
 <div class="youmi-module" data="2015-1-15 11:30:00">
 <span class="jtitle user_font_3">促销剩余：</span>
@@ -46,7 +46,7 @@ RMB<span class="jdNum">999.00</span><span class="yuan">（<span class="jsNum">322
 <div class="s_ping">有<span>51</span>人点赞 | 已有<span>45</span>评论</div>
 </div>
 <div class="item">
-<a class="s_pic" target="_blank" href="#"><img src="themes/ecmoban_dsc/store_tpl_11/images/promotion_3.jpg" /></a>
+<a class="s_pic" target="_blank" href="#"><img src="themes/wlmoban_dsc/store_tpl_11/images/promotion_3.jpg" /></a>
 <div class="jCountdown">
 <div class="youmi-module" data="2015-1-15 11:30:00">
 <span class="jtitle user_font_3">促销剩余：</span>

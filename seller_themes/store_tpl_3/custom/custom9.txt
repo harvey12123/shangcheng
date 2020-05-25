@@ -5,7 +5,7 @@
 <div class="mc">
 <div class="user_dbl">
 <div class="hddk">
-<a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_3/images/bit.gif" /></a>
+<a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_3/images/bit.gif" /></a>
 </div>
 </div>
 </div>

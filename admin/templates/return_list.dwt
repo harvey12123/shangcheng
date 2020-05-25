@@ -214,7 +214,7 @@
                                              <li><a href="javascript:;" data-value="pc">PC</a></li>
                                              <li><a href="javascript:;" data-value="touch">WAP</a></li>
                                              <li><a href="javascript:;" data-value="mobile">APP</a></li>
-                                             <li><a href="javascript:;" data-value="ecjia-cashdesk">{$lang.cashdesk}</a></li>
+                                             <li><a href="javascript:;" data-value="wljia-cashdesk">{$lang.cashdesk}</a></li>
                                           </ul>
                                         <input name="order_referer" type="hidden" value="" id="order_referer_val">
                                         </div>

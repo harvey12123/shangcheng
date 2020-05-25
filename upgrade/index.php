@@ -69,9 +69,9 @@ case 'readme':
 	write_charset_config($updater_lang, $ec_charset);
 	$smarty->assign('new_version', VERSION);
 	$smarty->assign('old_version', get_current_version());
-	$smarty->assign('ui', empty($_REQUEST['ui']) ? 'ecshop' : $_REQUEST['ui']);
+	$smarty->assign('ui', empty($_REQUEST['ui']) ? 'wlshop' : $_REQUEST['ui']);
 	$smarty->assign('mysql_charset', $mysql_charset);
-	$smarty->assign('ecshop_charset', $ecshop_charset);
+	$smarty->assign('wlshop_charset', $wlshop_charset);
 	$smarty->display('readme.php');
 	break;
 
@@ -86,7 +86,7 @@ case 'setup_ucenter':
 	include_once ROOT_PATH . 'includes/cls_json.php';
 	$json = new JSON();
 	$result = array('error' => 0, 'message' => '');
-	$app_type = 'ECSHOP';
+	$app_type = 'wlshop';
 	$app_name = $db->getOne('SELECT value FROM ' . $ecs->table('shop_config') . ' WHERE code = \'shop_name\'');
 	$app_url = url();
 	$app_charset = EC_CHARSET;
@@ -238,14 +238,14 @@ case 'userimporttouc':
 case 'check':
 	include_once ROOT_PATH . 'upgrade/includes/lib_env_checker.php';
 	include_once ROOT_PATH . 'upgrade/includes/checking_dirs.php';
-	$ui = isset($_REQUEST['ui']) ? $_REQUEST['ui'] : 'ecshop';
+	$ui = isset($_REQUEST['ui']) ? $_REQUEST['ui'] : 'wlshop';
 
-	if ($ui == 'ecshop') {
+	if ($ui == 'wlshop') {
 		array_shift($checking_dirs);
 	}
 
 	$dir_checking = check_dirs_priv($checking_dirs);
-	$templates_root = array('dwt' => ROOT_PATH . 'themes/ecmoban_dsc/', 'lbi' => ROOT_PATH . 'themes/ecmoban_dsc/library/');
+	$templates_root = array('dwt' => ROOT_PATH . 'themes/wlmoban_dsc/', 'lbi' => ROOT_PATH . 'themes/wlmoban_dsc/library/');
 	$template_checking = check_templates_priv($templates_root);
 	$rename_priv = check_rename_priv();
 	$disabled = '';
@@ -392,7 +392,7 @@ case 'update_version':
 	break;
 
 case 'done':
-	$ui = isset($_REQUEST['ui']) ? $_REQUEST['ui'] : 'ecshop';
+	$ui = isset($_REQUEST['ui']) ? $_REQUEST['ui'] : 'wlshop';
 
 	if ($ui == 'ucenter') {
 		change_ucenter_config();

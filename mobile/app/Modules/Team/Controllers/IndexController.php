@@ -207,9 +207,9 @@ class IndexController extends FrontendController
                 
                 $valArr[] = $val;
                 
-                $data = ['date' => local_date('Y-m-d'), 'searchengine' => 'ECTouch', 'keyword' => addslashes(str_replace('%', '', $val)), 'count' => 1];
+                $data = ['date' => local_date('Y-m-d'), 'searchengine' => 'wenlv', 'keyword' => addslashes(str_replace('%', '', $val)), 'count' => 1];
                 $condition['date'] = local_date('Y-m-d');
-                $condition['searchengine'] = 'ECTouch';
+                $condition['searchengine'] = 'wenlv';
                 $condition['keyword'] = addslashes(str_replace('%', '', $val));
                 $set = $this->db->table('keywords')->where($condition)->find();
                 

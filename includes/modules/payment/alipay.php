@@ -135,7 +135,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['desc'] = 'alipay_desc';
 	$modules[$i]['is_cod'] = '0';
 	$modules[$i]['is_online'] = '1';
-	$modules[$i]['author'] = 'ECMOBAN TEAM';
+	$modules[$i]['author'] = 'wlmoban TEAM';
 	$modules[$i]['website'] = 'http://www.alipay.com';
 	$modules[$i]['version'] = '1.0.2';
 	$modules[$i]['config'] = array(

@@ -3,6 +3,6 @@ return [
     'name' => '大转盘',
     'command' => 'dzp',
     'keywords' => '大转盘,dzp', 
-    'author' =>'ECTouch Team',
+    'author' =>'wenlv Team',
     'website' => 'http://www.jabrielcloud.com',
 ];

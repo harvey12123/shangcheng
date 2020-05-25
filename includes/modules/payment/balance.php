@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ECSHOP 余额支付插件
+ * wlshop 余额支付插件
  * ============================================================================
  * * 版权所有 2017-2020 中国联通，并保留所有权利。
  * 网站地址: http://www.jabrielcloud.com；
@@ -45,7 +45,7 @@ if (isset($set_modules) && $set_modules == TRUE)
     $modules[$i]['is_online']  = '1';
 
     /* 作者 */
-    $modules[$i]['author']  = 'ECSHOP TEAM';
+    $modules[$i]['author']  = 'wlshop TEAM';
 
     /* 网址 */
     $modules[$i]['website'] = 'http://www.jabrielcloud.com';

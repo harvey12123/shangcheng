@@ -62,7 +62,7 @@ if ('/' == substr($php_self, -1)) {
 
 define('PHP_SELF', $php_self);
 require ROOT_PATH . 'includes/inc_constant.php';
-require ROOT_PATH . 'includes/cls_ecshop.php';
+require ROOT_PATH . 'includes/cls_wlshop.php';
 require ROOT_PATH . 'includes/cls_error.php';
 require ROOT_PATH . 'includes/lib_time.php';
 require ROOT_PATH . 'includes/lib_base.php';
@@ -74,9 +74,9 @@ require ROOT_PATH . 'includes/lib_article.php';
 require ROOT_PATH . '/includes/cls_captcha_verify.php';
 require ROOT_PATH . 'includes/cls_pinyin.php';
 require ROOT_PATH . 'includes/lib_scws.php';
-require ROOT_PATH . 'includes/lib_ecmoban.php';
+require ROOT_PATH . 'includes/lib_wlmoban.php';
 require ROOT_PATH . 'includes/Http.class.php';
-require ROOT_PATH . 'includes/lib_ecmobanFunc.php';
+require ROOT_PATH . 'includes/lib_wlmobanFunc.php';
 require ROOT_PATH . 'includes/lib_seller_store.php';
 require ROOT_PATH . 'includes/lib_ipCity.php';
 

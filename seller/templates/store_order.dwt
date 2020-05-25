@@ -216,7 +216,7 @@
                                     <p class="ecsc-order-amount">{$order.formated_total_fee}</p>
                                     <p class="goods-pay">{$order.pay_name}</p>
                                     <div class="price-tag">
-                                        <span>{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}WAP{elseif $order.referer eq 'ecjia-cashdesk'}{$lang.cashdesk}{else}PC{/if}{$lang.04_order}</span>
+                                        <span>{if $order.referer eq 'mobile'}APP{elseif $order.referer eq 'touch'}WAP{elseif $order.referer eq 'wljia-cashdesk'}{$lang.cashdesk}{else}PC{/if}{$lang.04_order}</span>
                                     </div>
                                 </td>
                                 <td class="bdl" rowspan="1">

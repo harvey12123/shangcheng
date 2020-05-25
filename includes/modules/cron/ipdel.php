@@ -15,7 +15,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$i = isset($modules) ? count($modules) : 0;
 	$modules[$i]['code'] = basename(__FILE__, '.php');
 	$modules[$i]['desc'] = 'ipdel_desc';
-	$modules[$i]['author'] = 'ECSHOP TEAM';
+	$modules[$i]['author'] = 'wlshop TEAM';
 	$modules[$i]['website'] = 'http://www.jabrielcloud.com';
 	$modules[$i]['version'] = '1.0.0';
 	$modules[$i]['config'] = array(

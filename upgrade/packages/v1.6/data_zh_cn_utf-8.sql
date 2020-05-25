@@ -28,10 +28,10 @@ INSERT INTO `dsc_shop_config` (`parent_id`, `code`,`type`, `store_range`, `store
 INSERT INTO `dsc_admin_action` (`parent_id`, `action_code`, `relevance`) VALUES ('3', 'users_real_manage', '');
 
 INSERT INTO `dsc_ad_position` (`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_model`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES
-(NULL, 0, '优惠券首页轮播图广告', 1200, 300, 'coupons_index[num_id]', 'num_id-数量序号', '{foreach from=$ads item=ad}\r\n{$ad}\r\n{/foreach}', 0, 'ecmoban_dsc');
+(NULL, 0, '优惠券首页轮播图广告', 1200, 300, 'coupons_index[num_id]', 'num_id-数量序号', '{foreach from=$ads item=ad}\r\n{$ad}\r\n{/foreach}', 0, 'wlmoban_dsc');
 
 INSERT INTO `dsc_ad_position` (`position_id`, `user_id`, `position_name`, `ad_width`, `ad_height`, `position_model`, `position_desc`, `position_style`, `is_public`, `theme`) VALUES
-(NULL, 0, '众筹首页轮播图', 1200, 380, 'zc_index_banner[num_id]', 'num_id-数量序号', '<table cellpadding="0" cellspacing="0">\n{foreach from=$ads item=ad}\n<tr><td>{$ad}</td></tr>\n{/foreach}\n</table>', 0, 'ecmoban_dsc');
+(NULL, 0, '众筹首页轮播图', 1200, 380, 'zc_index_banner[num_id]', 'num_id-数量序号', '<table cellpadding="0" cellspacing="0">\n{foreach from=$ads item=ad}\n<tr><td>{$ad}</td></tr>\n{/foreach}\n</table>', 0, 'wlmoban_dsc');
 
 INSERT INTO `dsc_zc_category` (`cat_id`, `cat_name`, `cat_desc`, `parent_id`, `sort_order`, `is_show`) VALUES
 (5, '未来科技', '', 0, 1, 1),
@@ -67,7 +67,7 @@ INSERT INTO `dsc_zc_goods` (`id`, `pid`, `limit`, `backer_num`, `price`, `shippi
 
 INSERT INTO `dsc_zc_initiator` (`id`, `name`, `company`, `img`, `intro`, `describe`, `rank`) VALUES
 (2, '无印良品', '无印良品', 'data/initiator_image/1469505347118618837.png', '无印良品是一个日本杂货品牌', '无印良品是一个日本杂货品牌，在日文中意为无品牌标志的好产品。产品类别以日常用品为主。产品注重纯朴、简洁、环保、以人为本等理念，在包装与产品设计上皆无品牌标志。产品类别从铅笔、笔记本、食品到厨房的基本用具都有。最近也开始进入房屋建筑、花店、咖啡店等产业类别。', 1),
-(3, '加布里埃尔', '武汉加布里埃尔软件有限公司', 'data/initiator_image/1469561234331729031.jpg', 'ecshop模板制作选购第一站，国内专业的ecshop模板开发商，提供完善的ecshop二次开发与模板定制服务以及ecshop插件与ecshop教程。', '武汉加布里埃尔软件有限公司（ECSHOP加布里埃尔）是ecshop行业首家股交中心挂牌企业。伴随着ECSHOP一起成长，可以为广大ECSHOP模板使用者提供更为全面的服务。ECSHOP加布里埃尔创始于1999年，是一家连续十余年为中国互联网用户提供服务的运营商，是国内领先的网站建设机构。', 1);
+(3, '加布里埃尔', '武汉加布里埃尔软件有限公司', 'data/initiator_image/1469561234331729031.jpg', 'wlshop模板制作选购第一站，国内专业的wlshop模板开发商，提供完善的wlshop二次开发与模板定制服务以及wlshop插件与wlshop教程。', '武汉加布里埃尔软件有限公司（wlshop加布里埃尔）是wlshop行业首家股交中心挂牌企业。伴随着wlshop一起成长，可以为广大wlshop模板使用者提供更为全面的服务。wlshop加布里埃尔创始于1999年，是一家连续十余年为中国互联网用户提供服务的运营商，是国内领先的网站建设机构。', 1);
 
 INSERT INTO `dsc_entry_criteria` (`id`, `parent_id`, `criteria_name`, `charge`, `standard_name`, `type`, `is_mandatory`, `option_value`) VALUES
 (1, 0, '实名认证', '0.00', '', '', 0, ''),

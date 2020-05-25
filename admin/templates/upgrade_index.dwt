@@ -13,7 +13,7 @@
             <div class="view-case">
               <div class="view-case-tit"><i></i>{$lang.view_tutorials}</div>
                 <div class="view-case-info">
-                  <a href="http://help.ecmoban.com/article-6896.html" target="_blank">{$lang.tutorials_bonus_list_one}</a>
+                  <a href="http://www.jabrielcloud.com" target="_blank">{$lang.tutorials_bonus_list_one}</a>
                 </div>
             </div>      
             {/if} 
@@ -45,7 +45,7 @@
               </tbody>                          
             </table>
             {if $patch}
-            <table class="table table-hover ectouch-table" style="border:1px #ddd solid; margin-bottom:10px;margin-top:20px; display:none;">
+            <table class="table table-hover wenlv-table" style="border:1px #ddd solid; margin-bottom:10px;margin-top:20px; display:none;">
                 <tr>
                   <th style="text-align:center;">{$lang.updatelist}</td>
                 </tr>

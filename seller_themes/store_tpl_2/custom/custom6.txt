@@ -15,7 +15,7 @@
 <span class="jText">-</span>
 <input type="text" placeholder="гд" class="inputSmall" name="price_max" />
 </div>
-<button type="submit"><img src="themes/ecmoban_dsc/store_tpl_2/images/search.png" /></button>
+<button type="submit"><img src="themes/wlmoban_dsc/store_tpl_2/images/search.png" /></button>
 </form>
 </div>
 <div class="jHotwords">

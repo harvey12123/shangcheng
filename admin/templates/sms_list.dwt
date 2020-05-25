@@ -4,7 +4,7 @@
 <head>{include file ='library/admin_html_head.lbi'}</head>
 <body class="iframe_body">
     <div class="warpper">
-        <div class="title">{$lang.24_ecjia_sms} - {$ur_here}</div>
+        <div class="title">{$lang.24_wljia_sms} - {$ur_here}</div>
         <div class="content">       
             <div class="explanation" id="explanation">
                 <div class="ex_tit"><i class="sc_icon"></i><h4>{$lang.operating_hints}</h4><span id="explanationZoom" title="{$lang.fold_tips}"></span></div>
@@ -62,7 +62,7 @@
                                     <td class="sky_id"><div class="tDiv">{$sms.date}</div></td>
                                     <td class="handle">
                                         <div class="tDiv ht_tdiv">
-                                            <a href="ecjia_sms.php?act=edit&id={$sms.template_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
+                                            <a href="wljia_sms.php?act=edit&id={$sms.template_id}" class="btn_edit"><i class="icon icon-edit"></i>{$lang.edit}</a>
                                             
                                             <a href="javascript:;" onclick="listTable.remove({$sms.template_id}, '{$lang.delect_confirm}')" class="btn_trash"><i class="icon icon-trash"></i>{$lang.drop}</a>
                                         </div>

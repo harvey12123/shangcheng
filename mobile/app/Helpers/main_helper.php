@@ -1386,7 +1386,7 @@ function get_user_bonus($user_id = 0)
 function set_affiliate()
 {
 	$config = unserialize(C('shop.affiliate'));
-	$cookiekey = 'ecshop_affiliate_uid';
+	$cookiekey = 'wlshop_affiliate_uid';
 	if (!empty($_GET['u']) && $config['on'] == 1) {
 		if (!empty($config['config']['expire'])) {
 			if ($config['config']['expire_unit'] == 'hour') {
@@ -1412,14 +1412,14 @@ function set_affiliate()
 
 function get_affiliate()
 {
-	if (!empty($_COOKIE['ecshop_affiliate_uid'])) {
-		$uid = intval($_COOKIE['ecshop_affiliate_uid']);
+	if (!empty($_COOKIE['wlshop_affiliate_uid'])) {
+		$uid = intval($_COOKIE['wlshop_affiliate_uid']);
 
 		if ($GLOBALS['db']->getOne('SELECT user_id FROM ' . $GLOBALS['ecs']->table('users') . ('WHERE user_id = \'' . $uid . '\''))) {
 			return $uid;
 		}
 		else {
-			cookie('ecshop_affiliate_uid', '');
+			cookie('wlshop_affiliate_uid', '');
 		}
 	}
 
@@ -1430,7 +1430,7 @@ function set_drp_affiliate()
 {
 	if (is_dir(APP_DRP_PATH)) {
 		$config = get_drp_affiliate_config();
-		$cookiekey = 'ecshop_affiliate_drp_id';
+		$cookiekey = 'wlshop_affiliate_drp_id';
 		if (!empty($_GET['d']) && $config['on'] == 1) {
 			if (!empty($config['config']['expire'])) {
 				if ($config['config']['expire_unit'] == 'hour') {
@@ -1458,14 +1458,14 @@ function set_drp_affiliate()
 function get_drp_affiliate()
 {
 	if (is_dir(APP_DRP_PATH)) {
-		if (!empty($_COOKIE['ecshop_affiliate_drp_id'])) {
-			$drp_id = intval($_COOKIE['ecshop_affiliate_drp_id']);
+		if (!empty($_COOKIE['wlshop_affiliate_drp_id'])) {
+			$drp_id = intval($_COOKIE['wlshop_affiliate_drp_id']);
 
 			if ($GLOBALS['db']->getOne('SELECT user_id FROM ' . $GLOBALS['ecs']->table('drp_shop') . ('WHERE user_id = \'' . $drp_id . '\' AND audit = 1 AND status = 1'))) {
 				return $drp_id;
 			}
 			else {
-				cookie('ecshop_affiliate_drp_id', '');
+				cookie('wlshop_affiliate_drp_id', '');
 			}
 		}
 	}
@@ -1722,7 +1722,7 @@ function license_info()
 
 		$url_domain = url_domain();
 		$host = 'http://' . $host . $url_domain;
-		$license = '<a href="https://www.ectouch.cn/api/v2/index.php?m=license&product=b2c&url=' . urlencode($host) . '" target="_blank"
+		$license = '<a href="https://www.wenlv.cn/api/v2/index.php?m=license&product=b2c&url=' . urlencode($host) . '" target="_blank"
 >&nbsp;&nbsp;Licensed</a>';
 		return $license;
 	}

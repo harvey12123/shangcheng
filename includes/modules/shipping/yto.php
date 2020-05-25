@@ -60,7 +60,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['desc'] = 'yto_desc';
 	$modules[$i]['insure'] = false;
 	$modules[$i]['cod'] = false;
-	$modules[$i]['author'] = 'ECMOBAN TEAM';
+	$modules[$i]['author'] = 'wlmoban TEAM';
 	$modules[$i]['website'] = 'http://www.jabrielcloud.com';
 	$modules[$i]['configure'] = array(
 	array('name' => 'item_fee', 'value' => 10),

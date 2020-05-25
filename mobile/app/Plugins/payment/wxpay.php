@@ -1,6 +1,6 @@
 <?php
 
-defined('IN_ECTOUCH') or die('Deny Access');
+defined('IN_wenlv') or die('Deny Access');
 
 use App\Extensions\Http;
 use App\Extensions\Wechat;

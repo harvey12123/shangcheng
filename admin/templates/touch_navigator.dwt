@@ -5,7 +5,7 @@
 
 <body class="iframe_body">
 	<div class="warpper">
-    	<div class="title">{$lang.ectouch} - {$ur_here}</div>
+    	<div class="title">{$lang.wenlv} - {$ur_here}</div>
         <div class="content">
         	<div class="explanation" id="explanation">
             	<div class="ex_tit"><i class="sc_icon"></i><h4>{$lang.operating_hints}</h4><span id="explanationZoom" title="{$lang.fold_tips}"></span></div>

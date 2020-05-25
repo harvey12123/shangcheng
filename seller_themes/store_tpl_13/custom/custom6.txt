@@ -2,10 +2,10 @@
 <div class="user-jBanner">
 <div class="jbannerImg">
 <div class="jImgNodeArea">
-<ul><li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/lunbo_1.jpg" /></a></li></ul>
-<ul><li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/lunbo_2.jpg" /></a></li></ul>
-<ul><li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/lunbo_3.jpg" /></a></li></ul>
-<ul><li><a href="#" target="_blank"><img src="themes/ecmoban_dsc/store_tpl_13/images/lunbo_4.jpg" /></a></li></ul>
+<ul><li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/lunbo_1.jpg" /></a></li></ul>
+<ul><li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/lunbo_2.jpg" /></a></li></ul>
+<ul><li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/lunbo_3.jpg" /></a></li></ul>
+<ul><li><a href="#" target="_blank"><img src="themes/wlmoban_dsc/store_tpl_13/images/lunbo_4.jpg" /></a></li></ul>
 </div>
 </div>
 <div class="jbannerTab">

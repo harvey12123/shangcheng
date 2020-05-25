@@ -7,7 +7,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_14.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_14.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -23,7 +23,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_15.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_15.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -39,7 +39,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_16.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_16.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -55,7 +55,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_14.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_14.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -71,7 +71,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_15.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_15.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -87,7 +87,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_16.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_16.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -103,7 +103,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_14.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_14.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -119,7 +119,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_15.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_15.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">
@@ -135,7 +135,7 @@
 <li>
 <div class="s-goodsimg">
 <a href="#" target="_blank">
-<img src="themes/ecmoban_dsc/store_tpl_13/images/product_16.jpg">
+<img src="themes/wlmoban_dsc/store_tpl_13/images/product_16.jpg">
 </a>
 </div>
 <div class="s-goodsinfo">

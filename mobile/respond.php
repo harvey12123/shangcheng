@@ -1,10 +1,10 @@
 <?php
 
 /**
- * ECTouch E-Commerce Project
+ * wenlv E-Commerce Project
  *
- * @package  ECTouch
- * @author   carson <wanganlin@ecmoban.com>
+ * @package  wenlv
+ * @author   carson <wanganlin@jabrielcloud.com>
  */
 
 define('BIND_MODULE', 'Respond');

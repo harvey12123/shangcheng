@@ -78,7 +78,7 @@ window.onload = function () {
 
     ui = QueryString('ui');
     if (ui == '') {
-        ui = 'ecshop';
+        ui = 'wlshop';
     }
 };
 

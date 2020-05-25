@@ -34,7 +34,7 @@ body {background: #075d85;}
 .ico_17_merchants{ background:url(../images/menu/menu_15.png) 9px 0 no-repeat;}
 .ico_18_batch_manage{ background:url(../images/menu/menu_16.png) 9px 0 no-repeat;}
 .ico_19_merchants_store{ background:url(../images/menu/menu_17.png) 9px 0 no-repeat;}
-.ico_20_ectouch{ background:url(../images/menu/menu_19.png) 9px 0 no-repeat;}
+.ico_20_wenlv{ background:url(../images/menu/menu_19.png) 9px 0 no-repeat;}
 .ico_21_cloud{ background:url(../images/menu/menu_18.png) 9px 0 no-repeat;}
 .ico_09_crowdfunding{ background:url(../images/menu/menu_09.png) 9px 0 no-repeat;} /*众筹 by wu*/
 
@@ -56,7 +56,7 @@ body {background: #075d85;}
 .ico2_17_merchants{ background:url(../images/menu/menu1_15.png) 9px 0px no-repeat;}
 .ico2_18_batch_manage{ background:url(../images/menu/menu1_16.png) 9px 0px no-repeat;}
 .ico2_19_merchants_store{ background:url(../images/menu/menu1_17.png) 9px 0px no-repeat;}
-.ico2_20_ectouch{ background:url(../images/menu/menu1_19.png) 9px 0px no-repeat;}
+.ico2_20_wenlv{ background:url(../images/menu/menu1_19.png) 9px 0px no-repeat;}
 .ico2_21_cloud{ background:url(../images/menu/menu1_18.png) 9px 0px no-repeat;}
 .ico2_09_crowdfunding{ background:url(../images/menu/menu1_09.png) 9px 0px no-repeat;} /*众筹 by wu*/
 .menu-item {font-size: 12px;height: 30px;line-height: 30px;display: block;font-weight: normal; background:#efefef}
