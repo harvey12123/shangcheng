@@ -13,12 +13,12 @@
                                     
                                     
    
-<div class="content" style="min-height: 625px;"><div class="visual-item" data-mode="lunbo" data-purebox="banner" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
+<div class="content" style="min-height: 694px;"><div class="visual-item" data-mode="lunbo" data-purebox="banner" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
-                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1585412759061981681.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="category.php?id=858" target="_blank" style="height:500px;"></a></div></li>
+                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590429038168642419.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     	    <li style="background-image:url(http://localhost/zz/data/gallery_album/8/original_img/1493761725412722876.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     	    <li style="background-image:url(http://localhost/zz/data/gallery_album/8/original_img/1493761726626081431.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     

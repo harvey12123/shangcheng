@@ -2,10 +2,10 @@
         <div class="pageHome">
                 <div class="topBanner lyrow ui-draggable ui-box-display" data-purebox="banner" data-mode="topBanner" ectype="visualItme" data-diff="0" data-length="1" data-topbanner="1" data-homehtml="topBanner">
             <div class="top-banner" style="background:#dbe0e4;">
-                <div class="module w1200" data-type="range">	    <a href="#" target="_blank"><img width="1200" height="80" src="http://localhost/zz/data/gallery_album/2/original_img/1494985021864887905.jpg"></a>
+                <div class="module w1200" data-type="range">	    <a href="#" target="_blank"><img width="1200" height="80" src="../data/gallery_album/visualDefault/homeIndex_011.jpg"></a>
     <i class="iconfont icon-cha" ectype="close"></i>
     
-</div><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#dbe0e4&quot;,&quot;is_li&quot;:0,&quot;bg_color&quot;:[],&quot;pic_src&quot;:[&quot;http://localhost/zz/data/gallery_album/2/original_img/1494985021864887905.jpg&quot;],&quot;link&quot;:&quot;&quot;,&quot;sort&quot;:[&quot;1&quot;],&quot;title&quot;:[],&quot;subtitle&quot;:[]}"></div>
+</div>
             </div>
             <div class="setup_box" data-html="not">
                 <div class="barbg"></div>
@@ -98,7 +98,7 @@
     </div>
     <!--  判断是否是节日模板（特殊模板）end-->
 <div class="prompt" data-html="not">以上为页头区域</div>
-<div class="demo ui-sortable" style="min-height: 625px;">
+<div class="demo ui-sortable" style="min-height: 694px;">
 <div class="visual-item lyrow lunbotu ui-draggable" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block; position: relative; opacity: 1; left: 0px; top: 0px;">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
@@ -116,11 +116,11 @@
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
-                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984990506843460.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369405663139324.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369406908488813.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984992503176615.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
-    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1585412766582671093.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     
-</ul><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;slide_type&quot;:&quot;fold&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#dbe0e4&quot;,&quot;is_li&quot;:1,&quot;bg_color&quot;:[&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;pic_src&quot;:[&quot;http://localhost/zz/data/gallery_album/2/original_img/1494984992503176615.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1494984990506843460.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1585412766582671093.jpg&quot;],&quot;link&quot;:&quot;,,&quot;,&quot;sort&quot;:[&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],&quot;title&quot;:[],&quot;subtitle&quot;:[]}"></div>
+</ul><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;slide_type&quot;:&quot;fold&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#dbe0e4&quot;,&quot;is_li&quot;:1,&quot;bg_color&quot;:[&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;pic_src&quot;:[&quot;http://localhost/zz/data/gallery_album/2/original_img/1494984992503176615.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1590369405663139324.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1590369406908488813.jpg&quot;],&quot;link&quot;:&quot;,,&quot;,&quot;sort&quot;:[&quot;3&quot;,&quot;1&quot;,&quot;2&quot;],&quot;title&quot;:[],&quot;subtitle&quot;:[]}"></div>
                                             </div>
                                             <div class="hd"><ul></ul></div>
                                             <div class="vip-outcon">

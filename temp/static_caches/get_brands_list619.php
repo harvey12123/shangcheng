@@ -11,6 +11,7 @@ $data = array (
     'tag' => '1',
     'site_url' => 'http://',
     'url' => 'brand.php?id=155&amp;cat=619',
+    'is_collect' => false,
   ),
 );
 ?>

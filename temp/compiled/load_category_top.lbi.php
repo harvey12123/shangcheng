@@ -8,13 +8,13 @@
 		<div class="extra">
 			<div class="fgoods-hd">
 				<ul>
-					<?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_28024000_1590257953');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
+					<?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_58724800_1590396843');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['no']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_28024000_1590257953']):
+    foreach ($_from AS $this->_var['child_0_58724800_1590396843']):
         $this->_foreach['no']['iteration']++;
 ?>
 					<?php if ($this->_foreach['no']['iteration'] < 6): ?>
-					<li <?php if ($this->_foreach['no']['iteration'] == 1): ?> class="on"<?php endif; ?>><?php echo htmlspecialchars($this->_var['child_0_28024000_1590257953']['name']); ?></li>
+					<li <?php if ($this->_foreach['no']['iteration'] == 1): ?> class="on"<?php endif; ?>><?php echo htmlspecialchars($this->_var['child_0_58724800_1590396843']['name']); ?></li>
 					<?php endif; ?>
 					<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>				
 				</ul>
@@ -30,14 +30,14 @@ if ($this->_foreach['no']['total'] > 0):
 				<?php echo $this->_var['cat_top_floor_ad_right']; ?>
 			</div>
 			<div class="right-bottom">
-				<?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_28130700_1590257953');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
+				<?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_58841500_1590396843');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['no']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_28130700_1590257953']):
+    foreach ($_from AS $this->_var['child_0_58841500_1590396843']):
         $this->_foreach['no']['iteration']++;
 ?>
 				<?php if ($this->_foreach['no']['iteration'] < 6): ?>
 				<ul class="fgoods-list">
-					<?php $_from = $this->_var['child_0_28130700_1590257953']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');if (count($_from)):
+					<?php $_from = $this->_var['child_0_58841500_1590396843']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');if (count($_from)):
     foreach ($_from AS $this->_var['goods']):
 ?>
 					<li>
@@ -79,13 +79,13 @@ if ($this->_foreach['b']['total'] > 0):
         <div class="extra">
             <div class="fgoods-hd">
                 <ul>
-                    <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_28412400_1590257953');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
+                    <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_59135200_1590396843');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['child']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_28412400_1590257953']):
+    foreach ($_from AS $this->_var['child_0_59135200_1590396843']):
         $this->_foreach['child']['iteration']++;
 ?>
                     <?php if (($this->_foreach['child']['iteration'] - 1) < 5): ?>
-                    <li<?php if ($this->_foreach['child']['iteration'] == 1): ?> class="on"<?php endif; ?>><?php echo $this->_var['child_0_28412400_1590257953']['name']; ?></li>
+                    <li<?php if ($this->_foreach['child']['iteration'] == 1): ?> class="on"<?php endif; ?>><?php echo $this->_var['child_0_59135200_1590396843']['name']; ?></li>
                     <?php endif; ?>
                     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
                 </ul>
@@ -96,26 +96,26 @@ if ($this->_foreach['child']['total'] > 0):
         <div class="bd-left">
             <div class="l-ad"><ul><?php echo $this->_var['top_style_elec_left']; ?></ul></div>
             <div class="l-menu">
-                <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_28503800_1590257953');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
+                <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_59245600_1590396843');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['child']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_28503800_1590257953']):
+    foreach ($_from AS $this->_var['child_0_59245600_1590396843']):
         $this->_foreach['child']['iteration']++;
 ?>
                     <?php if (($this->_foreach['child']['iteration'] - 1) < 6): ?>
-                    <a href="<?php echo $this->_var['child_0_28503800_1590257953']['url']; ?>" target="_blank"><?php echo $this->_var['child_0_28503800_1590257953']['name']; ?></a>
+                    <a href="<?php echo $this->_var['child_0_59245600_1590396843']['url']; ?>" target="_blank"><?php echo $this->_var['child_0_59245600_1590396843']['name']; ?></a>
                     <?php endif; ?>
                 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
             </div>
         </div>
         <div class="bd-right">
-            <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_28575300_1590257953');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
+            <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_59318600_1590396843');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['child']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_28575300_1590257953']):
+    foreach ($_from AS $this->_var['child_0_59318600_1590396843']):
         $this->_foreach['child']['iteration']++;
 ?>
             <?php if (($this->_foreach['child']['iteration'] - 1) < 5): ?>
             <ul class="fgoods-list"<?php if (($this->_foreach['child']['iteration'] <= 1)): ?> style="display:block;"<?php else: ?> style="display:none;"<?php endif; ?>>
-                <?php $_from = $this->_var['child_0_28575300_1590257953']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['goods'] = array('total' => count($_from), 'iteration' => 0);
+                <?php $_from = $this->_var['child_0_59318600_1590396843']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['goods']['iteration']++;
@@ -182,13 +182,13 @@ if ($this->_foreach['brand']['total'] > 0):
         <div class="extra">
             <div class="fgoods-hd">
                 <ul>
-                <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_28997900_1590257953');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
+                <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_59709400_1590396843');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['child']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_28997900_1590257953']):
+    foreach ($_from AS $this->_var['child_0_59709400_1590396843']):
         $this->_foreach['child']['iteration']++;
 ?>
                     <?php if (($this->_foreach['child']['iteration'] - 1) < 5): ?>
-                    <li><?php echo $this->_var['child_0_28997900_1590257953']['name']; ?></li>
+                    <li><?php echo $this->_var['child_0_59709400_1590396843']['name']; ?></li>
                     <?php endif; ?>
                 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
                 </ul>
@@ -207,14 +207,14 @@ if ($this->_foreach['child']['total'] > 0):
             </div>
         </div>
         <div class="bd-right">
-        <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_29029300_1590257953');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
+        <?php $_from = $this->_var['one_cate_child']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child_0_59760400_1590396843');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['child']['total'] > 0):
-    foreach ($_from AS $this->_var['child_0_29029300_1590257953']):
+    foreach ($_from AS $this->_var['child_0_59760400_1590396843']):
         $this->_foreach['child']['iteration']++;
 ?>
         <?php if (($this->_foreach['child']['iteration'] - 1) < 5): ?>
             <ul class="fgoods-list" <?php if ($this->_foreach['child']['iteration'] > 1): ?> style="display:none;" <?php endif; ?>>
-                <?php $_from = $this->_var['child_0_29029300_1590257953']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['goods'] = array('total' => count($_from), 'iteration' => 0);
+                <?php $_from = $this->_var['child_0_59760400_1590396843']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['goods']['iteration']++;

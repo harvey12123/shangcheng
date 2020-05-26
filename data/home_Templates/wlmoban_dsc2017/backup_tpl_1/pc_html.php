@@ -12,15 +12,14 @@
                                     
                                     
                                         
-<div class="content" style="min-height: 625px;"><div class="visual-item" data-mode="lunbo" data-purebox="banner" data-li="1" data-length="5" ectype="visualItme" style="display: block;" data-diff="0">
+<div class="content" style="min-height: 576px;"><div class="visual-item" data-mode="lunbo" data-purebox="banner" data-li="1" data-length="5" ectype="visualItme" style="display: block;" data-diff="0">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
                                             	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984990506843460.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
-    	    <li style="background-image:url(http://demo.zz.jabrielcloud.com/data/gallery_album/2/original_img/1585412969233589197.png); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="category.php?id=12" target="_blank" style="height:500px;"></a></div></li>
-    	    <li style="background-image:url(http://demo.zz.jabrielcloud.com/data/gallery_album/2/original_img/1585412759061981681.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="category.php?id=858" target="_blank" style="height:500px;"></a></div></li>
-    	    <li style="background-image:url(http://demo.zz.jabrielcloud.com/data/gallery_album/2/original_img/1585412766582671093.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="category.php?id=860" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984991783527346.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1585412759061981681.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     
 </ul><div class="spec" data-spec=""></div>
                                             </div>

@@ -47,12 +47,14 @@
                                     
                                     
                                        
-<div class="content" style="min-height: 625px;"><div class="visual-item" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
+<div class="content" style="min-height: 694px;"><div class="visual-item" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
                                             	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984991783527346.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369406388335463.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369407475598052.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     
 </ul><div class="spec" data-spec=""></div>
                                             </div>

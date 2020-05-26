@@ -108,7 +108,7 @@
     </div>
 </div>
 <div class="prompt" data-html="not">以上为页头区域</div>
-<div class="demo ui-sortable" style="min-height: 625px;"><div class="visual-item lyrow lunbotu ui-draggable" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
+<div class="demo ui-sortable" style="min-height: 694px;"><div class="visual-item lyrow lunbotu ui-draggable" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
                                     <div class="drag ui-draggable-handle ui-sortable-handle" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_01.png"></span>
@@ -125,10 +125,11 @@
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
-                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984990506843460.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
-    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984991783527346.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369406388335463.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369406908488813.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369407475598052.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     
-</ul><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;slide_type&quot;:&quot;fold&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#dbe0e4&quot;,&quot;is_li&quot;:1,&quot;bg_color&quot;:[&quot;&quot;,&quot;&quot;],&quot;pic_src&quot;:[&quot;http://localhost/zz/data/gallery_album/2/original_img/1494984991783527346.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1494984990506843460.jpg&quot;],&quot;link&quot;:&quot;,&quot;,&quot;sort&quot;:[&quot;1&quot;,&quot;1&quot;],&quot;title&quot;:[],&quot;subtitle&quot;:[]}"></div>
+</ul><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;slide_type&quot;:&quot;fold&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#dbe0e4&quot;,&quot;is_li&quot;:1,&quot;bg_color&quot;:[&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;pic_src&quot;:[&quot;http://localhost/zz/data/gallery_album/2/original_img/1590369406908488813.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1590369406388335463.jpg&quot;,&quot;http://localhost/zz/data/gallery_album/2/original_img/1590369407475598052.jpg&quot;],&quot;link&quot;:&quot;,,&quot;,&quot;sort&quot;:[&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],&quot;title&quot;:[],&quot;subtitle&quot;:[]}"></div>
                                             </div>
                                             <div class="hd"><ul></ul></div>
                                             <div class="vip-outcon">

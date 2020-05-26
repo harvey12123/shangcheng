@@ -139,7 +139,7 @@
                                     
                                     
    
-<div class="content" style="min-height: 625px;"><div class="visual-item" data-mode="lunbo" data-purebox="banner" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block; position: relative; opacity: 1; left: 0px; top: 0px;">
+<div class="content" style="min-height: 694px;"><div class="visual-item" data-mode="lunbo" data-purebox="banner" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block; position: relative; opacity: 1; left: 0px; top: 0px;">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
@@ -354,7 +354,7 @@
     	        <div class="floor-tabs-content clearfix">
             <div class="f-r-main f-r-m-adv">
                 <ul>
-                                          <li><a href="" target="_blank"><img src="http://localhost/zz/data/gallery_album/2/original_img/1494985255003388359.jpg"></a></li>
+                                          <li><a href="" target="_blank"><img src="http://localhost/zz/data/gallery_album/2/original_img/1494984992693836280.jpg"></a></li>
                                          <li><a href="" target="_blank"><img src="http://localhost/zz/data/gallery_album/2/original_img/1494985255671031591.jpg"></a></li>
                                          <li><a href="" target="_blank"><img src="http://localhost/zz/data/gallery_album/2/original_img/1494985255859372374.jpg"></a></li>
                                          <li><a href="" target="_blank"><img src="http://localhost/zz/data/gallery_album/2/original_img/1494985255671031591.jpg"></a></li>

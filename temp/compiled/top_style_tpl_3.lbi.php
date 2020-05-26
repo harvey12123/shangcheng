@@ -85,12 +85,12 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
     <div class="catetop-lift lift-hide" ectype="lift">
     	<div class="lift-list" ectype="liftList">
         	<div class="catetop-lift-item lift-item-current" ectype="liftItem" data-target="#bestad"><span><?php echo $this->_var['lang']['best_goods']; ?></span></div>
-        	<?php $_from = $this->_var['categories_child']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_0_86439500_1590257950');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
+        	<?php $_from = $this->_var['categories_child']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_0_23701600_1590396841');$this->_foreach['child'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['child']['total'] > 0):
-    foreach ($_from AS $this->_var['cat_0_86439500_1590257950']):
+    foreach ($_from AS $this->_var['cat_0_23701600_1590396841']):
         $this->_foreach['child']['iteration']++;
 ?>
-            <div class="catetop-lift-item lift-floor-item" ectype="liftItem"><span><?php echo $this->_var['cat_0_86439500_1590257950']['name']; ?></span></div>
+            <div class="catetop-lift-item lift-floor-item" ectype="liftItem"><span><?php echo $this->_var['cat_0_23701600_1590396841']['name']; ?></span></div>
             <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
         	<div class="catetop-lift-item lift-item-top" ectype="liftItem"><span><i class="iconfont icon-up"></i></span></div>
         </div>

@@ -2,15 +2,15 @@
            
     
     <!--  判断是否是节日模板（特殊模板）end-->
-<div class="content" style="min-height: 625px;">
+<div class="content" style="min-height: 694px;">
 <div class="visual-item" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block; position: relative; opacity: 1; left: 0px; top: 0px;">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
-                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984990506843460.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+                                            	<ul data-type="range" data-slide="fold">	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369405663139324.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
+    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1590369406908488813.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1494984992503176615.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
-    	    <li style="background-image:url(http://localhost/zz/data/gallery_album/2/original_img/1585412766582671093.jpg); background-position: center center;  background-repeat: no-repeat; background-color:;"><div class="banner-width"><a href="" target="_blank" style="height:500px;"></a></div></li>
     
 </ul><div class="spec" data-spec=""></div>
                                             </div>
